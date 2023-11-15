@@ -1,0 +1,74 @@
+
+$font-title: 'Merriweather', Arial;
+$font-normal: 'Roboto', Arial;
+$color-info: #62c1ce;
+
+body {
+  font-family: $font-normal;
+}
+
+.rn-text-title {
+  font-family: $font-title;
+}
+
+.rn-ft-link {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.rn-toppage-link {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.3s;
+  }
+
+  &:hover::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+  }
+
+  .rn-toppage-title {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 1.0rem 1.2rem;
+    font-family: $font-title;
+    font-size: 1.0rem;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    transition: all 0.3s;
+
+  }
+
+  &:hover .rn-toppage-title {
+    width: 70%;
+    padding: 1.5rem 1.75rem;
+    transition: all 0.3s;
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+
+.fs-7 {font-size: 0.9rem;}
+.fs-8 {font-size: 0.8rem;}
+.fs-9 {font-size: 0.7rem;}
+
+
+.text-info {
+  color: $color-info !important;
+}
+
+
+.border-info {
+  border-color: $color-info !important;
+}
