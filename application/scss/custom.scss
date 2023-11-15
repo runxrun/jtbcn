@@ -72,3 +72,32 @@ body {
 .border-info {
   border-color: $color-info !important;
 }
+
+
+
+
+.rn-title-decor::after {
+  content: '';
+  display: block;
+  width: 120px;
+  height: 3px;
+  background-color: $color-info;
+}
+
+.rn-imgcover-center {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.hover-zoom-effect {
+  a {
+    transition: all 0.5s;
+    transform: scale(1.002);
+  }
+
+  &:hover a {
+    transform: scale(1.05);
+  }
+}

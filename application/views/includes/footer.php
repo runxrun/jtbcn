@@ -6,20 +6,17 @@
           <div class="col-12 col-lg-4">
             <div class="pb-2 rn-text-title fs-5 text-white">Information</div>
             <div class="pb-3">
-              <div class="pt-0"><a href="javascript: void(0);" class="fs-7 text-white rn-ft-link">Check your booking</a></div>
               <div class="pt-0"><a href="javascript: void(0);" class="fs-7 text-white rn-ft-link">About us</a></div>
-              <div class="pt-0"><a href="javascript: void(0);" class="fs-7 text-white rn-ft-link">Contact us</a></div>
               <div class="pt-0"><a href="javascript: void(0);" class="fs-7 text-white rn-ft-link">Terms and conditions</a></div>
               <div class="pt-0"><a href="javascript: void(0);" class="fs-7 text-white rn-ft-link">Privacy policy</a></div>
-              <div class="pt-0"><a href="javascript: void(0);" class="fs-7 text-white rn-ft-link">Careers</a></div>
-              <div class="pt-0"><a href="javascript: void(0);" class="fs-7 text-white rn-ft-link">Register News Letter</a></div>
-              <div class="pt-0"><a href="javascript: void(0);" class="fs-7 text-white rn-ft-link">Q and A</a></div>
-              <div class="pt-0"><a href="javascript: void(0);" class="fs-7 text-white rn-ft-link">Site Map</a></div>
-            </div>
+              <div class="pt-0"><a href="javascript: void(0);" class="fs-7 text-white rn-ft-link">FAQs</a></div>
+              <div class="pt-0"><a href="javascript: void(0);" class="fs-7 text-white rn-ft-link">Contact us</a></div>
+            </div>            
           </div>
           <div class="col-12 col-lg-4">
             <div class="pb-2 rn-text-title fs-5 text-white">Service</div>
             <div class="pb-3">
+              <div class="pt-0"><a href="javascript: void(0);" class="fs-7 text-white rn-ft-link">Check your booking</a></div>
               <div class="pt-0"><a href="javascript: void(0);" class="fs-7 text-white rn-ft-link">Travel Insurance (Manulife)</a></div>
               <div class="pt-0"><a href="javascript: void(0);" class="fs-7 text-white rn-ft-link">SIM Card/Pocket wifi in Japan</a></div>
             </div>
@@ -33,7 +30,7 @@
         </div>
       </div>
       <div class="col-12 col-lg-3">
-        TEST
+        &nbsp;
       </div>
     </div>
   </div>

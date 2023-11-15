@@ -1,5 +1,21 @@
-<div class="bg-white pt-5">
+<div class="bg-white pt-4">
   <div class="container">
+    <div class="pb-3">
+      <div class="row justify-content-between align-items-end">
+        <div class="col-auto">
+          <div class="rn-text-title fs-5 text-info">
+            Topic
+          </div>          
+        </div>
+        <div class="col-auto">
+          <div class="text-end">
+            <button class="btn btn-outline-info fs-8 rounded-1">
+              Load more
+            </button>
+            </div>
+        </div>
+      </div>
+    </div>
     <div class="row g-3">
       <?php
       $toppage = [
@@ -20,7 +36,7 @@
       <?php 
       foreach($toppage as $key => $item) {
       ?>
-      <div class="col-4">    
+      <div class="col-12 col-md-4">    
         <div class="border rounded-1 h-100 bg-white shadow-sm">
           <div class="border-top border-3 border-info p-3">
             <div class="pb-2 fs-6 text-dark fw-bold"><?php echo $item['title']; ?></div>
