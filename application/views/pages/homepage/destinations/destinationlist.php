@@ -18,7 +18,7 @@
         foreach($toppage as $key => $item) {
           $image = '/application/images/toppage/'.$item['pic'];
         ?>
-        <div class="col-3">
+        <div class="col-6 col-md-3">
           <div class="d-flex">
             <a
               href="javascript: void(0);"

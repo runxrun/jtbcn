@@ -2,6 +2,7 @@
 $font-title: 'Merriweather', Arial;
 $font-normal: 'Roboto', Arial;
 $color-info: #62c1ce;
+$color-jtb: #c92535;
 
 body {
   font-family: $font-normal;
@@ -74,8 +75,6 @@ body {
 }
 
 
-
-
 .rn-title-decor::after {
   content: '';
   display: block;
@@ -84,12 +83,20 @@ body {
   background-color: $color-info;
 }
 
-.rn-imgcover-center {
+
+.rn-imgcover-center, .rn-imgcover-top {
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
-  overflow: hidden;
 }
+
+.rn-imgcover-center {
+  background-position: center;
+}
+
+.rn-imgcover-top {
+  background-position: center top;
+}
+
 
 .hover-zoom-effect {
   a {
@@ -100,4 +107,51 @@ body {
   &:hover a {
     transform: scale(1.05);
   }
+}
+
+
+.text-facebook {
+  color: #0866ff;
+}
+
+
+
+.rn-tabservice button{
+  border: 1px solid #d7d7d7;
+  background-color: #ffffff;
+  transition: all 0.5s;
+  color: #7c868f;
+}
+.rn-tabservice button:hover{
+  border: 1px solid $color-jtb;
+  background-color: #ffffff;
+  transition: all 0.5s;
+  color: $color-jtb;
+}
+
+.rn-tabservice button.active{
+  border: 1px solid $color-jtb;
+  background-color: $color-jtb;
+  color: #ffffff;
+}
+
+.btn-primary {
+  background-color: $color-jtb !important;
+  border: 1px solid $color-jtb !important;
+}
+
+.btn-primary {
+    &:active {
+        box-shadow: 0 0 0 0.25rem rgba(201, 38, 55, 0.5);
+
+        &:focus {
+            box-shadow: 0 0 0 0.25rem rgba(201, 38, 55, 0.5);
+        }
+    }
+
+    &:focus-within,
+    &:target,
+    &:focus {
+        box-shadow: 0 0 0 0.25rem rgba(201, 38, 55, 0.5);
+    }
 }
