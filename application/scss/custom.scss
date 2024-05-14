@@ -1,8 +1,7 @@
-
-$font-title: 'Merriweather', Arial;
-$font-normal: 'Roboto', Arial;
+$font-title: "Open Sans", "Noto Sans JP", Arial;
+$font-normal: "Open Sans", "Noto Sans JP", Arial;
 $color-info: #62c1ce;
-$color-jtb: #c92535;
+$color-jtb: #cc0000;
 
 body {
   font-family: $font-normal;
@@ -23,7 +22,7 @@ body {
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
@@ -41,14 +40,13 @@ body {
     position: absolute;
     bottom: 0px;
     right: 0px;
-    padding: 1.0rem 1.2rem;
+    padding: 1rem 1.2rem;
     font-family: $font-title;
-    font-size: 1.0rem;
+    font-size: 1rem;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.5);
     width: 60%;
     transition: all 0.3s;
-
   }
 
   &:hover .rn-toppage-title {
@@ -59,32 +57,34 @@ body {
   }
 }
 
-
-.fs-7 {font-size: 0.9rem;}
-.fs-8 {font-size: 0.8rem;}
-.fs-9 {font-size: 0.7rem;}
-
+.fs-7 {
+  font-size: 0.9rem;
+}
+.fs-8 {
+  font-size: 0.8rem;
+}
+.fs-9 {
+  font-size: 0.7rem;
+}
 
 .text-info {
   color: $color-info !important;
 }
 
-
 .border-info {
   border-color: $color-info !important;
 }
 
-
 .rn-title-decor::after {
-  content: '';
+  content: "";
   display: block;
   width: 120px;
   height: 3px;
   background-color: $color-info;
 }
 
-
-.rn-imgcover-center, .rn-imgcover-top {
+.rn-imgcover-center,
+.rn-imgcover-top {
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -97,7 +97,6 @@ body {
   background-position: center top;
 }
 
-
 .hover-zoom-effect {
   a {
     transition: all 0.5s;
@@ -109,30 +108,39 @@ body {
   }
 }
 
-
 .text-facebook {
   color: #0866ff;
 }
 
-
-
-.rn-tabservice button{
+.rn-tabservice button {
   border: 1px solid #d7d7d7;
   background-color: #ffffff;
   transition: all 0.5s;
   color: #7c868f;
 }
-.rn-tabservice button:hover{
+.rn-tabservice button:hover {
   border: 1px solid $color-jtb;
   background-color: #ffffff;
   transition: all 0.5s;
   color: $color-jtb;
 }
 
-.rn-tabservice button.active{
+.rn-tabservice button.active {
   border: 1px solid $color-jtb;
   background-color: $color-jtb;
   color: #ffffff;
+}
+
+.text-primary {
+  color: $color-jtb !important;
+}
+
+.bg-primary {
+  background-color: $color-jtb !important;
+}
+
+.border-primary {
+  border-color: $color-jtb !important;
 }
 
 .btn-primary {
@@ -141,17 +149,17 @@ body {
 }
 
 .btn-primary {
-    &:active {
-        box-shadow: 0 0 0 0.25rem rgba(201, 38, 55, 0.5);
+  &:active {
+    box-shadow: 0 0 0 0.25rem rgba(201, 38, 55, 0.5);
 
-        &:focus {
-            box-shadow: 0 0 0 0.25rem rgba(201, 38, 55, 0.5);
-        }
-    }
-
-    &:focus-within,
-    &:target,
     &:focus {
-        box-shadow: 0 0 0 0.25rem rgba(201, 38, 55, 0.5);
+      box-shadow: 0 0 0 0.25rem rgba(201, 38, 55, 0.5);
     }
+  }
+
+  &:focus-within,
+  &:target,
+  &:focus {
+    box-shadow: 0 0 0 0.25rem rgba(201, 38, 55, 0.5);
+  }
 }

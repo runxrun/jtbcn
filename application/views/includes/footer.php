@@ -1,3 +1,76 @@
+<?php
+$dataLink = [
+  ["title" => "About us", "linkUrl" => "/about-us",],
+  ["title" => "Contact us", "linkUrl" => "/contact-us",],
+  ["title" => "Terms and conditions", "linkUrl" => "/terms-conditions",],
+  ["title" => "Pricacy policy", "linkUrl" => "/privacy-policy",],
+  ["title" => "Cookie poricy", "linkUrl" => "/cookies-policy",],
+  ["title" => "Careers", "linkUrl" => "/careers",],
+  ["title" => "Q and A", "linkUrl" => "https://support.jtb.ca/portal/en/home",],
+  ["title" => "Register News Letter", "linkUrl" => "/newsletter",],
+  ["title" => "Blog", "linkUrl" => "/blog",],
+  ["title" => "brochure", "linkUrl" => "/brochure",],
+  ["title" => "Site map", "linkUrl" => "/sitemap",],
+];
+?>
+
+<div class="container py-3">
+  <div class="row gy-1 gx-3">
+
+    <?php
+    foreach ($dataLink as $key => $item) {
+    ?>
+      <div class="col-12 col-lg-3">
+        <a href="<?php echo $item['linkUrl']; ?>" class="fs-7 text-white">
+          <?php echo $item['title']; ?>
+        </a>
+      </div>
+
+    <?php
+    }
+    ?>
+
+  </div>
+
+</div>
+<div class="bg-primary">
+  <div class="container py-3">
+    <div class="row g-3 align-items-center justify-content-between">
+      <div class="col-auto">
+        <div class="row align-items-center g-3">
+          <div class="col-auto">
+            <div class="fs-8 text-white">
+              Copyright &copy; 2024. JTB CANADA. All Rights Reserved.
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="d-flex">
+              <div class="p-0">
+                <a rel="noreferrer" target="_blank" href="https://www.facebook.com/JTB.Singapore/">
+                  <img src="https://sg.jtbtrip.com/assets/images/icons/facebook-icon.svg" alt="Facebook" width="32">
+                </a>
+              </div>
+              <div class="p-0">
+                <a rel="noreferrer" target="_blank" href="https://www.instagram.com/jtb_singapore/?hl=en">
+                  <img src="https://sg.jtbtrip.com/assets/images/icons/instagram-icon.svg" alt="Instagram" width="32">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="fs-8 text-white">
+          Powered by 11-Infotech System.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<?php
+/*
+
+
 <div class="container py-3">
   <div class="py-4">
     <div class="row g-3">
@@ -50,3 +123,6 @@
     </div>
   </div>
 </div>
+
+*/
+?>

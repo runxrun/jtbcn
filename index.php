@@ -24,6 +24,8 @@ $segment = isset($pathData) ? explode('/',preg_replace('~^/?(.*?)/?$~','$1',$pat
 $_dataLvl=0;
 $chkSegment=strtoupper($segment[$_dataLvl]);
 
+require_once("application/views/setpage.php");
+
 switch (strtoupper($segment[0])) 
 {
 	case '' : 

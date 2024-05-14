@@ -40,12 +40,12 @@ $(document).ready(function() {
     $("#blog-slider").lightSlider({
         loop:true,
         keyPress:true,
-		item:5,
-		pause: 5000,
+		item:4,
+		pause:5000,
         speed:600,
         auto:true,
         controls: false,
-        slideMargin: 24,
+        slideMargin: 16,
         easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
         responsive : [
             {
@@ -53,7 +53,7 @@ $(document).ready(function() {
                 settings: {
                     item:3,
                     slideMove:1,
-        			slideMargin: 24,
+        			slideMargin: 16,
                   }
             },
             {
@@ -61,7 +61,7 @@ $(document).ready(function() {
                 settings: {
                     item:2,
                     slideMove:1,
-        			slideMargin: 24,
+        			slideMargin: 16,
                   }
             },
             {

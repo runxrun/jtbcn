@@ -1,4 +1,4 @@
-<div class="bg-white pt-4">
+<div class="bg-white pb-4">
   <div class="container">
     <div class="w-100">
       <?php
