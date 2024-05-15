@@ -10,6 +10,6 @@ switch (strtoupper($currentPage[0])) {
   case "JAPAN-RAIL-PASS": $thisPage = '/pages/jrpass/jrpass_search/jrpass_search_page.php'; break;
   case "TICKETS": $thisPage = '/pages/ticket/ticket_search/ticket_search_page.php'; break;
   case "HOTELS": $thisPage = '/pages/hotel/hotel_search/hotel_search_page.php'; break;
-  default: $thisPage = '/pages/hotel/hotel_search/hotel_search_page.php'; break;
+  default: $thisPage = '/pages/filenotfound/filenotfound_page.php'; break;
 }
 

@@ -27,6 +27,8 @@ $chkSegment=strtoupper($segment[$_dataLvl]);
 require_once("application/views/setpage.php");
 require_once("application/views/languages/languages.php");
 
+$getURLLang = strtoupper($lang)==='JP' ? '/?lang=jp':'';
+
 switch (strtoupper($segment[0])) 
 {
 	case '' : 

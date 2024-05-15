@@ -13,8 +13,8 @@ $toppage = [
 <div class="bg-white">
   <div class="container py-4">
     <div class="pb-4">
-      <div class="pb-0 fs-3 text-center fw-bold text-dark">Featured Destinations</div>
-      <div class="pb-2 fs-7 text-center text-secondary">Explore Our Featured Destinations.</div>
+      <div class="pb-0 fs-3 text-center fw-bold text-dark"><?php echo getTS('_FeaturedDestinations', $lang, $mlangs); ?></div>
+      <div class="pb-2 fs-7 text-center text-secondary"><?php echo getTS('_FeaturedDestinationsDesc', $lang, $mlangs); ?></div>
     </div>
     <div class="row g-3">
       <div class="col-12 col-lg-5">

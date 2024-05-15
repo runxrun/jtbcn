@@ -84,7 +84,7 @@ if (strtoupper($currentPage[0]) === 'HOTELS') {
   <div class="container">
     <div class="py-5">
       <div class="pb-3 fs-5 fw-bold text-dark">
-        <div class="pb-2">JTB Recommended</div>
+        <div class="pb-2"><?php echo getTS('_JTBRecommended', $lang, $mlangs); ?></div>
       </div>
       <div class="item">
         <ul id="blog-slider" class="content-slider">
@@ -108,9 +108,10 @@ if (strtoupper($currentPage[0]) === 'HOTELS') {
                 <?php
                 if (strtoupper($currentPage[0]) === 'HOTELS') {
                 ?>
-                  <div class="pt-2 px-3 pb-3">
-                    <div class="fs-8 text-secondary">xxx</div>
-                    <div class="fs-7 fw-bold text-info">xxx</div>
+                  <div class="p-3">
+                    <a href="/" class="fs-8 text-primary text-decoration-none">
+                      Check Price
+                    </a>
                   </div>
                 <?php
                 }

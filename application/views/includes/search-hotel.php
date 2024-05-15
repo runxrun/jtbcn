@@ -1,21 +1,21 @@
 <div class="p-4">
   <div class="row g-3 align-items-end">
     <div class="col-12 col-md-6 col-lg-3">
-      <div class="pb-1 fs-8 text-secondary">Destination</div>
+      <div class="pb-1 fs-8 text-secondary"><?php echo getTS('_Destination', $lang, $mlangs); ?></div>
       <div class="p-0">
-        <input type="text" class="form-control shadow-none border-0 fs-6 fw-bold text-dark px-0 py-0" placeholder="Where are you going?">
+        <input type="text" class="form-control shadow-none border-0 fs-6 fw-bold text-dark px-0 py-0" placeholder="<?php echo getTS('_WhereAreYouGoing', $lang, $mlangs); ?>">
       </div>
     </div>
     <div class="col-12 col-md-6 col-lg-4">
-      <div class="pb-1 fs-8 text-secondary">Stay Dates, 1 Night(s)</div>
+      <div class="pb-1 fs-8 text-secondary"><?php echo getTS('_StayDates', $lang, $mlangs); ?>, 1 <?php echo getTS('_Nights', $lang, $mlangs); ?></div>
       <div class="p-0">
         <button class="btn p-0 border-0 rounded-0 shadow-none fs-6 fw-bold text-dark">
-          Tue - Wed, 14 - 15 May 2024
+          Tue - Wed, 28 - 29 May 2024
         </button>
       </div>
     </div>
     <div class="col-12 col-md-6 col-lg-3">
-      <div class="pb-1 fs-8 text-secondary">Rooms / Guests</div>
+      <div class="pb-1 fs-8 text-secondary"><?php echo getTS('_RoomsGuests', $lang, $mlangs); ?></div>
       <div class="p-0">
         <button class="btn p-0 border-0 rounded-0 shadow-none fs-6 fw-bold text-dark">
           1 Room, 2 Adults, 1 Child
@@ -25,7 +25,7 @@
     <div class="col-12 col-md-3 col-lg-2">
       <div class="p-0">
         <button class="btn btn-primary rounded-1 border-0 shadow-none fs-6 fw-bold w-100">
-          Search
+          <?php echo getTS('_Search', $lang, $mlangs); ?>
         </button>
       </div>
     </div>

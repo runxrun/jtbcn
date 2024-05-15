@@ -5,7 +5,7 @@
       <div class="row justify-content-between align-items-end">
         <div class="col-auto">
           <div class="fs-5 fw-bold text-primary">
-            Topic
+            <?php echo getTS('_Topic', $lang, $mlangs); ?>
           </div>
         </div>
         <!-- 

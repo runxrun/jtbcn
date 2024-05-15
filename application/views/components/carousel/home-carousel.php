@@ -14,7 +14,8 @@
 
   if (strtoupper($currentPage[0]) === "ACTIVITIES") {
     $banners = [
-      ['image' => 'japan-1841199_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
+      ['image' => 'alberta-2297204_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
+      ['image' => 'pavilion-6023429_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => ''],
     ];
   }
 
@@ -27,12 +28,13 @@
   if (strtoupper($currentPage[0]) === "JAPAN-RAIL-PASS") {
     $banners = [
       ['image' => 'shinkansen-5237269_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
+      ['image' => 'japan-3523393_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => ''],
     ];
   }
 
   if (strtoupper($currentPage[0]) === "TICKETS") {
     $banners = [
-      ['image' => 'japan-1841199_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
+      ['image' => 'usj-1914934_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
     ];
   }
 

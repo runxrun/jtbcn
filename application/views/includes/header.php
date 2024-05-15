@@ -3,7 +3,7 @@
     <div class="row g-3 justify-content-between align-items-center">
       <div class="col-9 col-md-3">
         <div class="py-2">
-          <a href="/">
+          <a href="<?php echo $getURLLang; ?>">
             <img src="/application/images/logo.png" class="img-fluid">
           </a>
         </div>
@@ -12,7 +12,7 @@
         <div class="py-3">
           <div class="row gy-2 gx-3">
             <div class="col-auto">
-              <a href="/" class="btn rounded-1 border-0 py-2 px-2">
+              <a href="<?php echo $getURLLang; ?>" class="btn rounded-1 border-0 py-2 px-2">
                 <!-- <div class="fs-5 d-none"><i class="fas fa-hotel"></i></div> -->
                 <div class="fs-7 fw-bold text-dark">
                   <?php echo getTS('_Home', $lang, $mlangs); ?>
@@ -20,35 +20,35 @@
               </a>
             </div>
             <div class="col-auto">
-              <a href="/activities" class="btn rounded-1 border-0 py-2 px-2">
+              <a href="<?php echo '/activities'.$getURLLang; ?>" class="btn rounded-1 border-0 py-2 px-2">
                 <div class="fs-7 fw-bold text-dark">
                   <?php echo getTS('_Activities', $lang, $mlangs); ?>
                 </div>
               </a>
             </div>
             <div class="col-auto">
-              <a href="/packages" class="btn rounded-1 border-0 py-2 px-2">
+              <a href="<?php echo '/packages'.$getURLLang; ?>" class="btn rounded-1 border-0 py-2 px-2">
                 <div class="fs-7 fw-bold text-dark">
                   <?php echo getTS('_Packages', $lang, $mlangs); ?>
                 </div>
               </a>
             </div>
             <div class="col-auto">
-              <a href="/japan-rail-pass" class="btn rounded-1 border-0 py-2 px-2">
+              <a href="<?php echo '/japan-rail-pass'.$getURLLang; ?>" class="btn rounded-1 border-0 py-2 px-2">
                 <div class="fs-7 fw-bold text-dark">
                   <?php echo getTS('_JapanRailPass', $lang, $mlangs); ?>
                 </div>
               </a>
             </div>
             <div class="col-auto">
-              <a href="/tickets" s class="btn rounded-1 border-0 py-2 px-2">
+              <a href="<?php echo '/tickets'.$getURLLang; ?>" s class="btn rounded-1 border-0 py-2 px-2">
                 <div class="fs-7 fw-bold text-dark">
                   <?php echo getTS('_Tickets', $lang, $mlangs); ?>
                 </div>
               </a>
             </div>
             <div class="col-auto">
-              <a href="/hotels" class="btn rounded-1 border-0 py-2 px-2">
+              <a href="<?php echo '/hotels'.$getURLLang; ?>" class="btn rounded-1 border-0 py-2 px-2">
                 <div class="fs-7 fw-bold text-dark">
                   <?php echo getTS('_Hotels', $lang, $mlangs); ?>
                 </div>
