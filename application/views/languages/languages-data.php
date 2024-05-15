@@ -21,7 +21,7 @@ $mlangs = [
   '_Topic' => ['en' => 'Topic', 'jp' => 'トピック'],
   '_FeaturedDestinations' => ['en' => 'Featured Destinations', 'jp' => '注目の目的地'],
   '_FeaturedDestinationsDesc' => ['en' => 'Explore Our Featured Destinations.', 'jp' => '注目の目的地を探索してください。'],
-  '_JTBRecommended' => ['en' => 'JTB Recommended.', 'jp' => 'JTB おすすめ'],
+  '_JTBRecommended' => ['en' => 'JTB Recommended', 'jp' => 'JTB おすすめ'],
   '_Destination' => ['en' => 'Destination', 'jp' => '行き先'],
   '_WhereAreYouGoing' => ['en' => 'Where are you going?', 'jp' => 'どこに行きますか？'],
   '_StayDates' => ['en' => 'Stay Dates.', 'jp' => '滞在日'],
