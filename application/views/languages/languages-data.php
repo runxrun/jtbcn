@@ -22,7 +22,7 @@ $mlangs = [
   '_FeaturedDestinations' => ['en' => 'Featured Destinations', 'jp' => '注目の目的地'],
   '_FeaturedDestinationsDesc' => ['en' => 'Explore Our Featured Destinations.', 'jp' => '注目の目的地を探索してください。'],
   '_JTBRecommended' => ['en' => 'JTB Recommended', 'jp' => 'JTB おすすめ'],
-  '_Destination' => ['en' => 'Destination', 'jp' => '行き先'],
+  '_Destination' => ['en' => 'Destination', 'jp' => '目的地'],
   '_WhereAreYouGoing' => ['en' => 'Where are you going?', 'jp' => 'どこに行きますか？'],
   '_StayDates' => ['en' => 'Stay Dates.', 'jp' => '滞在日'],
   '_Nights' => ['en' => 'Night(s).', 'jp' => '泊'],
@@ -31,5 +31,9 @@ $mlangs = [
   '_FileNotFound_1' => ['en' => 'That’s an error.', 'jp' => 'それは間違いです'],
   '_FileNotFound_2' => ['en' => 'The requested URL was not found on our website.', 'jp' => 'お探しのページは見つかりませんでした。'],
   '_FileNotFound_3' => ['en' => 'That’s all we know.', 'jp' => '私たちが知っているのはそれだけです。'],
+  '_ServiceDate' => ['en' => 'Service Date', 'jp' => '開始予定日'],
+  '_Travelers' => ['en' => 'Travelers', 'jp' => '旅人'],
+  '_NumberDay' => ['en' => 'Number of day', 'jp' => '日数'],
+  
 ];
 

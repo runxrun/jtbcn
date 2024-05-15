@@ -35,7 +35,7 @@ $dataLink = [
     foreach ($dataLink as $key => $item) {
     ?>
       <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-        <a href="<?php echo $item['linkUrl']; ?>" class="d-flex fs-7 text-white text-decoration-none">
+        <a href="<?php echo $item['linkUrl'].$getURLLang; ?>" class="d-flex fs-7 text-white text-decoration-none">
           <div class="pe-2 opacity-50"><i class="fas fa-angle-right"></i></div>
           <div class="ps-1"><?php echo  getTS($item['title'], $lang, $mlangs);  ?></div>
         </a>
