@@ -1,17 +1,33 @@
 <?php
 $dataLink = [
-  ["title" => "About us", "linkUrl" => "/about-us",],
-  ["title" => "Contact us", "linkUrl" => "/contact-us",],
-  ["title" => "Terms and conditions", "linkUrl" => "/terms-conditions",],
-  ["title" => "Privacy policy", "linkUrl" => "/privacy-policy",],
-  ["title" => "Cookie poricy", "linkUrl" => "/cookies-policy",],
-  ["title" => "Careers", "linkUrl" => "/careers",],
-  ["title" => "Q and A", "linkUrl" => "https://support.jtb.ca/portal/en/home",],
-  ["title" => "Register News Letter", "linkUrl" => "/newsletter",],
-  ["title" => "Blog", "linkUrl" => "/blog",],
-  ["title" => "brochure", "linkUrl" => "/brochure",],
-  ["title" => "Site map", "linkUrl" => "/sitemap",],
+  ["title" => "_AboutUs", "linkUrl" => "/about-us",],
+  ["title" => "_ContactUs", "linkUrl" => "/contact-us",],
+  ["title" => "_TermsAndConditions", "linkUrl" => "/terms-conditions",],
+  ["title" => "_PrivacyPolicy", "linkUrl" => "/privacy-policy",],
+  ["title" => "_CookiesPolicy", "linkUrl" => "/cookies-policy",],
+  ["title" => "_Careers", "linkUrl" => "/careers",],
+  ["title" => "_QandA", "linkUrl" => "https://support.jtb.ca/portal/en/home",],
+  ["title" => "_RegisterNewsLetter", "linkUrl" => "/newsletter",],
+  ["title" => "_Blog", "linkUrl" => "/blog",],
+  ["title" => "_Brochure", "linkUrl" => "/brochure",],
+  ["title" => "_SiteMap", "linkUrl" => "/sitemap",],
 ];
+
+
+
+
+// ['_AboutUs' => ['en' => 'About us', 'jp' => '私たちについて']],
+// ['_ContactUs' => ['en' => 'Contact us', 'jp' => 'お問い合わせ']],
+// ['_TermsAndConditions' => ['en' => 'Terms and conditions', 'jp' => '利用規約']],
+// ['_PrivacyPolicy' => ['en' => 'Privacy policy', 'jp' => 'プライバシーポリシー']],
+// ['_CookiesPolicy' => ['en' => 'Cookies policy', 'jp' => 'クッキーポリシー']],
+// ['_Careers' => ['en' => 'Careers', 'jp' => '求人']],
+// ['_Q and A' => ['en' => 'Q and A', 'jp' => 'Q & A']],
+// ['_RegisterNewsLetter' => ['en' => 'Register News Letter', 'jp' => 'ニュースレター登録']],
+// ['_Blog' => ['en' => 'Blog', 'jp' => 'ブログ ']],
+// ['_brochure' => ['en' => 'brochure', 'jp' => 'パンフレット']],
+// ['_Site map' => ['en' => 'Site map', 'jp' => 'jp = サイトマップ']],
+
 ?>
 <div class="container py-4">
   <div class="row gy-1 gx-3">
@@ -21,7 +37,7 @@ $dataLink = [
       <div class="col-6 col-sm-6 col-md-4 col-lg-3">
         <a href="<?php echo $item['linkUrl']; ?>" class="d-flex fs-7 text-white text-decoration-none">
           <div class="pe-2 opacity-50"><i class="fas fa-angle-right"></i></div>
-          <div class="ps-1"><?php echo $item['title']; ?></div>
+          <div class="ps-1"><?php echo  getTS($item['title'], $lang, $mlangs);  ?></div>
         </a>
       </div>
     <?php

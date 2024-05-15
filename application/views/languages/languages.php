@@ -1,18 +1,6 @@
 <?php
 
-// include_once('languages-data.php');
-
-$mlangs = [
-  '_Home' => ['en' => 'Home', 'jp' => 'ホーム'],
-  '_Activities' => ['en' => 'Activities', 'jp' => 'アクティビティ'],
-  '_Packages' => ['en' => 'Packages', 'jp' => 'パッケージ'],
-  '_JapanRailPass' => ['en' => 'Japan Rail Pass', 'jp' => 'ジャパンレールパス'],
-  '_Tickets' => ['en' => 'Tickets', 'jp' => 'チケット'],
-  '_Hotels' => ['en' => 'Hotels', 'jp' => 'ホテル'],
-  '_SignIn' => ['en' => 'Sign in', 'jp' => 'サインイン'],
-];
-
-// $lang = strtolower($_GET['lang']);
+include_once('languages-data.php');
 
 $lang = isset($_GET['lang']) ? strtolower($_GET['lang']) : 'en';
 
