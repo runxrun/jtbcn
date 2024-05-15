@@ -12,6 +12,30 @@
     ];
   }
 
+  if (strtoupper($currentPage[0]) === "ACTIVITIES") {
+    $banners = [
+      ['image' => 'japan-1841199_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
+    ];
+  }
+
+  if (strtoupper($currentPage[0]) === "PACKAGES") {
+    $banners = [
+      ['image' => 'islands-7153472_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
+    ];
+  }
+
+  if (strtoupper($currentPage[0]) === "JAPAN-RAIL-PASS") {
+    $banners = [
+      ['image' => 'shinkansen-5237269_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
+    ];
+  }
+
+  if (strtoupper($currentPage[0]) === "TICKETS") {
+    $banners = [
+      ['image' => 'japan-1841199_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
+    ];
+  }
+
   if (strtoupper($currentPage[0]) === "HOTELS") {
     $banners = [
       ['image' => 'japan-1841199_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
