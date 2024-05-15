@@ -3,7 +3,7 @@ $dataLink = [
   ["title" => "About us", "linkUrl" => "/about-us",],
   ["title" => "Contact us", "linkUrl" => "/contact-us",],
   ["title" => "Terms and conditions", "linkUrl" => "/terms-conditions",],
-  ["title" => "Pricacy policy", "linkUrl" => "/privacy-policy",],
+  ["title" => "Privacy policy", "linkUrl" => "/privacy-policy",],
   ["title" => "Cookie poricy", "linkUrl" => "/cookies-policy",],
   ["title" => "Careers", "linkUrl" => "/careers",],
   ["title" => "Q and A", "linkUrl" => "https://support.jtb.ca/portal/en/home",],
@@ -13,25 +13,21 @@ $dataLink = [
   ["title" => "Site map", "linkUrl" => "/sitemap",],
 ];
 ?>
-
-<div class="container py-3">
+<div class="container py-4">
   <div class="row gy-1 gx-3">
-
     <?php
     foreach ($dataLink as $key => $item) {
     ?>
-      <div class="col-12 col-lg-3">
-        <a href="<?php echo $item['linkUrl']; ?>" class="fs-7 text-white">
-          <?php echo $item['title']; ?>
+      <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+        <a href="<?php echo $item['linkUrl']; ?>" class="d-flex fs-7 text-white text-decoration-none">
+          <div class="pe-2 opacity-50"><i class="fas fa-angle-right"></i></div>
+          <div class="ps-1"><?php echo $item['title']; ?></div>
         </a>
       </div>
-
     <?php
     }
     ?>
-
   </div>
-
 </div>
 <div class="bg-primary">
   <div class="container py-3">

@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row g-3 justify-content-between align-items-center">
       <div class="col-9 col-md-3">
-        <div class="py-3">
+        <div class="py-2">
           <a href="/">
             <img src="/application/images/logo.png" class="img-fluid">
           </a>
@@ -10,41 +10,41 @@
       </div>
       <div class="col-3 col-md-auto d-none d-lg-block">
         <div class="py-3">
-          <div class="row gy-2 gx-1">
+          <div class="row gy-2 gx-3">
             <div class="col-auto">
-              <a href="/" class="btn rounded-1 border-0 py-2 px-3">
+              <a href="/" class="btn rounded-1 border-0 py-2 px-2">
                 <!-- <div class="fs-5 d-none"><i class="fas fa-hotel"></i></div> -->
                 <div class="fs-7 fw-bold text-dark">Home</div>
               </a>
             </div>
             <div class="col-auto">
-              <a href="/activity" class="btn rounded-1 border-0 py-2 px-3">
+              <a href="/activity" class="btn rounded-1 border-0 py-2 px-2">
                 <!-- <div class="fs-5 d-none"><i class="fas fa-car"></i></div> -->
-                <div class="fs-7 fw-bold text-dark">Activity</div>
+                <div class="fs-7 fw-bold text-dark">Activities</div>
               </a>
             </div>
             <div class="col-auto">
-              <a href="/package" class="btn rounded-1 border-0 py-2 px-3">
+              <a href="/package" class="btn rounded-1 border-0 py-2 px-2">
                 <!-- <div class="fs-5 d-none"><i class="fas fa-suitcase-rolling"></i></div> -->
-                <div class="fs-7 fw-bold text-dark">Package</div>
+                <div class="fs-7 fw-bold text-dark">Packages</div>
               </a>
             </div>
             <div class="col-auto">
-              <a href="/jrpass" class="btn rounded-1 border-0 py-2 px-3">
+              <a href="/jrpass" class="btn rounded-1 border-0 py-2 px-2">
                 <!-- <div class="fs-5 d-none"><i class="fas fa-train"></i></div> -->
-                <div class="fs-7 fw-bold text-dark">JR Pass</div>
+                <div class="fs-7 fw-bold text-dark">Japan Rail Pass</div>
               </a>
             </div>
             <div class="col-auto">
-              <a href="/ticket" class="btn rounded-1 border-0 py-2 px-3">
+              <a href="/ticket" class="btn rounded-1 border-0 py-2 px-2">
                 <!-- <div class="fs-5 d-none"><i class="fas fa-ticket-alt"></i></div> -->
-                <div class="fs-7 fw-bold text-dark">Ticket</div>
+                <div class="fs-7 fw-bold text-dark">Tickets</div>
               </a>
             </div>
             <div class="col-auto">
-              <a href="/hotel" class="btn rounded-1 border-0 py-2 px-3">
+              <a href="/hotel" class="btn rounded-1 border-0 py-2 px-2">
                 <!-- <div class="fs-5 d-none"><i class="fas fa-hotel"></i></div> -->
-                <div class="fs-7 fw-bold text-dark">Hotel</div>
+                <div class="fs-7 fw-bold text-dark">Hotels</div>
               </a>
             </div>
           </div>

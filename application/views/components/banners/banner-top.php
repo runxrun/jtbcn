@@ -1,17 +1,9 @@
 <div class="bg-white pb-4">
   <div class="container">
-    <div class="bg-light border">
-      <br>
-      <br>
-      <br>
-      <br>
-      <div class="text-center text-dark fw-bold fs-5">
-        TOP BANNER
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
+    <div class="bg-light">
+      <a href="/" class="d-flex">
+        <img src="https://www.jtbtrip.com/ImageData/Travel_guide/ma220600371.png" class="w-100">
+      </a>
     </div>
   </div>
 </div>

@@ -4,7 +4,7 @@
     <div class="pb-3">
       <div class="row justify-content-between align-items-end">
         <div class="col-auto">
-          <div class="rn-text-title fs-5 text-primary">
+          <div class="fs-5 fw-bold text-primary">
             Topic
           </div>
         </div>
@@ -44,7 +44,7 @@
           <div class="border rounded-1 h-100 bg-white shadow-sm">
             <div class="border-top border-3 border-primary p-3">
               <div class="pb-2">
-                <button class="btn border-0 p-0 fs-6 text-dark fw-bold" data-bs-toggle="modal" data-bs-target="#newsModal">
+                <button class="btn border-0 p-0 text-start fs-6 text-dark fw-bold" data-bs-toggle="modal" data-bs-target="#newsModal">
                   <?php echo $item['title']; ?>
                 </button>
               </div>

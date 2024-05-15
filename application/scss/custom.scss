@@ -18,6 +18,13 @@ body {
   }
 }
 
+@media only screen and (min-width: 992px) {
+  .rn-col-lg-x5 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
+
 .rn-toppage-link {
   position: relative;
 
@@ -118,6 +125,7 @@ body {
   transition: all 0.5s;
   color: #7c868f;
 }
+
 .rn-tabservice button:hover {
   border: 1px solid $color-jtb;
   background-color: #ffffff;
