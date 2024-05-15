@@ -14,37 +14,44 @@
             <div class="col-auto">
               <a href="/" class="btn rounded-1 border-0 py-2 px-2">
                 <!-- <div class="fs-5 d-none"><i class="fas fa-hotel"></i></div> -->
-                <div class="fs-7 fw-bold text-dark">Home</div>
+                <div class="fs-7 fw-bold text-dark">
+                  <?php echo getTS('_Home', $lang, $mlangs); ?>
+                </div>
               </a>
             </div>
             <div class="col-auto">
-              <a href="/activity" class="btn rounded-1 border-0 py-2 px-2">
-                <!-- <div class="fs-5 d-none"><i class="fas fa-car"></i></div> -->
-                <div class="fs-7 fw-bold text-dark">Activities</div>
+              <a href="/activities" class="btn rounded-1 border-0 py-2 px-2">
+                <div class="fs-7 fw-bold text-dark">
+                  <?php echo getTS('_Activities', $lang, $mlangs); ?>
+                </div>
               </a>
             </div>
             <div class="col-auto">
-              <a href="/package" class="btn rounded-1 border-0 py-2 px-2">
-                <!-- <div class="fs-5 d-none"><i class="fas fa-suitcase-rolling"></i></div> -->
-                <div class="fs-7 fw-bold text-dark">Packages</div>
+              <a href="/packages" class="btn rounded-1 border-0 py-2 px-2">
+                <div class="fs-7 fw-bold text-dark">
+                  <?php echo getTS('_Packages', $lang, $mlangs); ?>
+                </div>
               </a>
             </div>
             <div class="col-auto">
-              <a href="/jrpass" class="btn rounded-1 border-0 py-2 px-2">
-                <!-- <div class="fs-5 d-none"><i class="fas fa-train"></i></div> -->
-                <div class="fs-7 fw-bold text-dark">Japan Rail Pass</div>
+              <a href="/japan-rail-pass" class="btn rounded-1 border-0 py-2 px-2">
+                <div class="fs-7 fw-bold text-dark">
+                  <?php echo getTS('_JapanRailPass', $lang, $mlangs); ?>
+                </div>
               </a>
             </div>
             <div class="col-auto">
-              <a href="/ticket" class="btn rounded-1 border-0 py-2 px-2">
-                <!-- <div class="fs-5 d-none"><i class="fas fa-ticket-alt"></i></div> -->
-                <div class="fs-7 fw-bold text-dark">Tickets</div>
+              <a href="/tickets" s class="btn rounded-1 border-0 py-2 px-2">
+                <div class="fs-7 fw-bold text-dark">
+                  <?php echo getTS('_Tickets', $lang, $mlangs); ?>
+                </div>
               </a>
             </div>
             <div class="col-auto">
-              <a href="/hotel" class="btn rounded-1 border-0 py-2 px-2">
-                <!-- <div class="fs-5 d-none"><i class="fas fa-hotel"></i></div> -->
-                <div class="fs-7 fw-bold text-dark">Hotels</div>
+              <a href="/hotels" class="btn rounded-1 border-0 py-2 px-2">
+                <div class="fs-7 fw-bold text-dark">
+                  <?php echo getTS('_Hotels', $lang, $mlangs); ?>
+                </div>
               </a>
             </div>
           </div>
@@ -53,7 +60,7 @@
       <div class="col-3 col-md-3">
         <div class="py-3">
           <?php
-            /*
+          /*
             <div class="d-none d-md-block">
               <div class="row g-2">
                 <div class="col-auto">
@@ -107,19 +114,18 @@
               <div class="row justify-content-end g-0">
                 <div class="col-auto">
                   <button class="btn btn-primary py-1 px-4 fs-7 rounded-pill">
-                    Sign in
+                    <?php echo getTS('_SignIn', $lang, $mlangs); ?>
                   </button>
                 </div>
                 <div class="col-auto">
                   <?php
-                  $countArray = count($currentPage);
-                  switch($countArray){
-                    case "2" :  $cLink = '/'.$currentPage[0].'/'.$currentPage[1]; break;
-                    case "1" :  $cLink = '/'.$currentPage[0]; break;
-                    default :  $cLink = '/'; break;
+                  if (strtoupper($lang) === "JP") {
+                    $clink = $_SERVER['REDIRECT_URL'] . '/?lang=en';
+                    echo '<a href="' . $clink . '" class="btn border-0 text-secondary py-1 px-4 fs-7">English</a>';
+                  } else {
+                    $clink = $_SERVER['REDIRECT_URL'] . '/?lang=jp';
+                    echo '<a href="' . $clink . '" class="btn border-0 text-secondary py-1 px-4 fs-7">日本語</a>';
                   }
-                  $link =  $cLink ;
-                  echo '<a href="'.$link.'" class="btn border-0 text-secondary py-1 px-4 fs-7">日本語</a>';
                   ?>
                 </div>
               </div>
@@ -129,11 +135,7 @@
             <div class="py-3">
               <div class="row justify-content-end g-0">
                 <div class="col-auto p-0">
-                  <button 
-                    class="btn py-0 px-1 fs-5 border-0"
-                    data-bs-toggle="offcanvas"
-                    data-bs-target="#sideMenu"
-                    aria-controls="sideMenu">
+                  <button class="btn py-0 px-1 fs-5 border-0" data-bs-toggle="offcanvas" data-bs-target="#sideMenu" aria-controls="sideMenu">
                     <div class="text-dark">
                       <i class="fas fa-bars"></i>
                     </div>

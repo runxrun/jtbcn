@@ -1,6 +1,10 @@
 <div class="position-relative w-100">
   <?php
-  if ($currentPage[0] === "") {
+  if (
+    $currentPage[0] === "" ||
+    strtoupper($currentPage[0]) === "?LANG=JP" ||
+    strtoupper($currentPage[0]) === "?LANG=EN"
+  ) {
     $banners = [
       ['image' => 'buildings-2297210_1920.jpg', 'position' => 'rn-imgcover-top', 'first' => 'active'],
       ['image' => 'ski-slope-3184931_1920.jpg', 'position' => 'rn-imgcover-top', 'first' => ''],
@@ -8,7 +12,7 @@
     ];
   }
 
-  if (strtoupper($currentPage[0]) === "HOTEL") {
+  if (strtoupper($currentPage[0]) === "HOTELS") {
     $banners = [
       ['image' => 'japan-1841199_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
       ['image' => 'sakura-3381105_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => ''],
@@ -16,12 +20,16 @@
     ];
   }
 
-  ?>
-  <?php
-  if ($currentPage[0] !== "") {
+  if (
+    strtoupper($currentPage[0]) === 'ACTIVITIES' ||
+    strtoupper($currentPage[0]) === 'TICKETS' ||
+    strtoupper($currentPage[0]) === 'PACKAGES' ||
+    strtoupper($currentPage[0]) === 'JAPAN-RAIL-PASS' ||
+    strtoupper($currentPage[0]) === 'HOTELS'
+  ) {
     include_once(__dir__ . '/../searchbox/home_container.php');
   }
-  ?>
+  ?>  
   <div id="carouselJTBCA" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
       <?php

@@ -25,6 +25,7 @@ $_dataLvl=0;
 $chkSegment=strtoupper($segment[$_dataLvl]);
 
 require_once("application/views/setpage.php");
+require_once("application/views/languages/languages.php");
 
 switch (strtoupper($segment[0])) 
 {
