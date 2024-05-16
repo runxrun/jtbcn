@@ -19,6 +19,7 @@ $mlangs = [
   '_Brochure' => ['en' => 'Brochure', 'jp' => 'パンフレット'],
   '_SiteMap' => ['en' => 'Site map', 'jp' => 'サイトマップ'],
   '_Topic' => ['en' => 'Topic', 'jp' => 'トピック'],
+  '_News' => ['en' => 'News', 'jp' => 'ニュース'],
   '_FeaturedDestinations' => ['en' => 'Featured Destinations', 'jp' => '注目の目的地'],
   '_FeaturedDestinationsDesc' => ['en' => 'Explore Our Featured Destinations.', 'jp' => '注目の目的地を探索してください。'],
   '_JTBRecommended' => ['en' => 'JTB Recommended', 'jp' => 'JTB おすすめ'],
@@ -66,5 +67,5 @@ $mlangs = [
   '_TermsofUse' => ['en' => 'Terms of Use', 'jp' => '利用規約'],
   '_And' => ['en' => 'And', 'jp' => 'そして'],
   '_ByRegisterIngAnAccount' => ['en' => 'By registering an account, I acknowledge that I have read and agree to.', 'jp' => 'アカウントを登録することにより、読んで同意したことを認めます。'],
-
+  '_RecommendedDestination' => ['en' => 'Recommended Destination', 'jp' => 'おすすめの目的地'],
 ];

@@ -41,8 +41,8 @@
       foreach ($toppage as $key => $item) {
       ?>
         <div class="col-12 col-md-4">
-          <div class="border rounded-1 h-100 bg-white shadow-sm">
-            <div class="border-top border-3 border-primary p-3">
+          <div class="border-bottom border-3 border-primary rounded-1 h-100 bg-white shadow-sm">
+            <div class="border border-1 rounded-1 h-100 p-3">
               <div class="pb-2">
                 <button class="btn border-0 p-0 text-start fs-6 text-dark fw-bold" data-bs-toggle="modal" data-bs-target="#newsModal">
                   <?php echo $item['title']; ?>
@@ -63,7 +63,7 @@
   <div class="modal-dialog modal-dialog-centered modal-xl">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-6 fw-bold">Topics</h1>
+        <h1 class="modal-title fs-6 fw-bold"><?php echo getTS('_Topic', $lang, $mlangs); ?></h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">

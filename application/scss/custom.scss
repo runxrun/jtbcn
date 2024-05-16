@@ -2,6 +2,7 @@ $font-title: "Open Sans", "Noto Sans JP", Arial;
 $font-normal: "Open Sans", "Noto Sans JP", Arial;
 $color-info: #62c1ce;
 $color-jtb: #cc0000;
+$color-secondary: #6c757d;
 
 body {
   font-family: $font-normal;
@@ -202,5 +203,117 @@ body {
     color: #ffffff !important;
     background-color: $color-jtb !important;
     box-shadow: 0 0 0 0.25rem rgba(201, 38, 55, 0.5);
+  }
+}
+
+.btn-outline-rn {
+  border: 1px solid #d7d7d7 !important;
+  color: $color-secondary !important;
+  &:hover {
+    border-color: $color-jtb !important;
+    color: $color-jtb !important;
+  }
+}
+
+.rn-btn-services-search {
+  padding: 1rem 1.25rem;
+  margin: 0px -0.5rem;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+  div {
+    button {
+      border: 1px solid #d7d7d7;
+      background-color: transparent;
+      text-align: center;
+      width: 100%;
+      padding: 15px 10px 10px 10px;
+      border-radius: 0.25rem;
+      outline: none;
+      cursor: pointer;
+      transition: all 0.3s;
+
+      i {
+        display: block;
+        color: $color-jtb;
+      }
+
+      span {
+        display: block;
+        padding: 8px 0px 0px 0px;
+        font-weight: 400;
+        font-size: 12px;
+        color: #5a5a5a;
+      }
+
+      &:hover {
+        border: 1px solid $color-jtb;
+
+        span {
+          display: block;
+          color: $color-jtb;
+        }
+      }
+    }
+  }
+
+  .active button {
+    border: 1px solid $color-jtb;
+    background-color: $color-jtb;
+    color: #ffffff;
+
+    i {
+      color: #ffffff;
+    }
+
+    span {
+      color: #ffffff;
+    }
+
+    &:hover {
+      border: 1px solid $color-jtb;
+      i {
+        color: #ffffff;
+      }
+      span {
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .rn-btn-services-search {
+    padding: 0px;
+    margin: 0px 0rem;
+
+    div {
+      button {
+        border-radius: 0px;
+        padding: 15px 10px 15px 10px;
+        border: 1px solid #ffffff;
+        border-bottom: 1px solid #d7d7d7;
+
+        i {
+          color: #878787;
+        }
+
+        &:hover {
+          border: 1px solid #ffffff;
+          border-bottom: 1px solid $color-jtb;
+          i {
+            color: $color-jtb;
+          }
+          span {
+            display: none;
+          }
+        }
+
+        span {
+          display: none;
+        }
+      }
+    }
   }
 }
