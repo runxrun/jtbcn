@@ -1,6 +1,6 @@
 <?php 
 include_once(__dir__.'/../../../components/carousel/home-carousel.php');
-// include_once(__dir__.'/../../../components/topics/topiclist.php');
+include_once(__dir__.'/../../../components/topics/topiclist.php');
 ?>
 <div class="bg-white">
   <div class="container py-4">

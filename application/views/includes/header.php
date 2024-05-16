@@ -113,7 +113,7 @@
             <div class="py-3">
               <div class="row justify-content-end g-0">
                 <div class="col-auto">
-                  <button class="btn btn-primary py-1 px-4 fs-7 rounded-pill">
+                  <button class="btn btn-primary py-1 px-4 fs-7 rounded-pill" onclick="window.open('/auth/sign-in');">
                     <?php echo getTS('_SignIn', $lang, $mlangs); ?>
                   </button>
                 </div>

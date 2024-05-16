@@ -37,7 +37,7 @@ if (strtoupper($currentPage[0]) === 'HOTELS') {
       'link' => 'javascript: void(0);',
     ],
   ];
-} elseif(strtoupper($currentPage[0]) === 'ACTIVITIES'){
+} elseif (strtoupper($currentPage[0]) === 'ACTIVITIES') {
   $recommend = [
     [
       'photo' => 'm_153923.jpg',
@@ -75,7 +75,7 @@ if (strtoupper($currentPage[0]) === 'HOTELS') {
       'link' => 'javascript: void(0);',
     ],
   ];
-} elseif(strtoupper($currentPage[0]) === 'PACKAGES'){
+} elseif (strtoupper($currentPage[0]) === 'PACKAGES') {
   $recommend = [
     [
       'photo' => 'packages/2005191127393D2N_Cheap_Private_Land_Tour_Package_in_Okinawa_big.jpg',
@@ -83,7 +83,7 @@ if (strtoupper($currentPage[0]) === 'HOTELS') {
       'desc' => 'Starting from ¥26,000 per pax, this is a private tour package that will bring you to see all highlight in Okinawa region with reasonable price. Easy Travel will bring you to visit a must see places in Okinawa',
       'price' => '$ 226.86 CAD ',
       'link' => 'javascript: void(0);',
-    ],  
+    ],
     [
       'photo' => 'packages/1906271214413D2N_Cheap_Private_Tour_Tokyo_&_Fuji_big.jpg',
       'title' => '3D2N Cheap Private Land Tour Tokyo & Fuji',
@@ -113,7 +113,7 @@ if (strtoupper($currentPage[0]) === 'HOTELS') {
       'link' => 'javascript: void(0);',
     ],
   ];
-} elseif(strtoupper($currentPage[0]) === 'TICKETS'){
+} elseif (strtoupper($currentPage[0]) === 'TICKETS') {
   $recommend = [
     [
       'photo' => 'tickets/1 Universal Studios Japan Globe-L.png',
@@ -121,7 +121,7 @@ if (strtoupper($currentPage[0]) === 'HOTELS') {
       'desc' => 'Meet the world is first Mario-themed amusement park zone. That comes with the most exciting rides like Mario Kart: Koopa is Challenge. Guaranteed fun with Thea Awards, which are honorable awards from world-class entertainment institutions.',
       'price' => '$ 75.03 CAD ',
       'link' => 'javascript: void(0);',
-    ],  
+    ],
     [
       'photo' => 'tickets/Osaka-Aquarium-Kaiyukan-and-Santa-Maria-Cruise-Tour-88351167-99f2-438c-be58-3214b2c808cd.webp',
       'title' => 'Osaka Aquarium Kaiyukan',
@@ -151,8 +151,7 @@ if (strtoupper($currentPage[0]) === 'HOTELS') {
       'link' => 'javascript: void(0);',
     ],
   ];
-
-} else {
+} elseif (strtoupper($currentPage[0]) === 'ACTIVITIES') {
 
   $recommend = [
     [
@@ -227,14 +226,12 @@ if (strtoupper($currentPage[0]) === 'HOTELS') {
                     </a>
                   </div>
                 <?php
-                }
-                else
-                {                  
+                } else {
                 ?>
-                <div class="pt-2 px-3 pb-3">
-                  <div class="fs-8 text-secondary">Form</div>
-                  <div class="fs-7 fw-bold text-info"><?php echo $item['price']; ?></div>
-                </div>
+                  <div class="pt-2 px-3 pb-3">
+                    <div class="fs-8 text-secondary">Form</div>
+                    <div class="fs-7 fw-bold text-info"><?php echo $item['price']; ?></div>
+                  </div>
                 <?php
                 }
                 ?>

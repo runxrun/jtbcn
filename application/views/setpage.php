@@ -20,6 +20,14 @@ switch (strtoupper($currentPage[0])) {
   case "BLOG": $thisPage = '/pages/blog/blog_page.php'; break;
   case "BROCHURE": $thisPage = '/pages/brochure/brochure_page.php'; break;
   case "SITEMAP": $thisPage = '/pages/sitemap/sitemap_page.php'; break;
+  case "AUTH": 
+    if(strtoupper($currentPage[1])==="SIGN-IN") {
+      $thisPage = '/pages/authorization/signin/signin_page.php'; 
+    }
+    if(strtoupper($currentPage[1])==="REGISTER") {
+      $thisPage = '/pages/authorization/register/register_page.php'; 
+    }
+    break;
   default: $thisPage = '/pages/filenotfound/filenotfound_page.php'; break;
 }
 
