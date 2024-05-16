@@ -25,7 +25,7 @@
     ];
   }
 
-  if (strtoupper($currentPage[0]) === "JAPAN-RAIL-PASS") {
+  if (strtoupper($currentPage[0]) === "JRPASS") {
     $banners = [
       ['image' => 'shinkansen-5237269_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
       ['image' => 'japan-3523393_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => ''],
@@ -50,7 +50,7 @@
     strtoupper($currentPage[0]) === 'ACTIVITIES' ||
     strtoupper($currentPage[0]) === 'TICKETS' ||
     strtoupper($currentPage[0]) === 'PACKAGES' ||
-    strtoupper($currentPage[0]) === 'JAPAN-RAIL-PASS' ||
+    strtoupper($currentPage[0]) === 'JRPASS' ||
     strtoupper($currentPage[0]) === 'HOTELS'
   ) {
     include_once(__dir__ . '/../searchbox/home_container.php');

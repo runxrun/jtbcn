@@ -104,6 +104,10 @@ body {
   background-position: center top;
 }
 
+.rn-hcal-sm {
+  height: calc(100% - 3rem);
+}
+
 .hover-zoom-effect {
   a {
     transition: all 0.5s;
@@ -168,6 +172,35 @@ body {
   &:focus-within,
   &:target,
   &:focus {
+    box-shadow: 0 0 0 0.25rem rgba(201, 38, 55, 0.5);
+  }
+}
+
+.btn-outline-primary {
+  border: 1px solid $color-jtb !important;
+  color: $color-jtb !important;
+
+  &:hover {
+    background-color: $color-jtb !important;
+    color: #ffffff !important;
+  }
+
+  &:active {
+    color: #ffffff !important;
+    background-color: $color-jtb !important;
+    box-shadow: 0 0 0 0.25rem rgba(201, 38, 55, 0.5);
+
+    &:focus {
+      background-color: $color-jtb !important;
+      box-shadow: 0 0 0 0.25rem rgba(201, 38, 55, 0.5);
+    }
+  }
+
+  &:focus-within,
+  &:target,
+  &:focus {
+    color: #ffffff !important;
+    background-color: $color-jtb !important;
     box-shadow: 0 0 0 0.25rem rgba(201, 38, 55, 0.5);
   }
 }

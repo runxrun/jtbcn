@@ -14,7 +14,6 @@ if ($_SERVER["HTTPS"] == "on") {
 $pathhost = $scheme . $_SERVER["HTTP_HOST"];
 $sitename = 'http://jtbcn.assaypage.com';
 
-//if(empty($pathData)){$pathData=$_SERVER['ORIG_PATH_INFO'];}
 if (empty($pathData)) {
 	$pathData = $_SERVER['REQUEST_URI'];
 }

@@ -24,7 +24,8 @@
     </div>
     <div class="col-12 col-md-3 col-lg-2">
       <div class="p-0">
-        <button class="btn btn-primary rounded-1 border-0 shadow-none fs-6 fw-bold w-100">
+        <?php $goToResult = '/activities/result' . $getURLLang ?>
+        <button class="btn btn-primary rounded-1 border-0 shadow-none fs-6 fw-bold w-100" onclick="window.open('<?php echo $goToResult; ?>', '_self')">
           <?php echo getTS('_Search', $lang, $mlangs); ?>
         </button>
       </div>

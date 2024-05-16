@@ -34,7 +34,7 @@
               </a>
             </div>
             <div class="col-auto">
-              <a href="<?php echo '/japan-rail-pass'.$getURLLang; ?>" class="btn rounded-1 border-0 py-2 px-2">
+              <a href="<?php echo '/jrpass'.$getURLLang; ?>" class="btn rounded-1 border-0 py-2 px-2">
                 <div class="fs-7 fw-bold text-dark">
                   <?php echo getTS('_JapanRailPass', $lang, $mlangs); ?>
                 </div>
@@ -113,7 +113,8 @@
             <div class="py-3">
               <div class="row justify-content-end g-0">
                 <div class="col-auto">
-                  <button class="btn btn-primary py-1 px-4 fs-7 rounded-pill" onclick="window.open('/auth/sign-in');">
+                  <?php $goToSignIn = '/auth/sign-in'.$getURLLang; ?>
+                  <button class="btn btn-primary py-1 px-4 fs-7 rounded-pill" onclick="window.open('<?php echo $goToSignIn; ?>', '_self')">
                     <?php echo getTS('_SignIn', $lang, $mlangs); ?>
                   </button>
                 </div>
