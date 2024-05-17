@@ -65,6 +65,10 @@ switch (strtoupper($currentPage[0])) {
   case "BLOG":
     if ($currentPage[2] === 'TUEyMzA0MDAxMg') {
       $thisPage = '/pages/blog/blog-group-1/blog-group-1-page.php';
+    } elseif ($currentPage[3] === 'TUEyMzA0MDAxMg-TUEyOpE8CXGdAe') {
+      $thisPage = '/pages/blog/blog-group-2/blog-group-2-page.php';
+    } elseif ($currentPage[4] === 'TUEyMzA0MDAxMg-TUEyOpE8CXGdAe-TUEwUuP7AQGoDs') {
+      $thisPage = '/pages/blog/blog-description/blog-description-page.php';
     } else {
       $thisPage = '/pages/blog/blog_page.php';
     }

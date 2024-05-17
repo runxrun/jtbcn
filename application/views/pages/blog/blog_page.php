@@ -53,24 +53,26 @@ $blog = [
         Blog
       </div>
     </div>
-    <div class="row g-3">
-      <?php
-      foreach ($blog as $key => $item) {
-        $image = '/application/images/blogs/'.$item['photo'];
-      ?>
-        <div class="col-12 col-lg-3">
-          <div class="">
-            <a href="<?php echo '/blog/japan-information/TUEyMzA0MDAxMg' . $getURLLang; ?>" class="d-flex bg-dark rn-imgcover-center rounded-1" style="background-image: url('<?php echo $image?>');">
-              <img src="/application/images/image-ratio-4-3.gif" class="w-100">
-            </a>
+    <div class="pb-4">
+      <div class="row g-3">
+        <?php
+        foreach ($blog as $key => $item) {
+          $image = '/application/images/blogs/' . $item['photo'];
+        ?>
+          <div class="col-12 col-lg-3">
+            <div class="">
+              <a href="<?php echo '/blog/japan-information/TUEyMzA0MDAxMg' . $getURLLang; ?>" class="d-flex bg-dark rn-imgcover-center rounded-1" style="background-image: url('<?php echo $image ?>');">
+                <img src="/application/images/image-ratio-4-3.gif" class="w-100">
+              </a>
+            </div>
+            <div class="py-2 fs-7 fw-bold text-dark">
+              <?php echo $item['title']; ?>
+            </div>
           </div>
-          <div class="py-2 fs-7 fw-bold text-dark">
-            <?php echo $item['title']; ?>
-          </div>
-        </div>
-      <?php
-      }
-      ?>
+        <?php
+        }
+        ?>
+      </div>
     </div>
   </div>
 </div>

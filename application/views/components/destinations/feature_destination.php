@@ -1,13 +1,13 @@
 <?php
 $toppage = [
-  ['pic' => 'himeji-3424658_1920.jpg', 'name' => 'Himeji, Japan'],
-  ['pic' => 'Whistler.jpg', 'name' => 'Whistler, Canada'],
-  ['pic' => 'banff300.jpg', 'name' => 'Alberta, Canada'],
-  ['pic' => 'TORONTO.png', 'name' => 'Toronto, Canada'],
-  ['pic' => 'NIAGARA.jpg', 'name' => 'Niagara, Canada'],
-  ['pic' => 'Montreal-300x300.jpg', 'name' => 'Montreal, Canada'],
-  ['pic' => 'YELLOWKNIFE.jpg', 'name' => 'Yellowknife, Canada'],
-  ['pic' => 'Vancouver300.jpg', 'name' => 'Vancouver, Canada'],
+  ['pic' => 'himeji-3424658_1920.jpg', 'name' => 'Himeji, Japan', 'name_jp' => '姫路, 日本' ],
+  ['pic' => 'Whistler.jpg', 'name' => 'Whistler, Canada', 'name_jp' => 'カナダ' ],
+  ['pic' => 'banff300.jpg', 'name' => 'Alberta, Canada', 'name_jp' => 'カナダ' ],
+  ['pic' => 'TORONTO.png', 'name' => 'Toronto, Canada', 'name_jp' => 'カナダ' ],
+  ['pic' => 'NIAGARA.jpg', 'name' => 'Niagara, Canada', 'name_jp' => 'カナダ' ],
+  ['pic' => 'Montreal-300x300.jpg', 'name' => 'Montreal, Canada', 'name_jp' => 'カナダ' ],
+  ['pic' => 'YELLOWKNIFE.jpg', 'name' => 'Yellowknife, Canada', 'name_jp' => 'カナダ' ],
+  ['pic' => 'Vancouver300.jpg', 'name' => 'Vancouver, Canada', 'name_jp' => 'カナダ' ],
 ];
 ?>
 <div class="bg-white">

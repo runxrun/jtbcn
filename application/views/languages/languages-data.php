@@ -72,6 +72,8 @@ $mlangs = [
   '_StarRating' => ['en' => 'Star Rating', 'jp' => '星評価'],
   '_Promotion' => ['en' => 'Promotion', 'jp' => 'プロモーション'],
   '_Facilities' => ['en' => 'Facilities', 'jp' => '設備'],
+  '_Description' => ['en' => 'Description', 'jp' => '説明'],
+
   '_Location' => ['en' => 'Location', 'jp' => '位置'],
   '_HotelStyle' => ['en' => 'Hotel Style', 'jp' => 'ホテルスタイル'],
   '_Clear' => ['en' => 'Clear', 'jp' => 'クリアー'],

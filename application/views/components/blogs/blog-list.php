@@ -7,35 +7,35 @@ $recommend = [
     'title' => 'Japan Information #1',
     'desc' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, error minus fugiat nulla',
     'price' => '$ 170.00 CAD ',
-    'link' => 'javascript: void(0);',
+    'link' => '/blog/japan-information/TUEyMzA0MDAxMg',
   ],
   [
     'photo' => 'ma21020500178.jpg',
     'title' => 'Japan Information #2',
     'desc' => 'Itaque quis! Eos cupiditate officia amet facere a nostrum, voluptate alias corrupti, tempora neque optio fugit',
     'price' => '$ 230.00 CAD ',
-    'link' => 'javascript: void(0);',
+    'link' => '/blog/japan-information/TUEyMzA0MDAxMg',
   ],
   [
     'photo' => 'ma21020500110.png',
     'title' => 'Japan Information #3',
     'desc' => 'Neque optio fugit eligendi labore veritatis sapiente doloremque sunt voluptatibus amet officiis ',
     'price' => '$ 180.00 CAD ',
-    'link' => 'javascript: void(0);',
+    'link' => '/blog/japan-information/TUEyMzA0MDAxMg',
   ],
   [
     'photo' => 'ma231100031.png',
     'title' => 'Japan Information #4',
     'desc' => 'perspiciatis recusandae in consectetur sequi consequatur, nam culpa laudantium aspernatur molestiae ',
     'price' => '$ 180.00 CAD',
-    'link' => 'javascript: void(0);',
+    'link' => '/blog/japan-information/TUEyMzA0MDAxMg',
   ],
   [
     'photo' => 'ma21020500220.jpg',
     'title' => 'Japan Information #5',
     'desc' => 'Ad quasi, repellendus ullam a deleniti nemo ex! Consectetur, iste! Obcaecati dolore illo dicta',
     'price' => '$ 160.00 CAD',
-    'link' => 'javascript: void(0);',
+    'link' => '/blog/japan-information/TUEyMzA0MDAxMg',
   ],
 ];
 
@@ -60,7 +60,7 @@ $recommend = [
             <div class="pb-4 bg-white shadow-sm overflow-hidden rounded-1 border h-100">
               <div class="overflow-hidden">
                 <!-- hover-zoom-effect -->
-                <a href="<?php echo $item['link']; ?>" class="d-flex rn-imgcover-center overflow-hidden" style="background-image: url('<?php echo $image; ?>');">
+                <a href="<?php echo $item['link'].$getURLLang; ?>" class="d-flex rn-imgcover-center overflow-hidden" style="background-image: url('<?php echo $image; ?>');">
                   <img src="/application/images/image-ratio-4-3.gif" class="w-100">
                 </a>
               </div>
