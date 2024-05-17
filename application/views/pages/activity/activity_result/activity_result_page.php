@@ -84,13 +84,13 @@
                 </button>
                 <div class="dropdown-menu mt-2 rounded-1 fs-8 p-3">
                   <div class="form-check">
-                    <input class="form-check-input rounded-0" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     <label class="form-check-label text-secondary" for="flexRadioDefault1">
                       HigherPriceFirst
                     </label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input rounded-0" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                     <label class="form-check-label text-secondary" for="flexRadioDefault2">
                       LowerPriceFirst
                     </label>
@@ -117,7 +117,7 @@
         </div>
         <div class="col-auto">
           <div class="pe-3 fs-7 text-secondary">
-            Found 4 Activities in Osaka
+            Found 1 Activities in Osaka
           </div>
         </div>
         <div class="col-auto">

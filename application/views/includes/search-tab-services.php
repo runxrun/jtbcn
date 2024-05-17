@@ -26,16 +26,16 @@ switch(strtoupper($currentPage[0])){
       <span><?php echo getTS('_Packages', $lang, $mlangs); ?></span>
     </button>
   </div>
-  <div class="w-100 px-0 px-md-1 <?php echo $ticketsActive; ?>">
-    <button onclick="window.open('<?php echo $tabTickets . $getURLLang; ?>', '_self');">
-      <i class="fas fa-ticket-alt"></i>
-      <span><?php echo getTS('_Tickets', $lang, $mlangs); ?></span>
-    </button>
-  </div>
   <div class="w-100 px-0 px-md-1 <?php echo $jrpassActive; ?>">
     <button onclick="window.open('<?php echo $tabJRPass . $getURLLang; ?>', '_self');">
       <i class="fas fa-subway"></i>
       <span><?php echo getTS('_JapanRailPass', $lang, $mlangs); ?></span>
+    </button>
+  </div>
+  <div class="w-100 px-0 px-md-1 <?php echo $ticketsActive; ?>">
+    <button onclick="window.open('<?php echo $tabTickets . $getURLLang; ?>', '_self');">
+      <i class="fas fa-ticket-alt"></i>
+      <span><?php echo getTS('_Tickets', $lang, $mlangs); ?></span>
     </button>
   </div>
   <div class="w-100 px-0 px-md-1 <?php echo $hotelsActive; ?>">

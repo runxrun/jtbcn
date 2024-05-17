@@ -45,7 +45,7 @@ if (strtoupper($currentPage[1]) == 'RESULT') {
     </div>
     <div class="col-12 col-md-3 col-lg-2">
       <div class="p-0">
-        <?php $goToResult = '/activities/result' . $getURLLang ?>
+        <?php $goToResult = '/activities/result' . $getURLLang; ?>
         <button class="<?php echo $searchHaveBorder; ?>" onclick="window.open('<?php echo $goToResult; ?>', '_self')">
           <?php echo getTS('_Search', $lang, $mlangs); ?>
         </button>

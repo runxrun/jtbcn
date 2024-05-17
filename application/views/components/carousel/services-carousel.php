@@ -49,14 +49,23 @@ $selected_banners = $banners_activities;
   </div>
   <div class="pb-5">
     <div class="position-relative">
-      <div class="position-absolute w-100 start-0 " style="bottom: -3rem; z-index: 2;">
+      <div class="position-absolute w-100 start-0 " style="bottom: -3rem; z-index: 9;">
         <div class="container">
           <div class="bg-white rounded shadow-sm border-bottom border-3 border-primary">
             <!-- border-bottom border-2 border-primary -->
             <?php
+
+            switch(strtoupper($currentPage[0])) {
+              case "ACTIVITIES": $pathSearch = '/../../includes/search-activity.php'; break;
+              case "PACKAGES": $pathSearch = '/../../includes/search-package.php'; break;
+              case "JRPASS": $pathSearch = '/../../includes/search-jrpass.php'; break;
+              case "TICKETS": $pathSearch = '/../../includes/search-ticket.php'; break;
+              case "HOTELS": $pathSearch = '/../../includes/search-hotel.php'; break;
+            }
+
             include(__dir__ . '/../../includes/search-tab-services.php');
-            include(__dir__ . '/../../includes/search-activity.php');
-            include(__dir__ . '/../../includes/search-recommedn-activity.php');
+            include(__dir__ . $pathSearch);
+            include(__dir__ . '/../../includes/search-recommend.php');
             ?>
           </div>
         </div>

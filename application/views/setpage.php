@@ -27,7 +27,25 @@ switch (strtoupper($currentPage[0])) {
   case "PACKAGES": $thisPage = '/pages/package/package_search/package_search_page.php'; break;
   case "JRPASS": $thisPage = '/pages/jrpass/jrpass_search/jrpass_search_page.php'; break;
   case "TICKETS": $thisPage = '/pages/ticket/ticket_search/ticket_search_page.php'; break;
-  case "HOTELS": $thisPage = '/pages/hotel/hotel_search/hotel_search_page.php'; break;
+  case "HOTELS": 
+    if(
+      empty($currentPage[1]) || 
+      strtoupper($currentPage[1]) === '?LANG=EN' ||
+      strtoupper($currentPage[1]) === '?LANG=JP'
+    ) {
+      $segment_1 = '';
+    }
+    else{
+      $segment_1 = $currentPage[1];
+    }
+    if (empty($segment_1)) {
+      $thisPage = '/pages/hotel/hotel_search/hotel_search_page.php';
+    } elseif (strtoupper($currentPage[1]) === "RESULT") {
+      $thisPage = '/pages/hotel/hotel_result/hotel_result_page.php';
+    } else {
+      $thisPage = '/pages/filenotfound/filenotfound_page.php';
+    }
+    break;
   case "AUTH": 
       if (strtoupper($currentPage[1]) === "SIGN-IN") {
         $thisPage = '/pages/authorization/signin/signin_page.php';
