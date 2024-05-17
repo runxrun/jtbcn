@@ -62,7 +62,13 @@ switch (strtoupper($currentPage[0])) {
   case "COOKIES-POLICY": $thisPage = '/pages/cookiespolicy/cookiespolicy_page.php'; break;
   case "CAREERS": $thisPage = '/pages/careers/careers_page.php'; break;
   case "NEWSLETTER": $thisPage = '/pages/newsletter/newsletter_page.php'; break;
-  case "BLOG": $thisPage = '/pages/blog/blog_page.php'; break;
+  case "BLOG":
+    if ($currentPage[2] === 'TUEyMzA0MDAxMg') {
+      $thisPage = '/pages/blog/blog-group-1/blog-group-1-page.php';
+    } else {
+      $thisPage = '/pages/blog/blog_page.php';
+    }
+    break;
   case "BROCHURE": $thisPage = '/pages/brochure/brochure_page.php'; break;
   case "SITEMAP": $thisPage = '/pages/sitemap/sitemap_page.php'; break;
   default: $thisPage = '/pages/filenotfound/filenotfound_page.php'; break;

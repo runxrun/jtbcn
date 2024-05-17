@@ -29,5 +29,6 @@ include_once(__dir__.'/includes/footer.php');
 
 <script src="/application/scripts/lightslider/src/js/lightslider.js"></script>
 <script src="/application/scripts/lightslider/src/js/lightslider_config.js"></script>
+
 </body>
 </html>

@@ -1,5 +1,6 @@
 <?php
 if (strtoupper($currentPage[0]) === 'HOTELS') {
+  $recommendSlider = 'recommend-hotels-slider';
   $recommend = [
     [
       'photo' => 'hotels/1115906_16032715390041097261.jpg',
@@ -38,6 +39,7 @@ if (strtoupper($currentPage[0]) === 'HOTELS') {
     ],
   ];
 } elseif (strtoupper($currentPage[0]) === 'ACTIVITIES') {
+  $recommendSlider = 'recommend-activities-slider';
   $recommend = [
     [
       'photo' => 'm_153923.jpg',
@@ -76,6 +78,7 @@ if (strtoupper($currentPage[0]) === 'HOTELS') {
     ],
   ];
 } elseif (strtoupper($currentPage[0]) === 'PACKAGES') {
+  $recommendSlider = 'recommend-packages-slider';
   $recommend = [
     [
       'photo' => 'packages/2005191127393D2N_Cheap_Private_Land_Tour_Package_in_Okinawa_big.jpg',
@@ -114,6 +117,7 @@ if (strtoupper($currentPage[0]) === 'HOTELS') {
     ],
   ];
 } elseif (strtoupper($currentPage[0]) === 'TICKETS') {
+  $recommendSlider = 'recommend-tickets-slider';
   $recommend = [
     [
       'photo' => 'tickets/1 Universal Studios Japan Globe-L.png',
@@ -151,46 +155,8 @@ if (strtoupper($currentPage[0]) === 'HOTELS') {
       'link' => 'javascript: void(0);',
     ],
   ];
-} elseif (strtoupper($currentPage[0]) === 'ACTIVITIES') {
+} 
 
-  $recommend = [
-    [
-      'photo' => 'm_153923.jpg',
-      'title' => '1-Day Kyoto Tour',
-      'desc' => 'Recommended for people on the first trip to Kyoto!',
-      'price' => '$ 170.00 CAD ',
-      'link' => 'javascript: void(0);',
-    ],
-    [
-      'photo' => 'A19J01901-01.jpg',
-      'title' => 'Ghibli Museum and Ghibli Film Appreciation Bus Tour ',
-      'desc' => 'This hugely popular bus tour',
-      'price' => '$ 230.00 CAD ',
-      'link' => 'javascript: void(0);',
-    ],
-    [
-      'photo' => 'Ghibli_Grand_Warehouse.png',
-      'title' => 'Ghibli Park Hotel Stay and 2nd Day Park Admission Package',
-      'desc' => 'Popular package!',
-      'price' => '$ 180.00 CAD ',
-      'link' => 'javascript: void(0);',
-    ],
-    [
-      'photo' => 'A19JFUJIHAKO-02.jpg',
-      'title' => 'Mt. Fuji & Hakone 1-Day Tour',
-      'desc' => 'Must join from Tokyo',
-      'price' => '$ 180.00 CAD',
-      'link' => 'javascript: void(0);',
-    ],
-    [
-      'photo' => 'A99JN01S1-03.jpg',
-      'title' => 'Nikko World Heritage 1-Day Tour',
-      'desc' => 'Tokyo departure',
-      'price' => '$ 160.00 CAD',
-      'link' => 'javascript: void(0);',
-    ],
-  ];
-}
 ?>
 <div class="bg-white">
   <div class="container">
@@ -199,7 +165,7 @@ if (strtoupper($currentPage[0]) === 'HOTELS') {
         <div class="pb-2"><?php echo getTS('_JTBRecommended', $lang, $mlangs); ?></div>
       </div>
       <div class="item">
-        <ul id="blog-slider" class="content-slider">
+        <ul id="<?php echo $recommendSlider; ?>" class="content-slider">
           <?php
           foreach ($recommend as $key => $item) {
             $image = '/application/images/recommend/' . $item['photo'];
@@ -230,7 +196,7 @@ if (strtoupper($currentPage[0]) === 'HOTELS') {
                 ?>
                   <div class="pt-2 px-3 pb-3">
                     <div class="fs-8 text-secondary">Form</div>
-                    <div class="fs-7 fw-bold text-info"><?php echo $item['price']; ?></div>
+                    <div class="fs-7 fw-bold text-primary"><?php echo $item['price']; ?></div>
                   </div>
                 <?php
                 }
