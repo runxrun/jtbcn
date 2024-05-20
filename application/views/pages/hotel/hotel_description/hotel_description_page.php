@@ -144,8 +144,26 @@
                         </div>
                     </div>
                 </div>
+                <div class="p-3">
+                    <div class="border">Map
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+
             </div>
         </div>
+
     </div>
 
 
