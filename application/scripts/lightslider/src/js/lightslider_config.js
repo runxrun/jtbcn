@@ -74,7 +74,6 @@ $(document).ready(function() {
         ]
     });
 
-    
     $("#recommend-packages-slider").lightSlider({
         loop:true,
         keyPress:true,
@@ -112,7 +111,6 @@ $(document).ready(function() {
         ]
     });
 
-    
     $("#recommend-tickets-slider").lightSlider({
         loop:true,
         keyPress:true,

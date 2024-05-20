@@ -1,5 +1,5 @@
 <?php
-
+$recommendTicketName = 'recommend-tickets-slider';
 $recommend_ticket = [
   [
     'photo' => 'tickets/1 Universal Studios Japan Globe-L.png',

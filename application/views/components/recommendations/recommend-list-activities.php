@@ -1,5 +1,5 @@
 <?php
-
+$recommendActivityName = 'recommend-activities-slider';
 $recommend_activity = [
   [
     'photo' => 'm_153923.jpg',

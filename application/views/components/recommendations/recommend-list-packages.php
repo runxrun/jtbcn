@@ -1,5 +1,5 @@
 <?php
-
+$recommendPackageName = 'recommend-packages-slider';
 $recommend_package = [
   [
     'photo' => 'packages/2005191127393D2N_Cheap_Private_Land_Tour_Package_in_Okinawa_big.jpg',
