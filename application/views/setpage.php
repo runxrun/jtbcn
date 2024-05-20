@@ -42,6 +42,8 @@ switch (strtoupper($currentPage[0])) {
       $thisPage = '/pages/hotel/hotel_search/hotel_search_page.php';
     } elseif (strtoupper($currentPage[1]) === "RESULT") {
       $thisPage = '/pages/hotel/hotel_result/hotel_result_page.php';
+    } elseif (strtoupper($currentPage[1]) === "DESCRIPTION") {
+      $thisPage = '/pages/hotel/hotel_description/hotel_description_page.php';
     } else {
       $thisPage = '/pages/filenotfound/filenotfound_page.php';
     }

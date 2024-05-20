@@ -5,16 +5,12 @@
       <div class="position-relative bg-white shadow-sm rounded-1 border-bottom" style="z-index: 2;">
         <?php include(__DIR__ . '/../../../includes/search-hotel.php'); ?>
         <?php include(__DIR__ . '/../../../includes/filter-hotel.php'); ?>
-
-
-
-
       </div>
     </div>
   </div>
 </div>
 
-<div class=" bg-light">
+<div class="bg-light">
   <div class="container pb-4">
     <div class="py-2">
       <div class="row gy-2 gx-3">
