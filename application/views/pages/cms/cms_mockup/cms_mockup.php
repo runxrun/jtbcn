@@ -23,7 +23,7 @@ $data_a = '
 
 $data_b = '
   <div>
-  <img src="http://jtbcn/application/images/banners/07102020_large_slider_07.jpg" class="img-fluid">
+  <img src="/application/images/banners/07102020_large_slider_07.jpg" class="img-fluid">
   </div>
   <br>
   <p>
@@ -61,7 +61,7 @@ $data_a_jp = '
 
 $data_b_jp = '
   <div>
-  <img src="http://jtbcn/application/images/banners/07102020_large_slider_07.jpg" class="img-fluid">
+  <img src="/application/images/banners/07102020_large_slider_07.jpg" class="img-fluid">
   </div>
   <br>
   <p>

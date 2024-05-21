@@ -3,8 +3,8 @@ $font-normal: "Open Sans", "Noto Sans JP", Arial;
 $color-info: #62c1ce;
 $color-jtb: #cc0000;
 $color-secondary: #6c757d;
-$color-star: #FF9900;
-$color-identity: #FF9900;
+$color-star: #ff9900;
+$color-identity: #ff9900;
 
 body {
   font-family: $font-normal;
@@ -328,13 +328,13 @@ body {
   }
 }
 
-
 .rn-border-start {
-  border-left: 1px solid #dee2e6
+  border-left: 1px dashed #dee2e6;
 }
 
 @media only screen and (max-width: 992px) {
   .rn-border-start {
-      border-left:0
+    border-left: 0;
+    border-top: 1px dashed #dee2e6;
   }
 }

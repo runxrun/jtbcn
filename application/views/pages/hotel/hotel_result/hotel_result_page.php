@@ -60,7 +60,8 @@
     </div>
 
     <?php
-    for ($i = 1; $i <= 1; $i++) {
+    $linkToDescription = '/hotels/description/downtown-osaka-walking-and-local-food-tour/TUEyMzAxMDAwMDQw';
+    for ($i = 1; $i <= 3; $i++) {
     ?>
       <div class="pt-3">
         <div class="border bg-white rounded-2">
@@ -68,7 +69,7 @@
             <div class="col-12 col-md-4 col-lg-3">
               <div class="p-3">
                 <div class="rn-imgcover-center rounded-2" style="background-image: url('/application/images/recommend/hotels/1115906_16032715390041097261.jpg');">
-                  <a href="<?php echo '/hotels/description/downtown-osaka-walking-and-local-food-tour/TUEyMzAxMDAwMDQw' . $getURLLang; ?>" class="d-flex">
+                  <a href="<?php echo $linkToDescription . $getURLLang; ?>" class="d-flex">
                     <img src="/application/images/image-ratio-4-3.gif" class="w-100">
                   </a>
                 </div>
@@ -78,9 +79,9 @@
               <div class="col-12 col-lg-8 p-3">
                 <div class="row justify-content-between">
                   <div class="col-9 col-lg-10">
-                    <div class="row align-items-center">
+                    <div class="row g-3 align-items-center">
                       <div class="col-auto">
-                        <a href="javascript: void(0);" class="h4 text-decoration-none text-dark text-sp fw-bold">
+                        <a href="<?php echo $linkToDescription . $getURLLang; ?>" class="h4 text-decoration-none text-dark text-sp fw-bold">
                           Best Western Osaka Tsukamoto
                         </a>
                       </div>
@@ -119,7 +120,9 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col pt-3 pb-3"><a href="javascript:void(0);" class="text-secondary fs-8"> View hotel details </a></div>
+                  <div class="col pt-3 pb-3">
+                    <a href="<?php echo $linkToDescription . $getURLLang; ?>" class="text-secondary fs-8"> View hotel details </a>
+                  </div>
                 </div>
               </div>
               <div class="col-12 col-lg-4 pb-3 rn-border-start">
@@ -151,7 +154,7 @@
                   </div>
                 </div>
                 <div class="pt-3 px-3 ">
-                  <button target="_blank" class="btn py-2 btn-sm w-100 btn-primary">
+                  <button target="_blank" class="btn py-2 btn-sm w-100 btn-primary" onclick="window.open('<?php echo $linkToDescription . $getURLLang; ?>','_parent')">
                     View Rates
                   </button>
                 </div>
@@ -462,7 +465,3 @@
         
         */
 ?>
-
-
-
-
