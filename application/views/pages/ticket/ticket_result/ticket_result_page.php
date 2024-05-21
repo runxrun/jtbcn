@@ -163,7 +163,7 @@
                     <div class="col-12 col-md-3 col-lg-3">
                         <div class="rn-imgcover-center rounded-2"
                             style="background-image: url('https://www.jtbtrip.com/ImageData/Place/keisei-skyliner-e-ticket-th--ma2403000001-general1.jpg');">
-                            <a href="<?php echo '/activities/description/downtown-osaka-walking-and-local-food-tour/TUEyMzAxMDAwMDQw' . $getURLLang; ?>"
+                            <a href="<?php echo '/tickets/description/keisei-skyliner/TUEyMzAxMDAwXcvb' . $getURLLang; ?>"
                                 class="d-flex">
                                 <img src="/application/images/image-ratio-4-3.gif" class="w-100">
                             </a>
@@ -171,41 +171,78 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-6">
                         <div>
-                            <div class="pb-2">
-                                <a href="<?php echo '/activities/description/downtown-osaka-walking-and-local-food-tour/TUEyMzAxMDAwMDQw' . $getURLLang; ?>"
-                                    class="fs-5 fw-bold text-dark text-decoration-none">
-                                    Keisei Skyliner【E-Ticket】【TH】
-                                </a>
+                            <div class="row">
+                                <div class="col-10">
+                                    <div class="pb-2">
+                                        <a href="<?php echo '/tickets/description/keisei-skyliner/TUEyMzAxMDAwXcvb' . $getURLLang; ?>"
+                                            class="fs-5 fw-bold text-dark text-decoration-none">
+                                            Keisei Skyliner【E-Ticket】【TH】
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <span class="pb-2 d-flex justify-space-end">
+                                        <div class="btn btn-danger btn-sm fs-9 text-white border-0">
+                                            Available </div>
+                                    </span>
+                                </div>
                             </div>
-                            <div class="pb-4 fs-7 text-secondary">
+
+                            <div class="pb-4 fs-6 text-secondary ">
                                 <span class="pb-2"><i class="fas fa-map-marker-alt"></i></span>
                                 Tokyo
                             </div>
-                        </div>
 
+                            <div>
+                                <div class="fs-6 fw-bold pb-2">KEISEI SKYLINER</div>
+                                <div class="fs-7">
+                                    ตั๋วสุดคุ้มที่ท่านสามารถเดินทางได้อย่างรวดเร็วและสะดวกสบาย ซึ่งเป็น
+                                    ตั๋วโดยสารรถด่วนพิเศษ Skyliner ที่เชื่อมต่อระหว่าง Narita Airport และ Tokyo และ
+                                    ตั๋วโดยสาร Tokyo Subway Ticket ที่ท่านสามารถจะขึ้นรถไฟใต้ดินได้ทุกสาย
+                                    โดยไม่จำกัดจำนวนเที่ยวภายใน Tokyo ได้ภายในระยะเวลา 24 ชั่วโมง 48 ชั่วโมง และ 72
+                                    ชั่วโมง...
 
-                    </div>
-                    <div class="col-12 col-md-3 col-lg-3 border-start">
-                        <div class="">
-                            <div class="pt-3 px-3 fs-8 text-secondary text-start text-md-center">
-                                Start From
+                                </div>
+                                <a href="javascript:void(0)" class="fs-8 py-2 fw-bold text-danger text-decoration-none"
+                                    onclick="window.open('/tickets/description/keisei-skyliner/TUEyMzAxMDAwXcvb')"> More
+                                    Detail</a>
                             </div>
-                            <div class="pt-0 px-3">
-                                <div class="text-title text-dark fw-bold text-start text-md-center">
-                                    <small class="pe-1 fs-6">THB</small>
-                                    <span class="ps-0 fs-4 fw-bold"> 1,425 </span>
+
+                            <div class="py-2">
+                                <div class="p-3 mb-0 rounded bg-light fs-7">
+                                    <b class="text-primary">[KSSLCP]
+                                    </b>
+                                    <b>Keisei Skyliner Coupon【E-Ticket】</b>
                                 </div>
                             </div>
-                            <div class="pt-2 px-3 text-start text-md-center">
-                                <div class="fs-8 text-secondary">
-                                    Room/Night (Included taxes &amp; fees)
+
+                            <div class=" mb-1 text-primary fw-bold fs-8 ">
+                                <a href="javascript:void(0)" class="text-decoration-none"
+                                    onclick="window.open('/tickets/description/keisei-skyliner/TUEyMzAxMDAwXcvb')"> View
+                                    Description </a>
+                                <b class="text-primary ng-star-inserted">[KSSLCP] </b>
+                                <b>Keisei Skyliner Coupon【E-Ticket】</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-3 border-start">
+                        <div class="py-4">
+                            <div class="pt-0 px-3">
+                                <div class=" text-secondary  text-start text-md-center">
+                                    <span class="ps-0 fs-7"> Price </span>
+                                </div>
+                            </div>
+                            <div class="pt-2 px-3">
+                                <div class="text-title text-dark fw-bold text-start text-md-center">
+                                    <small class="pe-1 fs-6">THB</small>
+                                    <span class="ps-0 fs-4 fw-bold"> 570.00 </span>
                                 </div>
                             </div>
                             <div class="pt-3 px-3">
-                                <button class="btn py-2 btn-sm w-100 btn-primary">View Rates</button>
+                                <button class="btn py-2 btn-sm w-100 btn-primary"
+                                    onclick="window.open('/tickets/description/keisei-skyliner/TUEyMzAxMDAwXcvb')">Select</button>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -214,38 +251,6 @@
         }
         ?>
 
-        <div class="">
-            <br>
-            <br>
-            <br>
-            <br>
-        </div>
 
-    </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="modalDesc" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-6 fw-bold">[2024] 1-Day Kyoto & Nara Tour (No
-                    Meals, Round-trip from
-                    Osaka)</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="pb-2 fs-7 text-secondary">
-                    Molestiae, nesciunt. Esse, molestiae quisquam dolorum ratione cum optio
-                    blanditiis
-                    ipsa rem nostrum? Iusto, nam iste neque doloremque dolores
-                    exercitationem! Architecto
-                    fugit cum nostrum error harum minima inventore amet voluptatum.
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-dark fs-7 rounded-1" data-bs-dismiss="modal">Close</button>
-            </div>
-        </div>
     </div>
 </div>
