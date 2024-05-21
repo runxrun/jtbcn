@@ -1,19 +1,40 @@
 <?php
 
-$banners_activities = [
-  ['image' => 'alberta-2297204_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
-  ['image' => 'pavilion-6023429_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => ''],
-];
+if (strtoupper($currentPage[0]) === "ACTIVITIES") {
+  $banners = [
+    ['image' => 'alberta-2297204_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
+    ['image' => 'pavilion-6023429_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => ''],
+  ];
+}
 
-?>
-<?php
+if (strtoupper($currentPage[0]) === "PACKAGES") {
+  $banners = [
+    ['image' => 'islands-7153472_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
+  ];
+}
 
-$banners_activities = [
-  ['image' => 'alberta-2297204_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
-  ['image' => 'pavilion-6023429_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => ''],
-];
+if (strtoupper($currentPage[0]) === "JRPASS") {
+  $banners = [
+    ['image' => 'shinkansen-5237269_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
+    ['image' => 'japan-3523393_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => ''],
+  ];
+}
 
-$selected_banners = $banners_activities;
+if (strtoupper($currentPage[0]) === "TICKETS") {
+  $banners = [
+    ['image' => 'usj-1914934_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
+  ];
+}
+
+if (strtoupper($currentPage[0]) === "HOTELS") {
+  $banners = [
+    ['image' => 'japan-1841199_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
+    ['image' => 'sakura-3381105_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => ''],
+    ['image' => 'kimono-1986487_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => ''],
+  ];
+}
+
+$selected_banners = $banners;
 
 ?>
 <div class="bg-white pb-4">
