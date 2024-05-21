@@ -22,35 +22,38 @@ if (strtoupper($currentPage[1]) == 'RESULT') {
 ?>
 
 <div class="p-4">
-  <div class="row g-3 align-items-end">
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="pb-1 fs-8 text-secondary"><?php echo getTS('_Destination', $lang, $mlangs); ?></div>
-      <div class="p-0">
-        <input type="text" class="<?php echo $inputStyle; ?>" placeholder="<?php echo getTS('_WhereAreYouGoing', $lang, $mlangs); ?>">
-      </div>
+    <div class="row g-3 align-items-end">
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="pb-1 fs-8 text-secondary"><?php echo getTS('_Destination', $lang, $mlangs); ?></div>
+            <div class="p-0">
+                <input type="text" class="<?php echo $inputStyle; ?>"
+                    placeholder="<?php echo getTS('_WhereAreYouGoing', $lang, $mlangs); ?>">
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="pb-1 fs-8 text-secondary"><?php echo getTS('_ServiceDate', $lang, $mlangs); ?></div>
+            <div class="p-0">
+                <button class="<?php echo $btnStyle; ?>">
+                    Tue 28 May 2024
+                </button>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="pb-1 fs-8 text-secondary"><?php echo getTS('_Travelers', $lang, $mlangs); ?></div>
+            <div class="p-0">
+                <button class="<?php echo $btnStyle; ?>">
+                    2 Adults, 0 Child
+                </button>
+            </div>
+        </div>
+        <div class="col-12 col-md-3 col-lg-2">
+            <div class="p-0">
+                <?php $goToResult = '/packages/result' . $getURLLang; ?>
+                <button class="<?php echo $searchHaveBorder; ?>"
+                    onclick="window.open('<?php echo $goToResult; ?>', '_self')">
+                    <?php echo getTS('_Search', $lang, $mlangs); ?>
+                </button>
+            </div>
+        </div>
     </div>
-    <div class="col-12 col-md-6 col-lg-4">
-      <div class="pb-1 fs-8 text-secondary"><?php echo getTS('_ServiceDate', $lang, $mlangs); ?></div>
-      <div class="p-0">
-        <button class="<?php echo $btnStyle; ?>">
-          Tue 28 May 2024
-        </button>
-      </div>
-    </div>
-    <div class="col-12 col-md-6 col-lg-3">
-      <div class="pb-1 fs-8 text-secondary"><?php echo getTS('_Travelers', $lang, $mlangs); ?></div>
-      <div class="p-0">
-        <button class="<?php echo $btnStyle; ?>">
-          2 Adults, 0 Child
-        </button>
-      </div>
-    </div>
-    <div class="col-12 col-md-3 col-lg-2">
-      <div class="p-0">
-        <button class="<?php echo $btnSearch; ?>">
-          <?php echo getTS('_Search', $lang, $mlangs); ?>
-        </button>
-      </div>
-    </div>
-  </div>
 </div>
