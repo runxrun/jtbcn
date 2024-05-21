@@ -174,7 +174,7 @@
                             <div class="row">
                                 <div class="col-10">
                                     <div class="pb-2">
-                                        <a href="<?php echo '/activities/description/downtown-osaka-walking-and-local-food-tour/TUEyMzAxMDAwMDQw' . $getURLLang; ?>"
+                                        <a href="<?php echo '/tickets/description/keisei-skyliner/TUEyMzAxMDAwXcvb' . $getURLLang; ?>"
                                             class="fs-5 fw-bold text-dark text-decoration-none">
                                             Keisei Skyliner【E-Ticket】【TH】
                                         </a>
@@ -228,6 +228,11 @@
                     <div class="col-12 col-md-3 col-lg-3 border-start">
                         <div class="py-4">
                             <div class="pt-0 px-3">
+                                <div class=" text-secondary  text-start text-md-center">
+                                    <span class="ps-0 fs-7"> Price </span>
+                                </div>
+                            </div>
+                            <div class="pt-2 px-3">
                                 <div class="text-title text-dark fw-bold text-start text-md-center">
                                     <small class="pe-1 fs-6">THB</small>
                                     <span class="ps-0 fs-4 fw-bold"> 570.00 </span>

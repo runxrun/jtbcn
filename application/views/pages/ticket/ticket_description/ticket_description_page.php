@@ -139,9 +139,9 @@
                                 </div>
                                 <div class="bg-light pt-2 p-2 my-2 w-100">
                                     <small>Total Price</small>
-                                    <h2 class="mt-1 mb-2"><b>THB 570.00</b></h2>
+                                    <div class="mt-1 mb-2 fw-bold fs-4">THB 570.00</div>
                                 </div>
-                                <button class="btn btn-primary w-100 p-3">
+                                <button class="btn btn-primary w-100 p-2">
                                     <span class="mat-button-wrapper"> Add to cart </span>
                                 </button>
                             </div>

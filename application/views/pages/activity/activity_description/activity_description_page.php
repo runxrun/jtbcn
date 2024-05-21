@@ -146,11 +146,11 @@
                                 </div>
                                 <div class="col-12 col-md-4">
                                     <span class="text-dark fw-bold pe-2">Style :</span>
-                                    <span class="> - </span>
+                                    <span class=""> - </span>
                                 </div>
-                                <div class=" col-12 col-md-4">
-                                        <span class="text-dark fw-bold pe-2">Service Type : </span>
-                                        <span class="text-secondary">Join Tour</span>
+                                <div class="col-12 col-md-4">
+                                    <span class="text-dark fw-bold pe-2">Service Type : </span>
+                                    <span class="text-secondary">Join Tour</span>
                                 </div>
                                 <div class="col-12 col-md-4">
                                     <span class="text-dark fw-bold pe-2">Period :</span>
@@ -204,22 +204,23 @@
                     <div class="col-12 col-lg-3 ">
                         <div class="border-start">
                             <div class=" bg-light p-3">
+                                <div class="pb-2 text-center">
+                                    <!----><span class="btn fs-9 fw-bold text-white py-1 btn btn-primary">
+                                        Available </span>
+                                    <!---->
+                                </div>
+                                <div class="pb-2 pt-2 text-center "><span class="fs-6 text-dark fw-bold"> THB
+                                    </span><span class="fs-5 text-dark fw-bold"> 6,969.20
+                                    </span>
+                                    <!---->
+                                    <!---->
+                                </div>
                                 <div class="pb-2 ">
                                     <button type="button" class="btn btn-primary fs-7 fw-bold w-100 mb-3">
                                         Book Now
                                     </button>
                                 </div>
-                                <div class="pb-2 text-center "><span class="fs-6 text-primary fw-bold"> THB
-                                    </span><span class="fs-5 text-primary fw-bold"> 6,969.20
-                                    </span>
-                                    <!---->
-                                    <!---->
-                                </div>
-                                <div class="pb-2 text-center">
-                                    <!----><span class="btn fs-9 fw-bold text-white py-1 btn btn-success">
-                                        Available </span>
-                                    <!---->
-                                </div>
+
                             </div>
                         </div>
                     </div>
