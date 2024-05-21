@@ -87,6 +87,17 @@ switch (strtoupper($currentPage[0])) {
       $thisPage = '/pages/filenotfound/filenotfound_page.php';
     }
     break;
+  case "CMS" : 
+    if (
+      $currentPage[2] === "TUEyMzAxMDAAweEd" ||
+      $currentPage[2] === "TUEyMzExIPOESaWL" 
+    ) {
+      $thisPage = '/pages/cms/cms_description/cms_description_page.php';
+    } else {
+      $thisPage = '/pages/filenotfound/filenotfound_page.php';
+    }
+    // cms_description_page.php
+    break;
   case "AUTH":
     if (strtoupper($currentPage[1]) === "SIGN-IN") {
       $thisPage = '/pages/authorization/signin/signin_page.php';
