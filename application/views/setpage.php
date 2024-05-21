@@ -21,6 +21,8 @@ switch (strtoupper($currentPage[0])) {
       $thisPage = '/pages/activity/activity_search/activity_search_page.php';
     } elseif (strtoupper($currentPage[1]) === "RESULT") {
       $thisPage = '/pages/activity/activity_result/activity_result_page.php';
+    } elseif (strtoupper($currentPage[1]) === "DESCRIPTION") {
+      $thisPage = '/pages/activity/activity_description/activity_description_page.php';
     } else {
       $thisPage = '/pages/filenotfound/filenotfound_page.php';
     }
@@ -63,6 +65,8 @@ switch (strtoupper($currentPage[0])) {
       $thisPage = '/pages/ticket/ticket_search/ticket_search_page.php';
     } elseif (strtoupper($currentPage[1]) === "RESULT") {
       $thisPage = '/pages/ticket/ticket_result/ticket_result_page.php';
+    } elseif (strtoupper($currentPage[1]) === "DESCRIPTION") {
+      $thisPage = '/pages/ticket/ticket_description/ticket_description_page.php';
     } else {
       $thisPage = '/pages/filenotfound/filenotfound_page.php';
     }
