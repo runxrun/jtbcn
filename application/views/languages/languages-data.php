@@ -73,7 +73,11 @@ $mlangs = [
   '_Promotion' => ['en' => 'Promotion', 'jp' => 'プロモーション'],
   '_Facilities' => ['en' => 'Facilities', 'jp' => '設備'],
   '_Description' => ['en' => 'Description', 'jp' => '説明'],
-
+  '_Style' => ['en' => 'Style', 'jp' => 'スタイル'],
+  '_ServiceType' => ['en' => 'Service Type', 'jp' => 'サービスの種類'],
+  '_SortByPrice' => ['en' => 'Sort by price', 'jp' => '価格順に並べ替える'],
+  '_LowerPriceFirst' => ['en' => 'Lowest price first', 'jp' => '最安値から'],
+  '_HigherPriceFirst' => ['en' => 'Highest price first', 'jp' => '一番高い値段から'],
   '_Location' => ['en' => 'Location', 'jp' => '位置'],
   '_HotelStyle' => ['en' => 'Hotel Style', 'jp' => 'ホテルスタイル'],
   '_Clear' => ['en' => 'Clear', 'jp' => 'クリアー'],
@@ -85,4 +89,8 @@ $mlangs = [
   '_Nagano' => ['en' => 'Nagano', 'jp' => '長野県'],
   '_Fujikawaguchiko' => ['en' => 'Fujikawaguchiko', 'jp' => '富士河口湖'],
   '_Narita' => ['en' => 'Narita', 'jp' => '成田'],
+  '_RecommendedActivities' => ['en'=>'Recommended Activities', 'jp' => '推奨の活動内容'],
+  '_RecommendedPackages' => ['en'=>'Recommended Packages', 'jp' => '推奨のパッケージ'],
+  '_RecommendedTickets' => ['en'=>'Recommended Tickets', 'jp' => '推奨のチケット'],
+  '_RecommendedHotels' => ['en'=>'Recommended Hotels', 'jp' => '推奨のホテル'],
 ];

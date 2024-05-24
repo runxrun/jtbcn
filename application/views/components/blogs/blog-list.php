@@ -1,6 +1,4 @@
 <?php
-
-
 $recommend = [
   [
     'photo' => 'tgsubmenu1s-ma21020029-japan-information.jpg',
@@ -38,18 +36,12 @@ $recommend = [
     'link' => '/blog/japan-information/TUEyMzA0MDAxMg',
   ],
 ];
-
 ?>
-
-
-
-
 <div class="bg-white">
   <div class="container py-4">
     <div class="pb-3 fs-5 fw-bold text-dark">
       <div class="pb-2"><?php echo getTS('_Blog', $lang, $mlangs); ?></div>
     </div>
-
     <div class="item">
       <ul id="blog-slider" class="content-slider">
         <?php
@@ -77,12 +69,5 @@ $recommend = [
         ?>
       </ul>
     </div>
-
-
-
-
-
-
-
   </div>
 </div>

@@ -3,8 +3,10 @@
     <div class="container py-4">
       <div class="bg-primary position-absolute top-0 start-0 w-100 rn-hcal-sm" style="z-index: 1"></div>
       <div class="position-relative bg-white shadow-sm rounded-1 border-bottom" style="z-index: 2;">
-        <?php include(__DIR__ . '/../../../includes/search-hotel.php'); ?>
-        <?php include(__DIR__ . '/../../../includes/filter-hotel.php'); ?>
+        <?php 
+        include(__DIR__ . '/../../../includes/search-hotel.php'); 
+        include(__DIR__ . '/../../../includes/filter-hotel.php'); 
+        ?>
       </div>
     </div>
   </div>

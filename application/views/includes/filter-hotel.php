@@ -155,5 +155,33 @@
         </ul>
       </div>
     </div>
+    <div class="col-12 col-sm-auto">
+      <div class="dropdown pb-1 px-3">
+        <button class="btn text-start border-0 w-100 fs-7 text-dark p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <div class="d-flex">
+            <div class="pe-2"><i class="fas fa-dollar-sign"></i></div>
+            <div class="pe-2"><?php echo getTS('_SortByPrice', $lang, $mlangs); ?></div>
+          </div>
+        </button>
+        <ul class="dropdown-menu mt-2 rounded-1" Style="width:250px;">
+          <li class="py-1 px-3">
+            <div class="form-check">
+              <input class="form-check-input fs-7" type="radio" value="" name="chkSortPrice" id="lowerPrice" checked>
+              <label class="form-check-label fs-7 text-dark ps-1" for="lowerPrice">
+                <?php echo getTS('_LowerPriceFirst', $lang, $mlangs); ?>
+              </label>
+            </div>
+          </li>
+          <li class="py-1 px-3">
+            <div class="form-check">
+              <input class="form-check-input fs-7" type="radio" value="" name="chkSortPrice" id="higherPrice">
+              <label class="form-check-label fs-7 text-dark ps-1" for="higherPrice">
+                <?php echo getTS('_HigherPriceFirst', $lang, $mlangs); ?>
+              </label>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>

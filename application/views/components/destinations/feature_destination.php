@@ -1,13 +1,13 @@
 <?php
 $toppage = [
-  ['pic' => 'himeji-3424658_1920.jpg', 'name' => 'Himeji, Japan', 'name_jp' => '姫路, 日本' ],
-  ['pic' => 'Whistler.jpg', 'name' => 'Whistler, Canada', 'name_jp' => 'カナダ' ],
-  ['pic' => 'banff300.jpg', 'name' => 'Alberta, Canada', 'name_jp' => 'カナダ' ],
-  ['pic' => 'TORONTO.png', 'name' => 'Toronto, Canada', 'name_jp' => 'カナダ' ],
-  ['pic' => 'NIAGARA.jpg', 'name' => 'Niagara, Canada', 'name_jp' => 'カナダ' ],
-  ['pic' => 'Montreal-300x300.jpg', 'name' => 'Montreal, Canada', 'name_jp' => 'カナダ' ],
-  ['pic' => 'YELLOWKNIFE.jpg', 'name' => 'Yellowknife, Canada', 'name_jp' => 'カナダ' ],
-  ['pic' => 'Vancouver300.jpg', 'name' => 'Vancouver, Canada', 'name_jp' => 'カナダ' ],
+  ['pic' => 'himeji-3424658_1920.jpg', 'name' => 'Himeji, Japan', 'name_jp' => '姫路, 日本', 'link' => 'japan-himeji/TUEAbcDefGhijK' ],
+  ['pic' => 'Whistler.jpg', 'name' => 'Whistler, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-whistler/TUEAbcDefGhijK' ],
+  ['pic' => 'banff300.jpg', 'name' => 'Alberta, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-alberta/TUEAbcDefGhijK' ],
+  ['pic' => 'TORONTO.png', 'name' => 'Toronto, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-toronto/TUEAbcDefGhijK' ],
+  ['pic' => 'NIAGARA.jpg', 'name' => 'Niagara, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-niagara/TUEAbcDefGhijK' ],
+  ['pic' => 'Montreal-300x300.jpg', 'name' => 'Montreal, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-montreal/TUEAbcDefGhijK' ],
+  ['pic' => 'YELLOWKNIFE.jpg', 'name' => 'Yellowknife, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-yellowknife/TUEAbcDefGhijK' ],
+  ['pic' => 'Vancouver300.jpg', 'name' => 'Vancouver, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-vancouver/TUEAbcDefGhijK' ],
 ];
 ?>
 <div class="bg-white">
@@ -29,9 +29,10 @@ $toppage = [
         foreach ($toppage as $key => $item) {
           if ($key == 0) {
             $image = '/application/images/toppage/' . $item['pic'];
+            $linkUrl = '/destinations/' . $item['link'].$getURLLang;
         ?>
             <div class="w-100 bg-secondary rn-imgcover-center rounded-1" style="background-image: url('<?php echo $image; ?>'); height: calc(100% - 1.8rem);">
-              <a href="/" class="d-flex d-lg-none">
+              <a href="<?php echo $linkUrl; ?>" class="d-flex h-100">
                 <img src="/application/images/image-ratio-16-9.gif" class="w-100">
               </a>
             </div>
@@ -49,10 +50,13 @@ $toppage = [
           foreach ($toppage as $key => $item) {
             if ($key >= 2 && $key < 8) {
               $image = '/application/images/toppage/' . $item['pic'];
+              $linkUrl = '/destinations/' . $item['link'].$getURLLang;
           ?>
               <div class="col-6 col-sm-4 col-lg-4">
                 <div class="rounded-1 rn-imgcover-center" style="background-image: url('<?php echo $image; ?>');">
+                <a href="<?php echo $linkUrl; ?>" class="d-flex">
                   <img src="/application/images/image-ratio-4-3.gif" class="w-100">
+                  </a>
                 </div>
                 <div class="pt-2 fs-7 text-secondary w-100 text-truncate">
                   <?php echo $item['name']; ?>

@@ -143,6 +143,13 @@ switch (strtoupper($currentPage[0])) {
       $thisPage = '/pages/blog/blog_page.php';
     }
     break;
+  case "DESTINATIONS":
+    if ($currentPage[2] === 'TUEAbcDefGhijK') {
+      $thisPage = '/pages/destinations/city_destination/city_page.php';
+    } else {
+      $thisPage = '/pages/blog/blog_page.php';
+    }
+    break;
   case "BROCHURE":
     $thisPage = '/pages/brochure/brochure_page.php';
     break;
