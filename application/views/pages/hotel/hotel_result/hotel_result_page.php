@@ -3,9 +3,9 @@
     <div class="container py-4">
       <div class="bg-primary position-absolute top-0 start-0 w-100 rn-hcal-sm" style="z-index: 1"></div>
       <div class="position-relative bg-white shadow-sm rounded-1 border-bottom" style="z-index: 2;">
-        <?php 
-        include(__DIR__ . '/../../../includes/search-hotel.php'); 
-        include(__DIR__ . '/../../../includes/filter-hotel.php'); 
+        <?php
+        include(__DIR__ . '/../../../includes/search-hotel.php');
+        include(__DIR__ . '/../../../includes/filter-hotel.php');
         ?>
       </div>
     </div>
@@ -14,49 +14,72 @@
 
 <div class="bg-light">
   <div class="container pb-4">
+
+
     <div class="py-2">
-      <div class="row gy-2 gx-3">
-        <div class="col-auto">
-          <div class="d-flex">
-            <div class="pe-2">
-              <div class="fs-7 text-dark text-center">
-                <i class="fas fa-search"></i>
+      <div class="row gy-3 gx-2 justify-content-between">
+        <div class="col-12 col-lg-9">
+          <div class="row gy-2 gx-3">
+            <div class="col-auto">
+              <div class="d-flex">
+                <div class="pe-2">
+                  <div class="fs-7 text-dark text-center">
+                    <i class="fas fa-search"></i>
+                  </div>
+                </div>
+                <div class="ps-1 pe-2">
+                  <div class="pe-3 fs-7 text-secondary">
+                    Found 3 Hotels
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="ps-1 pe-2">
-              <div class="pe-3 fs-7 text-secondary">
-                Found 4 Activities in Osaka
+            <div class="col-auto">
+              <div class="d-flex">
+                <div class="pe-2">
+                  <div class="fs-7 text-dark text-center">
+                    <i class="fas fa-calendar-alt"></i>
+                  </div>
+                </div>
+                <div class="ps-1 pe-2">
+                  <div class="pe-3 fs-7 text-secondary">
+                    28 May 2024 - 29 May 2024
+                  </div>
+                </div>
               </div>
+            </div>
+            <div class="col-auto">
+              <div class="d-flex">
+                <div class="pe-2">
+                  <div class="fs-7 text-dark text-center">
+                    <i class="fas fa-user"></i>
+                  </div>
+                </div>
+                <div class="ps-1 pe-2">
+                  <div class="pe-3 fs-7 text-secondary">
+                    1Rooms, 2 Adults, 1 Child
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-auto">
+              <button class="btn border-0 p-0 d-flex">
+                <div class="pe-2">
+                  <div class="fs-7 text-dark text-center">
+                    <i class="fas fa-map"></i>
+                  </div>
+                </div>
+                <div class="ps-1 pe-2">
+                  <div class="pe-3 fs-7 text-secondary text-decoration-underline">
+                    View map
+                  </div>
+                </div>
+              </button>
             </div>
           </div>
         </div>
-        <div class="col-auto">
-          <div class="d-flex">
-            <div class="pe-2">
-              <div class="fs-7 text-dark text-center">
-                <i class="fas fa-calendar-alt"></i>
-              </div>
-            </div>
-            <div class="ps-1 pe-2">
-              <div class="pe-3 fs-7 text-secondary">
-                28 May 2024 - 29 May 2024
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-auto">
-          <div class="d-flex">
-            <div class="pe-2">
-              <div class="fs-7 text-dark text-center">
-                <i class="fas fa-user"></i>
-              </div>
-            </div>
-            <div class="ps-1 pe-2">
-              <div class="pe-3 fs-7 text-secondary">
-                1Rooms, 2 Adults, 1 Child
-              </div>
-            </div>
-          </div>
+        <div class="col-12 col-lg-3">
+          <input type="text" class="form-control py-2 px-3 rounded-1 fs-8" placeholder="Filter by Hotel Name">
         </div>
       </div>
     </div>
@@ -70,7 +93,7 @@
           <div class="row g-0">
             <div class="col-12 col-md-4 col-lg-3">
               <div class="p-3">
-                <div class="rn-imgcover-center rounded-2" style="background-image: url('/application/images/recommend/hotels/1115906_16032715390041097261.jpg');">
+                <div class="rn-imgcover-center rounded-2" style="background-image: url('/application/images/recommend/hotels/6e49dada27c8000bb92d5b314f848036.webp');">
                   <a href="<?php echo $linkToDescription . $getURLLang; ?>" class="d-flex">
                     <img src="/application/images/image-ratio-4-3.gif" class="w-100">
                   </a>
@@ -81,7 +104,7 @@
               <div class="col-12 col-lg-8 p-3">
                 <div class="row justify-content-between">
                   <div class="col-9 col-lg-10">
-                    <div class="row g-3 align-items-center">
+                    <div class="row gy-2 gx-3 align-items-center">
                       <div class="col-auto">
                         <a href="<?php echo $linkToDescription . $getURLLang; ?>" class="h4 text-decoration-none text-dark text-sp fw-bold">
                           Best Western Osaka Tsukamoto
@@ -95,7 +118,7 @@
                         </div>
                       </div>
                       <div class="col-12">
-                        <div class="pt-1 pb-3 fw-bold text-primary fs-7"> Glodok, Jakarta </div>
+                        <div class="pb-3 fw-bold text-primary fs-7"> Best Western  </div>
                       </div>
                     </div>
                   </div>
@@ -169,11 +192,8 @@
     }
     ?>
 
-    <div class="">
-      <br>
-      <br>
-      <br>
-      <br>
+    <div class="pt-4 pb-5">
+      <?php include(__DIR__ . '/../../../includes/pages-navigator.php'); ?>      
     </div>
 
   </div>

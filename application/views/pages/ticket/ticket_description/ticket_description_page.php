@@ -8,61 +8,58 @@
     </div>
   </div>
 </div>
-
 <div class="bg-light">
-  <div class="container py-3">
+  <div class="container">
+    <?php include(__DIR__ . '/../../../includes/breadcrumb-services.php'); ?>
 
 
-    <div class="row gy-2 gx-3 align-items-center">
-      <div class="col-auto">
-        <div class="fs-4 text-dark fw-bold">
-          Keisei Skyliner (E-Ticket) 【TH】
+
+
+    <div class="bg-white border-bottom rounded overflow-hidden">
+      <div class="row g-0">
+        <div class="col-12 col-lg-6">
+          <div class="overflow-hidden">
+            <img src="https://www.jtbtrip.com/ImageData/Place/keisei-skyliner-e-ticket-th--ma2403000001-general1.jpg" class="w-100">
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="p-4">
+
+            <div class="row g-3">
+              <div class="col-12">
+                <div class="fs-4 fw-bold text-dark">
+                  Keisei Skyliner (E-Ticket) 【TH】
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="d-flex">
+                  <div class="px-1 fs-7 text-secondary">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="px-2 fs-7 text-secondary">
+                    Osaka, Japan
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="fs-7 text-secondary">
+                  Great value tickets that allow you to travel quickly and comfortably,
+                  which are the Skyliner limited express ticket that connects Narita Airport
+                  and Tokyo and the Tokyo Subway Ticket that allows you to ride all subway lines.
+                  Unlimited number of trips within Tokyo within 24 hours, 48 hours, and 72 hours.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="d-flex pt-3 pt-sm-1 pb-1">
-      <div class="px-1 fs-7 text-secondary">
-        <i class="fas fa-map-marker-alt"></i>
-      </div>
-      <div class="px-2 fs-7 text-secondary">
-        Osaka, Japan
-      </div>
-    </div>
-
-
-    <div class="pt-4">
-      <div class="bg-white border-bottom rounded overflow-hidden">
-        <div class="row g-0">
-          <div class="col-12 col-lg-6">
-            <div class="overflow-hidden">
-              <img src="https://www.jtbtrip.com/ImageData/Place/keisei-skyliner-e-ticket-th--ma2403000001-general1.jpg" class="w-100">
-            </div>
-          </div>
-          <div class="col-12 col-lg-6">
-            <div class="py-3 px-4">
-              <div class="pb-2 fs-5 text-dark fw-bold">
-                Description
-              </div>
-              <div class="pb-2 fs-7 text-secondary">
-                Great value tickets that allow you to travel quickly and comfortably,
-                which are the Skyliner limited express ticket that connects Narita Airport
-                and Tokyo and the Tokyo Subway Ticket that allows you to ride all subway lines.
-                Unlimited number of trips within Tokyo within 24 hours, 48 hours, and 72 hours.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <?php
     for ($ticket = 1; $ticket <= 2; $ticket++) {
     ?>
       <div class="pt-4">
-
         <div class="border-top border-3 border-primary">
         </div>
-
         <button class="btn bg-white rounded-0 w-100 text-start border p-3" data-bs-toggle="collapse" data-bs-target="<?php echo '#service' . $ticket; ?>">
           <div class="d-flex justify-content-between">
             <div class="p-0">
@@ -86,7 +83,6 @@
             </div>
           </div>
         </button>
-
         <div class="collapse bg-white border-start border-end border-bottom" id="<?php echo 'service' . $ticket; ?>">
           <div class="row g-0">
             <div class="col-12 d-flex flex-wrap">

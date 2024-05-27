@@ -3,9 +3,9 @@
     <div class="container py-4">
       <div class="bg-primary position-absolute top-0 start-0 w-100 rn-hcal-sm" style="z-index: 1"></div>
       <div class="position-relative bg-white shadow-sm rounded-1 border-bottom" style="z-index: 2;">
-        <?php 
-        include(__DIR__ . '/../../../includes/search-activity.php'); 
-        include(__DIR__ . '/../../../includes/filter-activity.php'); 
+        <?php
+        include(__DIR__ . '/../../../includes/search-activity.php');
+        include(__DIR__ . '/../../../includes/filter-activity.php');
         ?>
       </div>
     </div>
@@ -23,7 +23,7 @@
         </div>
         <div class="col-auto">
           <div class="pe-3 fs-7 text-secondary">
-            Found 1 Activities in Osaka
+            Found 3 Activities in Osaka
           </div>
         </div>
         <div class="col-auto">
@@ -221,14 +221,9 @@
     <?php
     }
     ?>
-
-    <div class="">
-      <br>
-      <br>
-      <br>
-      <br>
+    <div class="pt-4 pb-5">
+      <?php include(__DIR__ . '/../../../includes/pages-navigator.php'); ?>      
     </div>
-
   </div>
 </div>
 

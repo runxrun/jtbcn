@@ -222,6 +222,11 @@ body {
   }
 }
 
+.btn.active {
+  color: #ffffff !important;
+  background-color: $color-jtb !important;
+}
+
 .btn-outline-rn {
   border: 1px solid #d7d7d7 !important;
   color: $color-secondary !important;
@@ -332,6 +337,11 @@ body {
       }
     }
   }
+}
+
+.rn-sticky {
+  position: sticky;
+  top: 20px
 }
 
 .rn-border-start {
