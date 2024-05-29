@@ -1,6 +1,7 @@
 <?php
 include('recommend-list-activities.php');
 include('recommend-list-packages.php');
+include('recommend-list-jrpass.php');
 include('recommend-list-tickets.php');
 include('recommend-list-hotels.php');
 ?>
@@ -18,6 +19,12 @@ include('recommend-list-hotels.php');
           <?php echo getTS('_RecommendedPackages', $lang, $mlangs); ?>
         </div>
         <?php include('recommend-html-package.php'); ?>
+      </div>
+      <div class="col-12">
+        <div class="pb-3 fs-5 fw-bold text-dark">
+          <?php echo getTS('_RecommendedJRPass', $lang, $mlangs); ?>
+        </div>
+        <?php include('recommend-html-jrpass.php'); ?>
       </div>
       <div class="col-12">
         <div class="pb-3 fs-5 fw-bold text-dark">
