@@ -1,6 +1,6 @@
 <?php
 $toppage = [
-  ['pic' => 'himeji-3424658_1920.jpg', 'name' => 'Himeji, Japan', 'name_jp' => '姫路, 日本', 'link' => 'japan-himeji/TUEAbcDefGhijK' ],
+  ['pic' => 'osaka-6023328_1280.jpg', 'name' => 'Osaka, Japan', 'name_jp' => '姫路, 日本', 'link' => 'japan-osaka/TUEAbcDefGhijK' ],
   ['pic' => 'Whistler.jpg', 'name' => 'Whistler, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-whistler/TUEAbcDefGhijK' ],
   ['pic' => 'banff300.jpg', 'name' => 'Alberta, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-alberta/TUEAbcDefGhijK' ],
   ['pic' => 'TORONTO.png', 'name' => 'Toronto, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-toronto/TUEAbcDefGhijK' ],

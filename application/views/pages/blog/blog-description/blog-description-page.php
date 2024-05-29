@@ -11,16 +11,18 @@
     </nav>
     <div class="border-top border-3 border-primary py-4">
       <div class="fs-5 fw-bold text-dark">
-        Shoyu Ramen - Recipe from Bizentei - 醤油ラーメン
-        
+        Shoyu Ramen - Recipe from Bizentei - 醤油ラーメン        
       </div>
     </div>
-
     <div class="row g-4">
       <div class="col-12 col-lg-9">
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse harum consectetur optio, ducimus repudiandae a voluptate eaque! Possimus quis commodi soluta voluptatem doloribus vitae tempora sint adipisci. Temporibus, dolorum repudiandae.
-          Distinctio animi, iure porro voluptatum quasi dignissimos, dicta doloribus doloremque laboriosam maiores est omnis quo sapiente fugit tempore provident ipsum ullam illum asperiores! Eos aspernatur totam illo fugit, tempora natus?
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse harum consectetur optio, 
+          ducimus repudiandae a voluptate eaque! Possimus quis commodi soluta voluptatem doloribus 
+          vitae tempora sint adipisci. Temporibus, dolorum repudiandae.
+          Distinctio animi, iure porro voluptatum quasi dignissimos, dicta doloribus doloremque 
+          laboriosam maiores est omnis quo sapiente fugit tempore provident ipsum ullam illum 
+          asperiores! Eos aspernatur totam illo fugit, tempora natus?
         </p>
         <br>
         <div>
@@ -29,10 +31,14 @@
         <br>
         <br>
         <p>
-          Totam deserunt harum sunt, earum possimus, eum voluptatibus nulla fugiat porro ea consectetur veritatis officiis. Qui unde sequi maxime enim explicabo placeat commodi id! Eum possimus facere in laboriosam voluptatem.
+          Totam deserunt harum sunt, earum possimus, eum voluptatibus nulla fugiat porro ea consectetur 
+          veritatis officiis. Qui unde sequi maxime enim explicabo placeat commodi id! Eum possimus 
+          facere in laboriosam voluptatem.
         </p>
         <p>
-          Libero amet voluptatibus obcaecati eaque dolor officia vel nulla nemo magnam nesciunt! Placeat quae temporibus eos debitis, dolor inventore consequatur numquam doloremque quas assumenda ex modi impedit, labore facilis officia!
+          Libero amet voluptatibus obcaecati eaque dolor officia vel nulla nemo magnam nesciunt! Placeat 
+          quae temporibus eos debitis, dolor inventore consequatur numquam doloremque quas assumenda 
+          ex modi impedit, labore facilis officia!
         </p>
       </div>
       <div class="col-12 col-lg-3">
@@ -57,3 +63,7 @@
 
   </div>
 </div>
+
+<?php
+include_once(__DIR__ . '/../../../components/banners/banner-bo.php');
+?>

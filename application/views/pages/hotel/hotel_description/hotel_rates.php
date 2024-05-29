@@ -227,11 +227,11 @@
                    -->
 
                     <div class="fs-6 fw-bold text-primary">
-                      THB 1,045
+                      CAD 38.84
                       <span class="fs-9 text-nowrap"> Avg/Night </span>
                     </div>
                     <div class="pt-0 fs-9 text-secondary">
-                      THB 1,045
+                      CAD 38.84
                       <span class="text-nowrap"> Total Per Room </span>
                     </div>
                     <div class="py-2 fs-9 text-secondary">
@@ -283,7 +283,7 @@
                 </div>
                 <div class="pb-1 col-auto">
                   <div class="fs-5 text-dark fw-bold text-title">
-                    <small class="pe-0"> THB </small><span> 1,045 </span>
+                    <small class="pe-0"> CAD </small><span> 38.84 </span>
                   </div>
                 </div>
               </div>
@@ -323,11 +323,11 @@
                   </div>
                   <div class="col-12 col-lg-4">
                     <div class="fs-6 fw-bold text-primary">
-                      THB 1,425
+                      CAD 52.95
                       <span class="fs-9 text-nowrap"> Avg/Night </span>
                     </div>
                     <div class="pt-0 fs-9 text-secondary">
-                      THB 1,425
+                      CAD 52.95
                       <span class="text-nowrap"> Total Per Room </span>
                     </div>
                     <div class="py-2 fs-9 text-secondary">
@@ -379,7 +379,7 @@
                 </div>
                 <div class="pb-1 col-auto">
                   <div class="fs-5 text-dark fw-bold text-title">
-                    <small class="pe-0"> THB </small><span> 1,425 </span>
+                    <small class="pe-0"> CAD </small><span> 52.95 </span>
                   </div>
                 </div>
               </div>
