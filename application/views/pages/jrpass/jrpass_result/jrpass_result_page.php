@@ -58,7 +58,7 @@
         <div class="row g-0">
           <div class="col-12 col-md-4 col-lg-3">
             <div class="p-3">
-              <div class="rn-imgcover-center rounded-2" style="background-image: url('/application/images/recommend/jrpass/osaka-6023336_1280.jpg');">
+              <div class="rn-imgcover-center rounded-2" style="background-image: url('/application/images/recommend/jrpass/jr-west-japan-1342780_1280.jpg');">
                 <a href="<?php echo '/jrpass/description/keisei-skyliner/TUEyMzAxMDAwXcvb' . $getURLLang; ?>" class="d-flex">
                   <img src="/application/images/image-ratio-4-3.gif" class="w-100">
                 </a>
@@ -70,7 +70,7 @@
             <div class="row g-0">
               <div class="col-12 col-lg-8 p-3">
                 <div class="row g-3 justify-content-between">
-                  <div class="col-9 col-lg-10">
+                  <div class="col-12">
                     <div class="row g-3 align-items-center">
                       <div class="col-auto">
                         <a href="<?php echo '/jrpass/description/keisei-skyliner/TUEyMzAxMDAwXcvb' . $getURLLang; ?>" class="h4 text-decoration-none text-dark text-sp fw-bold">
@@ -79,11 +79,13 @@
                       </div>
                     </div>
                   </div>
+                  <!-- 
                   <div class="col-3 col-lg-2">
                     <div class="pb-3 text-end">
                       <button class="btn btn-primary py-1 px-2 rounded-1 fs-9 rn-member-blink "> 7 Days </button>
                     </div>
                   </div>
+                 -->
                 </div>
                 <div class="pt-3">
                   <div class="fs-7 text-secondary">

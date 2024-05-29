@@ -36,7 +36,7 @@
               <?php
               foreach ($hotelGallery as $key => $item) {
                 if ($key == 0) {
-                  $image = '/application/images/recommend/activitty/' . $item['pic'];
+                  $image = '/application/images/recommend/activity/' . $item['pic'];
               ?>
                   <div class="rn-imgcover-center" style="background-image: url('<?php echo $image; ?>');">
                     <img src="/application/images/image-ratio-16-9.gif" class="w-100" />
@@ -50,7 +50,7 @@
               <?php
               foreach ($hotelGallery as $key => $item) {
                 if ($key >= 2 && $key <= 5) {
-                  $image = '/application/images/recommend/activitty/' . $item['pic'];
+                  $image = '/application/images/recommend/activity/' . $item['pic'];
               ?>
                   <div class="col-3">
                     <div class="rn-imgcover-center" style="background-image: url('<?php echo $image; ?>');">
@@ -166,7 +166,7 @@
             <?php
             foreach ($hotelGallery as $key => $item) {
               if ($key == 0) {
-                $image = '/application/images/recommend/activitty/' . $item['pic'];
+                $image = '/application/images/recommend/activity/' . $item['pic'];
             ?>
                 <a href="javascript:void(0)" class="d-block h-100 overflow-hidden rounded-1 rn-imgcover-center" style="background-image: url('<?php echo $image; ?>');">
                   <div class="d-none d-lg-flex">
@@ -187,7 +187,7 @@
             <?php
             foreach ($hotelGallery as $key => $item) {
               if ($key >= 2 && $key <= 5) {
-                $image = '/application/images/recommend/activitty/' . $item['pic'];
+                $image = '/application/images/recommend/activity/' . $item['pic'];
             ?>
                 <div class="col-3 col-lg-6 ">
                   <div style="cursor: pointer">
