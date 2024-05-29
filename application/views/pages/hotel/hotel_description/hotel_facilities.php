@@ -1,49 +1,61 @@
 <div class="border-bottom py-4">
-  <div class="row g-4">
-    <div class="col-12 col-lg-3">
-      <div class="fw-bold text-dark">
-        Hotel Description
-      </div>
-    </div>
-    <div class="col-12 col-lg-9">
-      <div class="text-secondary rn-content-html">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsum quo voluptatibus expedita dolorem dolor, temporibus vitae beatae rem esse illum doloribus facilis quam explicabo quas dolore adipisci repellat. Doloribus.
-        Ut itaque aut, deserunt deleniti est ipsam, iste quo omnis reprehenderit ipsum fugiat, voluptatem odit eligendi voluptas culpa nesciunt pariatur neque exercitationem quisquam adipisci eius earum! Nemo quam perferendis labore.
+    <div class="row g-4">
+        <div class="col-12 col-lg-3">
+            <div class="fw-bold text-dark">
+                Hotel Description
+            </div>
+        </div>
+        <div class="col-12 col-lg-9">
+            <div class="text-secondary rn-content-html">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsum quo voluptatibus expedita
+                dolorem dolor, temporibus vitae beatae rem esse illum doloribus facilis quam explicabo quas dolore
+                adipisci repellat. Doloribus.
+                Ut itaque aut, deserunt deleniti est ipsam, iste quo omnis reprehenderit ipsum fugiat, voluptatem odit
+                eligendi voluptas culpa nesciunt pariatur neque exercitationem quisquam adipisci eius earum! Nemo quam
+                perferendis labore.
 
-      </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 <div class="border-bottom py-4">
-  <div class="row g-4">
-    <div class="col-12 col-lg-3">
-      <div class="fw-bold text-dark">
-        Room Information
-      </div>
+    <div class="row g-4">
+        <div class="col-12 col-lg-3">
+            <div class="fw-bold text-dark">
+                Room Information
+            </div>
+        </div>
+        <div class="col-12 col-lg-9">
+            <div class="text-secondary rn-content-html">
+                Sed earum quia eligendi laboriosam qui totam ab laborum necessitatibus mollitia ex? In libero optio qui
+                ea quae incidunt ullam iure neque, earum, explicabo autem repellendus cupiditate beatae. Est,
+                voluptatum.
+                Suscipit architecto nemo tempora perspiciatis dolore odit numquam voluptatibus illum, labore ex adipisci
+                dignissimos blanditiis vitae nihil, tenetur est sunt odio, fugit repudiandae modi nobis veritatis enim
+                tempore a. Fuga.
+            </div>
+        </div>
     </div>
-    <div class="col-12 col-lg-9">
-      <div class="text-secondary rn-content-html">
-        Sed earum quia eligendi laboriosam qui totam ab laborum necessitatibus mollitia ex? In libero optio qui ea quae incidunt ullam iure neque, earum, explicabo autem repellendus cupiditate beatae. Est, voluptatum.
-        Suscipit architecto nemo tempora perspiciatis dolore odit numquam voluptatibus illum, labore ex adipisci dignissimos blanditiis vitae nihil, tenetur est sunt odio, fugit repudiandae modi nobis veritatis enim tempore a. Fuga.
-      </div>
-    </div>
-  </div>
 </div>
 
 
 <div class="border-bottom py-4">
-  <div class="row g-4">
-    <div class="col-12 col-lg-3">
-      <div class="fw-bold text-dark">Facilities</div>
-    </div>
-    <div class="col-12 col-lg-9">
-      <div class="text-secondary rn-content-html">
-        <p>
-          Qui dicta repudiandae voluptas delectus cumque, quae aliquid quaerat maiores vel, explicabo magnam exercitationem debitis distinctio? Neque dolores quibusdam vero aperiam. Vel ullam modi sapiente quia repellat officiis accusamus temporibus.
-          Voluptatem, quas! Fugiat eligendi sint molestiae deserunt veniam odit hic cupiditate veritatis, velit laboriosam pariatur, ullam dignissimos eos quas quis sit natus accusamus, rem omnis quasi quo! Itaque, similique quis.
-        </p>
-      </div>
-      <?php
+    <div class="row g-4">
+        <div class="col-12 col-lg-3">
+            <div class="fw-bold text-dark">Facilities</div>
+        </div>
+        <div class="col-12 col-lg-9">
+            <div class="text-secondary rn-content-html">
+                <p>
+                    Qui dicta repudiandae voluptas delectus cumque, quae aliquid quaerat maiores vel, explicabo magnam
+                    exercitationem debitis distinctio? Neque dolores quibusdam vero aperiam. Vel ullam modi sapiente
+                    quia repellat officiis accusamus temporibus.
+                    Voluptatem, quas! Fugiat eligendi sint molestiae deserunt veniam odit hic cupiditate veritatis,
+                    velit laboriosam pariatur, ullam dignissimos eos quas quis sit natus accusamus, rem omnis quasi quo!
+                    Itaque, similique quis.
+                </p>
+            </div>
+            <?php
       $facArray = [
         [
           'title' => 'Recreational Facilities',
@@ -111,59 +123,56 @@
 
       foreach ($facArray as $key => $item) {
       ?>
-        <div class="border-bottom bg-light py-2 px-3">
-          <div class="fs-7 fw-bold text-dark">
-            <?php echo $item['title'] ?>
-          </div>
-        </div>
-        <div class="py-3">
-          <div class="row gy-2">
-            <?php foreach ($item['list'] as $key2 => $data) { ?>
-              <div class="col-6 col-md-4">
-                <div class="d-flex fs-7">
-                  <span class="px-1 text-success"><i class="fas fa-check"></i></span><span class="px-2 text-secondary">
-                    <?php echo $data['name'] ?>
-                  </span>
+            <div class="border-bottom bg-light py-2 px-3">
+                <div class="fs-7 fw-bold text-dark">
+                    <?php echo $item['title'] ?>
                 </div>
-              </div>
+            </div>
+            <div class="py-3">
+                <div class="row gy-2">
+                    <?php foreach ($item['list'] as $key2 => $data) { ?>
+                    <div class="col-6 col-md-4">
+                        <div class="d-flex fs-7">
+                            <span class="px-1 text-success"><i class="fas fa-check"></i></span><span
+                                class="px-2 text-secondary">
+                                <?php echo $data['name'] ?>
+                            </span>
+                        </div>
+                    </div>
+                    <?php } ?>
+                </div>
+            </div>
             <?php } ?>
-          </div>
         </div>
-      <?php } ?>
     </div>
-  </div>
 </div>
 
 
 <div class="py-4">
-  <div class="row g-4">
-    <div class="col-12 col-lg-3">
-      <div class="fw-bold text-dark">
-        Location Information
-      </div>
+    <div class="row g-4">
+        <div class="col-12 col-lg-3">
+            <div class="fw-bold text-dark">
+                Location Information
+            </div>
+        </div>
+        <div class="col-12 col-lg-9">
+            <div class="text-secondary rn-content-html">
+                Reiciendis odio officiis ratione aliquid eius, similique excepturi corrupti. Nostrum eligendi suscipit
+                laudantium quis fugiat,
+                quisquam, quam sint odit neque aliquam amet. Necessitatibus quis in porro perferendis sunt unde quaerat.
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="border bg-light">
+
+                <div class="text-center text-secondary">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13695576.287375513!2d126.5470941683117!3d33.06577085373538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34674e0fd77f192f%3A0xf54275d47c665244!2sJapan!5e0!3m2!1sen!2sth!4v1716964437567!5m2!1sen!2sth"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+        </div>
     </div>
-    <div class="col-12 col-lg-9">
-      <div class="text-secondary rn-content-html">
-        Reiciendis odio officiis ratione aliquid eius, similique excepturi corrupti. Nostrum eligendi suscipit laudantium quis fugiat,
-        quisquam, quam sint odit neque aliquam amet. Necessitatibus quis in porro perferendis sunt unde quaerat.
-      </div>
-    </div>
-    <div class="col-12">
-      <div class="border bg-light">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="text-center text-secondary">MAP</div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-      </div>
-    </div>
-  </div>
 </div>
