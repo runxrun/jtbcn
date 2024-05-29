@@ -7,14 +7,14 @@
         <li class="h-100 pb-3">
             <div class="pb-4 bg-white shadow-sm overflow-hidden rounded-1 border h-100">
                 <div class="hover-zoom-effect overflow-hidden">
-                    <a href="<?php echo '/hotels/description/downtown-osaka-walking-and-local-food-tour/TUEyMzAxMDAwMDQw' . $getURLLang; ?>"
+                    <a href="<?php echo '/jrpass/description/jr-west-all-area-pass-7-days-for-jr-west-all-area-pass-7-days/TUEyMzAxMDAwMDQw' . $getURLLang; ?>"
                         class="d-flex rn-imgcover-center overflow-hidden"
                         style="background-image: url('<?php echo $image; ?>');">
                         <img src="/application/images/image-ratio-4-3.gif" class="w-100">
                     </a>
                 </div>
                 <div class="pt-3 px-3 fs-7 fw-bold text-dark"
-                    onclick="window.open('/hotels/description/downtown-osaka-walking-and-local-food-tour/TUEyMzAxMDAwMDQw')">
+                    onclick="window.open('/jrpass/description/jr-west-all-area-pass-7-days-for-jr-west-all-area-pass-7-days/TUEyMzAxMDAwMDQw')">
                     <?php echo $item['title']; ?>
                 </div>
                 <div class=" pt-1 px-3 fs-8 text-secondary">
