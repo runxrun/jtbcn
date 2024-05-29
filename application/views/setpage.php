@@ -48,7 +48,26 @@ switch (strtoupper($currentPage[0])) {
 
     break;
   case "JRPASS":
-    $thisPage = '/pages/jrpass/jrpass_search/jrpass_search_page.php';
+    if (
+      empty($currentPage[1]) ||
+      strtoupper($currentPage[1]) === '?LANG=EN' ||
+      strtoupper($currentPage[1]) === '?LANG=JP'
+    ) {
+      $segment_1 = '';
+    } else {
+      $segment_1 = $currentPage[1];
+    }
+    if (empty($segment_1)) {
+      $thisPage = '/pages/jrpass/jrpass_search/jrpass_search_page.php';
+    } elseif (strtoupper($currentPage[1]) === "RESULT") {
+      $thisPage = '/pages/jrpass/jrpass_result/jrpass_result_page.php';
+    } elseif (strtoupper($currentPage[1]) === "DESCRIPTION") {
+      $thisPage = '/pages/jrpass/jrpass_description/jrpass_description_page.php';
+    } else {
+      $thisPage = '/pages/filenotfound/filenotfound_page.php';
+    }
+
+    // $thisPage = '/pages/jrpass/jrpass_search/jrpass_search_page.php';
     break;
   case "TICKETS":
     if (

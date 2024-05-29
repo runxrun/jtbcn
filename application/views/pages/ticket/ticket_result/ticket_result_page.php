@@ -65,61 +65,63 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-8 col-lg-9 d-flex flex-wrap">
-              <div class="col-12 col-lg-8 p-3">
-                <div class="row justify-content-between">
-                  <div class="col-9 col-lg-10">
-                    <div class="row g-3 align-items-center">
-                      <div class="col-auto">
-                        <a href="<?php echo '/tickets/description/keisei-skyliner/TUEyMzAxMDAwXcvb' . $getURLLang; ?>" class="h4 text-decoration-none text-dark text-sp fw-bold">
-                          Keisei Skyliner (E-Ticket)【TH】
-                        </a>
+            <div class="col-12 col-md-8 col-lg-9">
+              <div class="row g-0">
+                <div class="col-12 col-lg-8 p-3">
+                  <div class="row justify-content-between">
+                    <div class="col-9 col-lg-10">
+                      <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                          <a href="<?php echo '/tickets/description/keisei-skyliner/TUEyMzAxMDAwXcvb' . $getURLLang; ?>" class="h4 text-decoration-none text-dark text-sp fw-bold">
+                            Keisei Skyliner (E-Ticket)【TH】
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3 col-lg-2">
+                      <div class="pb-3 text-end">
+                        <button class="btn btn-av py-1 px-2 rounded-1 fs-9 rn-member-blink "> Available </button>
                       </div>
                     </div>
                   </div>
-                  <div class="col-3 col-lg-2">
-                    <div class="pb-3 text-end">
-                      <button class="btn btn-av py-1 px-2 rounded-1 fs-9 rn-member-blink "> Available </button>
+                  <div class="d-flex">
+                    <div class="pe-2 fs-7 text-secondary"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="ps-0 fs-7 text-secondary">Osaka, Japan</div>
+                  </div>
+                  <div class="pt-3">
+                    <div class="fs-7 text-secondary">
+                      Great value tickets that allow you to travel quickly and comfortably, which are
+                      the Skyliner limited express ticket that connects Narita Airport and Tokyo and
+                      the Tokyo Subway Ticket that allows you to ride all subway lines. Unlimited number
+                      of trips within Tokyo within 24 hours, 48 hours, and 72 hours.
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col pt-3 pb-3">
+                      <a href="<?php echo '/tickets/description/keisei-skyliner/TUEyMzAxMDAwXcvb' . $getURLLang; ?>" class="text-secondary fs-8"> More details </a>
                     </div>
                   </div>
                 </div>
-                <div class="d-flex">
-                  <div class="pe-2 fs-7 text-secondary"><i class="fas fa-map-marker-alt"></i></div>
-                  <div class="ps-0 fs-7 text-secondary">Osaka, Japan</div>
-                </div>
-                <div class="pt-3">
-                  <div class="fs-7 text-secondary">
-                    Great value tickets that allow you to travel quickly and comfortably, which are 
-                    the Skyliner limited express ticket that connects Narita Airport and Tokyo and
-                    the Tokyo Subway Ticket that allows you to ride all subway lines. Unlimited number 
-                    of trips within Tokyo within 24 hours, 48 hours, and 72 hours.
+                <div class="col-12 col-lg-4 pb-3 rn-border-start">
+                  <div class="pt-3 px-3 fs-8 text-secondary text-start text-md-center ">
+                    Start From
                   </div>
-                </div>
-                <div class="row">
-                  <div class="col pt-3 pb-3">
-                    <a href="<?php echo '/tickets/description/keisei-skyliner/TUEyMzAxMDAwXcvb' . $getURLLang; ?>" class="text-secondary fs-8"> More details </a>
+                  <div class="pt-0 px-3 ">
+                    <div class="text-title text-dark fw-bold text-start text-md-center">
+                      <small class="pe-1 fs-6">CAD</small>
+                      <span class="ps-0 fs-4 fw-bold"> 21.32 </span>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-12 col-lg-4 pb-3 rn-border-start">              
-                <div class="pt-3 px-3 fs-8 text-secondary text-start text-md-center ">
-                  Start From
-                </div>
-                <div class="pt-0 px-3 ">
-                  <div class="text-title text-dark fw-bold text-start text-md-center">
-                    <small class="pe-1 fs-6">CAD</small>
-                    <span class="ps-0 fs-4 fw-bold"> 21.32 </span>
+                  <div class="pt-2 px-3 text-start text-md-center ">
+                    <div class="fs-8 text-secondary">
+                      Excluded taxes &amp; fees
+                    </div>
                   </div>
-                </div>
-                <div class="pt-2 px-3 text-start text-md-center ">
-                  <div class="fs-8 text-secondary">
-                    Excluded taxes &amp; fees
+                  <div class="pt-3 px-3 ">
+                    <button target="_blank" class="btn py-2 btn-sm w-100 btn-primary" onclick="window.open('<?php echo '/tickets/description/keisei-skyliner/TUEyMzAxMDAwXcvb' . $getURLLang; ?>','_parent')">
+                      View Rates
+                    </button>
                   </div>
-                </div>
-                <div class="pt-3 px-3 ">
-                  <button target="_blank" class="btn py-2 btn-sm w-100 btn-primary" onclick="window.open('<?php echo '/tickets/description/keisei-skyliner/TUEyMzAxMDAwXcvb' . $getURLLang; ?>','_parent')">
-                    View Rates
-                  </button>
                 </div>
               </div>
             </div>
@@ -130,13 +132,9 @@
     }
     ?>
 
-    <div class="">
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+    <div class="pt-4 pb-5">
+      <?php include(__DIR__ . '/../../../includes/pages-navigator.php'); ?>
     </div>
-    
+
   </div>
 </div>

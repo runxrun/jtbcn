@@ -86,7 +86,7 @@ $selected_banners = $banners;
 
             include(__dir__ . '/../../includes/search-tab-services.php');
             include(__dir__ . $pathSearch);
-            include(__dir__ . '/../../includes/search-recommend.php');
+            include(__dir__ . '/../../includes/search-recommend-jrpass.php');
             ?>
           </div>
         </div>

@@ -42,9 +42,10 @@ if (strtoupper($currentPage[1]) == 'RESULT') {
       <div class="pb-1 fs-8 text-secondary"><?php echo getTS('_NumberDay', $lang, $mlangs); ?></div>
       <div class="p-0 dropdown">
         <button class="<?php echo $btnStyle; ?>" data-bs-toggle="dropdown" aria-expanded="false">
-          7 Days
+          <?php echo getTS('_NotSpecified', $lang, $mlangs); ?>
         </button>
         <ul class="dropdown-menu rounded-1 mt-2">
+          <li class="dropdown-item"><button class="btn border-0 text-start w-100 p-0 fs-8">Not specified</button></li>
           <li class="dropdown-item"><button class="btn border-0 text-start w-100 p-0 fs-8">1 Day</button></li>
           <li class="dropdown-item"><button class="btn border-0 text-start w-100 p-0 fs-8">2 Days</button></li>
           <li class="dropdown-item"><button class="btn border-0 text-start w-100 p-0 fs-8">3 Days</button></li>
@@ -67,7 +68,8 @@ if (strtoupper($currentPage[1]) == 'RESULT') {
     </div>
     <div class="col-12 col-md-3 col-lg-2">
       <div class="p-0">
-        <button class="<?php echo $btnSearch; ?>">
+        <?php $goToResult = '/jrpass/result' . $getURLLang ?>
+        <button class="<?php echo $btnSearch; ?>" onclick="window.open('<?php echo $goToResult; ?>', '_self')">
           <?php echo getTS('_Search', $lang, $mlangs); ?>
         </button>
       </div>
