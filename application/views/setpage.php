@@ -110,10 +110,10 @@ switch (strtoupper($currentPage[0])) {
       $thisPage = '/pages/filenotfound/filenotfound_page.php';
     }
     break;
-  case "CMS" : 
+  case "CMS":
     if (
       $currentPage[2] === "TUEyMzAxMDAAweEd" ||
-      $currentPage[2] === "TUEyMzExIPOESaWL" 
+      $currentPage[2] === "TUEyMzExIPOESaWL"
     ) {
       $thisPage = '/pages/cms/cms_description/cms_description_page.php';
     } else {
@@ -126,6 +126,17 @@ switch (strtoupper($currentPage[0])) {
       $thisPage = '/pages/authorization/signin/signin_page.php';
     } elseif (strtoupper($currentPage[1]) === "REGISTER") {
       $thisPage = '/pages/authorization/register/register_page.php';
+    } else {
+      $thisPage = '/pages/filenotfound/filenotfound_page.php';
+    }
+    break;
+  case "ACCOUNT":
+    if (strtoupper($currentPage[1]) === "BOOKINGS") {
+      $thisPage = '/pages/account/bookings/bookings_page.php';
+    } elseif (strtoupper($currentPage[1]) === "PROFILE") {
+      $thisPage = '/pages/account/profile/profile_page.php';
+    } elseif (strtoupper($currentPage[1]) === "CHANGE-PASSWORD") {
+      $thisPage = '/pages/account/changepassword/changepassword_page.php';
     } else {
       $thisPage = '/pages/filenotfound/filenotfound_page.php';
     }
