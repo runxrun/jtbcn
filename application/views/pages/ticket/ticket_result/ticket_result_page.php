@@ -117,7 +117,7 @@
                   </div>
                 </div>
                 <div class="pt-3 px-3 ">
-                  <button target="_blank" class="btn py-2 btn-sm w-100 btn-primary" onclick="window.open('/hotels/description/downtown-osaka-walking-and-local-food-tour/TUEyMzAxMDAwMDQw','_parent')">
+                  <button target="_blank" class="btn py-2 btn-sm w-100 btn-primary" onclick="window.open('<?php echo '/tickets/description/keisei-skyliner/TUEyMzAxMDAwXcvb' . $getURLLang; ?>','_parent')">
                     View Rates
                   </button>
                 </div>

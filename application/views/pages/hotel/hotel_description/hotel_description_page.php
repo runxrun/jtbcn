@@ -8,11 +8,10 @@
     </div>
   </div>
 </div>
-
 <div class="bg-light">
   <div class="container">
-    <div class="py-3">
-
+    <?php include(__DIR__ . '/../../../includes/breadcrumb-services.php'); ?>
+    <div class="pb-3">
       <div class="row gy-2 gx-3 align-items-center">
         <div class="col-auto">
           <div class="fs-4 text-dark fw-bold">
@@ -29,7 +28,6 @@
           </div>
         </div>
       </div>
-
       <div class="d-flex pt-3 pt-sm-1 pb-1">
         <div class="px-1 fs-7 text-secondary">
           <i class="fas fa-map-marker-alt"></i>
@@ -62,47 +60,102 @@
       ['pic' => '384256227.jpg'],
     ];
     ?>
-
-    <div class="row g-2 pt-2">
-      <div class="col-12 col-lg-6">
-        <div class="h-100">
-          <?php
-          foreach ($hotelGallery as $key => $item) {
-            if ($key == 0) {
-              $image = '/application/images/recommend/hotels/' . $item['pic'];
-          ?>
-              <a href="javascript:void(0)" class="d-block h-100 overflow-hidden rounded-1 rn-imgcover-center" style="background-image: url('<?php echo $image; ?>');">
-                <div class="d-none d-lg-flex">
-                  <img src="/application/images/image-ratio-4-3.gif" class="w-100">
-                </div>
-                <div class="d-flex d-lg-none">
-                  <img src="assets/images/image-ratio-16-9.gif" class="w-100" />
-                </div>
-              </a>
-          <?php
-            }
-          }
-          ?>
-        </div>
-      </div>
-      <div class="col-12 col-lg-6">
-        <div class="row g-2">
-          <?php
-          foreach ($hotelGallery as $key => $item) {
-            if ($key >= 2 && $key <= 5) {
-              $image = '/application/images/recommend/hotels/' . $item['pic'];
-          ?>
-              <div class="col-3 col-lg-6 ">
-                <div style="cursor: pointer">
-                  <div href="javascript:void(0)" class="overflow-hidden rounded-1 position-relative rn-imgcover-center" style="background-image: url('<?php echo $image; ?>');">
+    <div class="pt-2">
+      <div class="row g-2">
+        <div class="col-12 col-lg-6">
+          <div class="h-100">
+            <?php
+            foreach ($hotelGallery as $key => $item) {
+              if ($key == 0) {
+                $image = '/application/images/recommend/hotels/' . $item['pic'];
+            ?>
+                <a href="javascript:void(0)" class="d-block h-100 overflow-hidden rounded-1 rn-imgcover-center" style="background-image: url('<?php echo $image; ?>');">
+                  <div class="d-none d-lg-flex">
                     <img src="/application/images/image-ratio-4-3.gif" class="w-100">
                   </div>
-                </div>
-              </div>
-          <?php
+                  <div class="d-flex d-lg-none">
+                    <img src="assets/images/image-ratio-16-9.gif" class="w-100" />
+                  </div>
+                </a>
+            <?php
+              }
             }
-          }
-          ?>
+            ?>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row g-2">
+            <?php
+            foreach ($hotelGallery as $key => $item) {
+              if ($key >= 2 && $key <= 5) {
+                $image = '/application/images/recommend/hotels/' . $item['pic'];
+            ?>
+                <div class="col-3 col-lg-6 ">
+                  <div style="cursor: pointer">
+                    <div href="javascript:void(0)" class="overflow-hidden rounded-1 position-relative rn-imgcover-center" style="background-image: url('<?php echo $image; ?>');">
+                      <img src="/application/images/image-ratio-4-3.gif" class="w-100">
+                    </div>
+                  </div>
+                </div>
+            <?php
+              }
+            }
+            ?>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-0">
+      <div class="alert alert-warning rounded-1 mt-3 mb-0 py-3 px-4 fs-7 ">
+        <div class="row g-2 align-items-center">
+          <div class="col-6 col-lg-4 col-xl-auto">
+            <div class="d-flex">
+              <div class="pe-2"><i class="fas fa-wifi"></i></div>
+              <div class="pe-4"> WIFI </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 col-xl-auto">
+            <div class="d-flex">
+              <div class="pe-2"><i class="fas fa-utensils"></i></div>
+              <div class="pe-4"> Restaurant </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 col-xl-auto">
+            <div class="d-flex opacity-25">
+              <div class="pe-2"><i class="fas fa-dumbbell"></i></div>
+              <div class="pe-4"> Fitness </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 col-xl-auto">
+            <div class="d-flex">
+              <div class="pe-2"><i class="fas fa-parking"></i></div>
+              <div class="pe-4"> Parking </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 col-xl-auto">
+            <div class="d-flex">
+              <div class="pe-2"><i class="fas fa-spa"></i></div>
+              <div class="pe-4"> Spa &amp; Wellness </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 col-xl-auto">
+            <div class="d-flex">
+              <div class="pe-2"><i class="fas fa-concierge-bell"></i></div>
+              <div class="pe-4"> Room Services </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 col-xl-auto">
+            <div class="d-flex">
+              <div class="pe-2"><i class="fas fa-tshirt"></i></div>
+              <div class="pe-4"> Laundry </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4 col-xl-auto">
+            <div class="d-flex">
+              <div class="pe-2"><i class="fas fa-swimmer"></i></div>
+              <div class="pe-4"> Swimming Pool </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -123,22 +176,4 @@
 
   </div>
 
-
-
-
-
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-</div>
 </div>

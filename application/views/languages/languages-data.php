@@ -93,4 +93,10 @@ $mlangs = [
   '_RecommendedPackages' => ['en'=>'Recommended Packages', 'jp' => '推奨のパッケージ'],
   '_RecommendedTickets' => ['en'=>'Recommended Tickets', 'jp' => '推奨のチケット'],
   '_RecommendedHotels' => ['en'=>'Recommended Hotels', 'jp' => '推奨のホテル'],
+  '_ActivitiesResult' => ['en'=>'Activities Result', 'jp' => 'アクティビティ結果'],
+  '_ActivitiesDescription' => ['en'=>'Activity Description', 'jp' => 'アクティビティの説明'],  
+  '_HotelsResult' => ['en'=>'Hotels Result', 'jp' => 'ホテル結果'],
+  '_HotelsDescription' => ['en'=>'Hotel Description', 'jp' => 'ホテルの説明'],  
+  '_TicketsResult' => ['en'=>'Tickets Result', 'jp' => 'チケット結果'],
+  '_TicketsDescription' => ['en'=>'Ticket Description', 'jp' => 'チケットの説明'],  
 ];

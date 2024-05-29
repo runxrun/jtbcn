@@ -31,7 +31,7 @@ if (strtoupper($currentPage[1]) == 'RESULT') {
       <div class="pb-1 fs-8 text-secondary"><?php echo getTS('_ServiceDate', $lang, $mlangs); ?></div>
       <div class="p-0">
         <button class="<?php echo $btnStyle; ?>">
-          Tue 28 May 2024
+          Tue, 28 May 2024
         </button>
       </div>
     </div>
