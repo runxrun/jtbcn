@@ -105,19 +105,52 @@ $selected_banners = $banners;
               (strtoupper($currentPage[0]) === "HOTELS")
             ) {
               include(__dir__ . $pathSearch);
+              if(strtoupper($currentPage[0]) === "JRPASS") 
+              {
+                include(__dir__ . '/../../includes/search-recommend-jrpass.php');
+              }
+              else
+              {
+                include(__dir__ . '/../../includes/search-recommend.php');
+              }
             }
-            else {
+            else 
+            {
             ?>            
-            <div class="tab-content">
-              <div class="tab-pane fade show active" id="seActivities"><?php include(__dir__ . '/../../includes/search-activity.php'); ?></div>
-              <div class="tab-pane fade" id="sePackages"><?php include(__dir__ . '/../../includes/search-package.php'); ?></div>
-              <div class="tab-pane fade" id="seJRPass"><?php include(__dir__ . '/../../includes/search-jrpass.php'); ?></div>
-              <div class="tab-pane fade" id="seTickets"><?php include(__dir__ . '/../../includes/search-ticket.php'); ?></div>
-              <div class="tab-pane fade" id="seHotels"><?php include(__dir__ . '/../../includes/search-hotel.php'); ?></div>
-            </div>            
+              <div class="tab-content">
+                <div class="tab-pane fade show active" id="seActivities">
+                  <?php 
+                    include(__dir__ . '/../../includes/search-activity.php'); 
+                    include(__dir__ . '/../../includes/search-recommend.php');
+                  ?>
+                </div>
+                <div class="tab-pane fade" id="sePackages">
+                  <?php 
+                    include(__dir__ . '/../../includes/search-package.php'); 
+                    include(__dir__ . '/../../includes/search-recommend.php');
+                  ?>
+                </div>
+                <div class="tab-pane fade" id="seJRPass">
+                  <?php
+                    include(__dir__ . '/../../includes/search-jrpass.php'); 
+                    include(__dir__ . '/../../includes/search-recommend-jrpass.php');
+                  ?>
+                </div>
+                <div class="tab-pane fade" id="seTickets">
+                  <?php 
+                    include(__dir__ . '/../../includes/search-ticket.php'); 
+                    include(__dir__ . '/../../includes/search-recommend.php');
+                  ?>
+                </div>
+                <div class="tab-pane fade" id="seHotels">
+                  <?php 
+                    include(__dir__ . '/../../includes/search-hotel.php'); 
+                    include(__dir__ . '/../../includes/search-recommend.php');
+                  ?>
+                </div>
+              </div>            
             <?php
             }
-            include(__dir__ . '/../../includes/search-recommend-jrpass.php');
             ?>
           </div>
         </div>

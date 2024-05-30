@@ -22,16 +22,16 @@ $data = [
       foreach ($data as $key => $item) {
       ?>
         <div class="col-12 col-lg-6">
-          <div class="border rounded-1">
-            <div class="p-2">
-              <div class="row g-0">
-                <div class="col-12 col-lg-6 ">
+          <div class="border rounded-1 h-100">
+            <div class="p-3">
+              <div class="row g-3">
+                <div class="col-12 col-md-6 ">
                   <a href="<?php echo '/destinations/japan/-/TUEAbcDefABcdfe'.$getURLLang; ?>">
                     <img src="<?php echo $item['img'] ?>" class="w-100 rounded-1">
                   </a>
                 </div>
-                <div class="col-12 col-lg-6">
-                  <div class="px-4">
+                <div class="col-12 col-md-6">
+                  <div class="">
                     <div class="pb-2 fw-bold fs-5 text-primary">
                       <?php echo $item['name'] ?>
                     </div>

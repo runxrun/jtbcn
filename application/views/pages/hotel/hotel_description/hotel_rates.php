@@ -288,7 +288,7 @@
                 </div>
               </div>
               <div class="p-0">
-                <button class="btn btn-primary rounded-1 w-100 fs-8 fw-bold py-2">
+                <button class="btn btn-primary rounded-1 w-100 fs-8 fw-bold py-2" onclick="window.open('/cart/','_self');">
                   Select
                 </button>
               </div>
@@ -384,7 +384,7 @@
                 </div>
               </div>
               <div class="p-0">
-                <button class="btn btn-primary rounded-1 w-100 fs-8 fw-bold py-2">
+                <button class="btn btn-primary rounded-1 w-100 fs-8 fw-bold py-2" onclick="window.open('/cart/','_self');">
                   Select
                 </button>
               </div>

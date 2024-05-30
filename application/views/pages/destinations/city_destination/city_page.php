@@ -15,9 +15,8 @@
             <div class="row g-4">
                 <div class="col-12 col-lg-4">
                     <div class="bg-light">
-                        <div class="w-100 bg-light rn-imgcover-center rounded-1"
-                            style="background-image: url('/application/images/toppage/osaka-6023328_1280.jpg'); ">
-                            <img src="/application/images/japan/japan-3664500_960_720.jpg" class="w-100">
+                        <div class="w-100 bg-light rounded-1">
+                            <img src="/application/images/toppage/osaka-6023328_1280.jpg" class="w-100">
                         </div>
                     </div>
                 </div>
