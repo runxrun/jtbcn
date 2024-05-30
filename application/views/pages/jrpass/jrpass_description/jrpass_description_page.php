@@ -234,7 +234,8 @@
                                 </div>
                             </div>
                             <div class="pt-3 px-3 ">
-                                <button target="_blank" class="btn py-2 btn-sm w-100 btn-primary">
+                                <button target="_blank" class="btn py-2 btn-sm w-100 btn-primary"
+                                    onclick="window.open('/cart','_self');">
                                     Add to cart
                                 </button>
                             </div>
