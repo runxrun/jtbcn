@@ -13,17 +13,18 @@
             <div class="pt-3 px-3">
                 <div class="row">
                     <div class="pb-3 col-12 col-lg-7 col-xl-8">
-                        <div class="pb-2 fs-8 text-dark fw-bold"><span class="text-primary pr-2">
-                                Confirm No. : </span><span class="text-primary">
-                                B2CMMA240300014 </span></div>
+                        <div class="pb-2 fs-8 text-dark fw-bold">
+                            <span class="text-primary pr-2"> Confirm No. : </span>
+                            <span class="text-primary"> B2CMMA240300014 </span>
+                        </div>
                         <div class="pb-3 fs-7 fw-bold text-dark">
-                            Hotelbox Demo (SHA Extra Plus) </div>
+                            Hotelbox Demo (SHA Extra Plus)
+                        </div>
 
                         <div class="pb-3">
                             <div class="fs-8 text-success d-flex">
-                                <span class="pr-2"><i class="fas fa-check-circle"></i></span><span class="fw-bold">
-                                    Cancel
-                                    Confirmed </span>
+                                <span class="pr-2"><i class="fas fa-check-circle"></i></span>
+                                <span class="fw-bold"> Cancel Confirmed </span>
                             </div>
 
                         </div>
@@ -56,7 +57,8 @@
                         </div>
 
 
-                        <div class="pt-3"><button class="btn btn-primary fs-8 py-2 w-100"> View
+                        <div class="pt-3"><button class="btn btn-primary fs-8 py-2 w-100"
+                                onclick="window.open('/account/bookings-detail', '_parent')"> View
                                 Detail
                             </button></div>
                     </div>

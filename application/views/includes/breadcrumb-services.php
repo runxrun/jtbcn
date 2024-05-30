@@ -32,14 +32,23 @@ switch (strtoupper($currentPage[0])) {
     $nameResult = getTS('_TicketsResult', $lang, $mlangs);
     $nameDescription = getTS('_TicketsDescription', $lang, $mlangs);
     break;
+  case "JRPASS":
+    $linkService = '/jrpass';
+    $linkResult = '/jrpass/result';
+    $nameService = getTS('_JapanRailPass', $lang, $mlangs);
+    $nameResult = getTS('_JapanRailPassResult', $lang, $mlangs);
+    $nameDescription = getTS('_JapanRailPassDescription', $lang, $mlangs);
+    break;
 }
 
 ?>
 <div class="pb-3">
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb fs-8">
-      <li class="breadcrumb-item"><a href="<?php echo $linkService . $getURLLang; ?>" class="text-primary text-decoration-none"><?php echo $nameService; ?></a></li>
-      <li class="breadcrumb-item"><a href="<?php echo $linkResult . $getURLLang; ?>" class="text-primary text-decoration-none"><?php echo $nameResult; ?></a></li>
+      <li class="breadcrumb-item"><a href="<?php echo $linkService . $getURLLang; ?>"
+          class="text-primary text-decoration-none"><?php echo $nameService; ?></a></li>
+      <li class="breadcrumb-item"><a href="<?php echo $linkResult . $getURLLang; ?>"
+          class="text-primary text-decoration-none"><?php echo $nameResult; ?></a></li>
       <li class="breadcrumb-item active" aria-current="page"><?php echo $nameDescription; ?></li>
     </ol>
   </nav>

@@ -66,17 +66,12 @@
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="currentBookings" aria-labelledby="home-tab"
                                 tabindex="0">
-
-
                                 <?php include ('bookings-hotels.php'); ?>
-
                             </div>
                             <div class="tab-pane fade" id="pastBookings" tabindex="0">
-
                                 <?php include ('bookings-hotels.php'); ?>
                             </div>
                             <div class="tab-pane fade" id="CancelledBookings" tabindex="0">
-
                                 <?php include ('bookings-hotels.php'); ?>
                             </div>
                         </div>

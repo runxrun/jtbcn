@@ -133,6 +133,8 @@ switch (strtoupper($currentPage[0])) {
   case "ACCOUNT":
     if (strtoupper($currentPage[1]) === "BOOKINGS") {
       $thisPage = '/pages/account/bookings/bookings_page.php';
+    } elseif (strtoupper($currentPage[1]) === "BOOKINGS-DETAIL") {
+      $thisPage = '/pages/account/bookings-detail/bookings-detail_page.php';
     } elseif (strtoupper($currentPage[1]) === "PROFILE") {
       $thisPage = '/pages/account/profile/profile_page.php';
     } elseif (strtoupper($currentPage[1]) === "CHANGE-PASSWORD") {
