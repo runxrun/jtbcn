@@ -1,13 +1,13 @@
 <?php
 $toppage = [
-  ['pic' => 'osaka-6023328_1280.jpg', 'name' => 'Osaka, Japan', 'name_jp' => '姫路, 日本', 'link' => 'japan-osaka/TUEAbcDefGhijK' ],
-  ['pic' => 'Whistler.jpg', 'name' => 'Whistler, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-whistler/TUEAbcDefGhijK' ],
-  ['pic' => 'banff300.jpg', 'name' => 'Alberta, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-alberta/TUEAbcDefGhijK' ],
-  ['pic' => 'TORONTO.png', 'name' => 'Toronto, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-toronto/TUEAbcDefGhijK' ],
-  ['pic' => 'NIAGARA.jpg', 'name' => 'Niagara, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-niagara/TUEAbcDefGhijK' ],
-  ['pic' => 'Montreal-300x300.jpg', 'name' => 'Montreal, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-montreal/TUEAbcDefGhijK' ],
-  ['pic' => 'YELLOWKNIFE.jpg', 'name' => 'Yellowknife, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-yellowknife/TUEAbcDefGhijK' ],
-  ['pic' => 'Vancouver300.jpg', 'name' => 'Vancouver, Canada', 'name_jp' => 'カナダ', 'link' => 'canada-vancouver/TUEAbcDefGhijK' ],
+  ['pic' => 'osaka-6023328_1280.jpg', 'name' => 'Osaka, Japan', 'name_jp' => '姫路, 日本', 'link' => 'japan/osaka/TUEAbcDefGhijK' ],
+  ['pic' => 'Whistler.jpg', 'name' => 'Whistler, Canada', 'name_jp' => 'カナダ', 'link' => 'canada/whistler/TUEAbcDefGhijK' ],
+  ['pic' => 'banff300.jpg', 'name' => 'Alberta, Canada', 'name_jp' => 'カナダ', 'link' => 'canada/alberta/TUEAbcDefGhijK' ],
+  ['pic' => 'TORONTO.png', 'name' => 'Toronto, Canada', 'name_jp' => 'カナダ', 'link' => 'canada/toronto/TUEAbcDefGhijK' ],
+  ['pic' => 'NIAGARA.jpg', 'name' => 'Niagara, Canada', 'name_jp' => 'カナダ', 'link' => 'canada/niagara/TUEAbcDefGhijK' ],
+  ['pic' => 'Montreal-300x300.jpg', 'name' => 'Montreal, Canada', 'name_jp' => 'カナダ', 'link' => 'canada/montreal/TUEAbcDefGhijK' ],
+  ['pic' => 'YELLOWKNIFE.jpg', 'name' => 'Yellowknife, Canada', 'name_jp' => 'カナダ', 'link' => 'canada/yellowknife/TUEAbcDefGhijK' ],
+  ['pic' => 'Vancouver300.jpg', 'name' => 'Vancouver, Canada', 'name_jp' => 'カナダ', 'link' => 'canada/vancouver/TUEAbcDefGhijK' ],
 ];
 ?>
 <div class="bg-white">

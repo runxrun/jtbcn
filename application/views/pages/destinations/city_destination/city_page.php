@@ -3,7 +3,7 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb fs-8">
         <li class="breadcrumb-item"><a href="/" class="text-primary text-decoration-none">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Japan</li>
+        <li class="breadcrumb-item"><a href="/destinations/japan/-/TUEAbcDefABcdfe" class="text-primary text-decoration-none">Japan</a></li>
         <li class="breadcrumb-item active" aria-current="page">Osaka</li>
       </ol>
     </nav>

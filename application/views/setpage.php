@@ -176,10 +176,12 @@ switch (strtoupper($currentPage[0])) {
     }
     break;
   case "DESTINATIONS":
-    if ($currentPage[2] === 'TUEAbcDefGhijK') {
+    if ($currentPage[3] === 'TUEAbcDefABcdfe') {
+      $thisPage = '/pages/destinations/country_destination/country_page.php';
+    } else if ($currentPage[3] === 'TUEAbcDefGhijK') {
       $thisPage = '/pages/destinations/city_destination/city_page.php';
     } else {
-      $thisPage = '/pages/blog/blog_page.php';
+      $thisPage = '/pages/filenotfound/filenotfound_page.php';
     }
     break;
   case "BROCHURE":
