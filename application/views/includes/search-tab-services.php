@@ -35,7 +35,7 @@ switch (strtoupper($currentPage[0])) {
 ?>
 
 <?php
-if (true) {
+if (!empty($currentPage[0])) {
 ?>
   <div class="pt-3 px-4">
     <div class="d-flex">
@@ -54,6 +54,44 @@ if (true) {
 ?>
 
 
+
+  <div class="nav d-flex justify-content-between rn-btn-services-search">
+    <div class="w-100 px-0 px-md-1 active"  data-bs-toggle="pill" data-bs-target="#seActivities">
+      <button >
+        <i class="fas fa-running"></i>
+        <span><?php echo getTS('_Activities', $lang, $mlangs); ?></span>
+      </button>
+    </div>
+    <div class="w-100 px-0 px-md-1" data-bs-toggle="pill"  data-bs-target="#sePackages">
+      <button>
+        <i class="fas fa-suitcase-rolling"></i>
+        <span><?php echo getTS('_Packages', $lang, $mlangs); ?></span>
+      </button>
+    </div>
+    <div class="w-100 px-0 px-md-1" data-bs-toggle="pill"  data-bs-target="#seJRPass">
+      <button>
+        <i class="fas fa-subway"></i>
+        <span><?php echo getTS('_JapanRailPass', $lang, $mlangs); ?></span>
+      </button>
+    </div>
+    <div class="w-100 px-0 px-md-1" data-bs-toggle="pill"  data-bs-target="#seTickets">
+      <button>
+        <i class="fas fa-ticket-alt"></i>
+        <span><?php echo getTS('_Tickets', $lang, $mlangs); ?></span>
+      </button>
+    </div>
+    <div class="w-100 px-0 px-md-1" data-bs-toggle="pill"  data-bs-target="#seHotels">
+      <button>
+        <i class="fas fa-hotel"></i>
+        <span><?php echo getTS('_Hotels', $lang, $mlangs); ?></span>
+      </button>
+    </div>
+  </div>
+
+
+<?php
+}
+/*
   <div class="d-flex justify-content-between rn-btn-services-search">
     <div class="w-100 px-0 px-md-1 <?php echo $activitesActive; ?>">
       <button onclick="window.open('<?php echo $tabActivities . $getURLLang; ?>', '_self');">
@@ -86,10 +124,7 @@ if (true) {
       </button>
     </div>
   </div>
-
-
-<?php
-}
+*/
 ?>
 
 

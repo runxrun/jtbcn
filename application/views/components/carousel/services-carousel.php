@@ -1,5 +1,17 @@
 <?php
 
+if (
+  $currentPage[0] === "" ||
+  strtoupper($currentPage[0]) === "?LANG=JP" ||
+  strtoupper($currentPage[0]) === "?LANG=EN"
+) {
+  $banners = [
+    ['image' => 'buildings-2297210_1920.jpg', 'position' => 'rn-imgcover-top', 'first' => 'active'],
+    ['image' => 'ski-slope-3184931_1920.jpg', 'position' => 'rn-imgcover-top', 'first' => ''],
+    ['image' => 'mountain-477832_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => ''],
+  ];
+}
+
 if (strtoupper($currentPage[0]) === "ACTIVITIES") {
   $banners = [
     ['image' => 'alberta-2297204_1920.jpg', 'position' => 'rn-imgcover-center', 'first' => 'active'],
@@ -85,7 +97,26 @@ $selected_banners = $banners;
             }
 
             include(__dir__ . '/../../includes/search-tab-services.php');
-            include(__dir__ . $pathSearch);
+            if (
+              (strtoupper($currentPage[0]) === "ACTIVITIES") ||
+              (strtoupper($currentPage[0]) === "PACKAGES") ||
+              (strtoupper($currentPage[0]) === "JRPASS") ||
+              (strtoupper($currentPage[0]) === "TICKETS") ||
+              (strtoupper($currentPage[0]) === "HOTELS")
+            ) {
+              include(__dir__ . $pathSearch);
+            }
+            else {
+            ?>            
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="seActivities"><?php include(__dir__ . '/../../includes/search-activity.php'); ?></div>
+              <div class="tab-pane fade" id="sePackages"><?php include(__dir__ . '/../../includes/search-package.php'); ?></div>
+              <div class="tab-pane fade" id="seJRPass"><?php include(__dir__ . '/../../includes/search-jrpass.php'); ?></div>
+              <div class="tab-pane fade" id="seTickets"><?php include(__dir__ . '/../../includes/search-ticket.php'); ?></div>
+              <div class="tab-pane fade" id="seHotels"><?php include(__dir__ . '/../../includes/search-hotel.php'); ?></div>
+            </div>            
+            <?php
+            }
             include(__dir__ . '/../../includes/search-recommend-jrpass.php');
             ?>
           </div>

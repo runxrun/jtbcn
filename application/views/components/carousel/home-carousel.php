@@ -53,8 +53,9 @@
     strtoupper($currentPage[0]) === 'JRPASS' ||
     strtoupper($currentPage[0]) === 'HOTELS'
   ) {
-    include_once(__dir__ . '/../searchbox/home_container.php');
+    // include_once(__dir__ . '/../searchbox/home_container.php');
   }
+  include_once(__dir__ . '/../searchbox/home_container.php');
   ?>  
   <div id="carouselJTBCA" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">

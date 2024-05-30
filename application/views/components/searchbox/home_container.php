@@ -11,6 +11,7 @@
               case "JRPASS": include_once(__dir__ . '/../../includes/search-jrpass.php'); break;
               case "TICKETS": include_once(__dir__ . '/../../includes/search-ticket.php'); break;
               case "HOTELS": include_once(__dir__ . '/../../includes/search-hotel.php'); break;
+              default : include_once(__dir__ . '/../../includes/search-activity.php'); break;
             }
             ?>
           </div>
