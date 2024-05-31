@@ -18,7 +18,7 @@
             </div>
             <div class="col-9">
                 <div class="pb-2">
-                    <div class="fs-7 fw-bold text-dark"> Best Western Osaka Tsukamoto </div>
+                    <div class="fs-7 fw-bold text-dark"> Downtown Osaka Walking and Local Food Tour</div>
                     <div class="d-none">
                         <div class="star fs-9"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                 class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
