@@ -246,6 +246,8 @@
         </div>
         <?php
         }
+        $_SESSION["bookingJRPass"] = 1;
+
         ?>
 
         <br>
