@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-3">
                 <div class="overflow-hidden rounded-1">
-                    <img src="http://jtbcn/application/images/toppage/osaka-6023328_1280.jpg" class="w-100">
+                    <img src="application/images/recommend/hotels/6e49dada27c8000bb92d5b314f848036.webp" class="w-100">
                 </div>
                 <!-- <div class="overflow-hidden rounded-1"
                     style="background: url(&quot;assets/images/no-picture.svg&quot;) center center / contain no-repeat;">

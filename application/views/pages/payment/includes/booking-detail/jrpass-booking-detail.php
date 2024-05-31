@@ -6,7 +6,8 @@
         <div class="row">
             <div class="col-3">
                 <div class="overflow-hidden rounded-1">
-                    <img src="http://jtbcn/application/images/toppage/osaka-6023328_1280.jpg" class="w-100">
+                    <img src="http://jtbcn/application/images/recommend/jrpass/jr-west-japan-1342780_1280.jpg"
+                        class="w-100">
                 </div>
                 <!-- <div class="overflow-hidden rounded-1"
                     style="background: url(&quot;assets/images/no-picture.svg&quot;) center center / contain no-repeat;">
@@ -18,7 +19,8 @@
             </div>
             <div class="col-9">
                 <div class="pb-2">
-                    <div class="fs-7 fw-bold text-dark"> Best Western Osaka Tsukamoto </div>
+                    <div class="fs-7 fw-bold text-dark"> JR West All Area Pass 7 Days – for JR-WEST All Area Pass 7 days
+                    </div>
                     <div class="d-none">
                         <div class="star fs-9"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                 class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
