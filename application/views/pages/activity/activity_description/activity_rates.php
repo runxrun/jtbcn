@@ -349,4 +349,5 @@ for ($i = 0; $i < 2; $i++) {
 </div>
 <?php
 }
+$_SESSION['bookingActivity'] = 1;
 ?>

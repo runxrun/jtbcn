@@ -40,17 +40,21 @@
           
           if ($_SESSION['bookingActivity'] == 1) {
             include('includes/booking-detail/activity-booking-detail.php');
+            include('includes/cancellation/activity-cancellation.php');
           }
           if ($_SESSION['bookingPackage'] == 1) {
             include('includes/booking-detail/package-booking-detail.php');
+            include('includes/cancellation/package-cancellation.php');
           }
 
           if ($_SESSION['bookingJRPass'] == 1) {
             include('includes/booking-detail/jrpass-booking-detail.php');
+            include('includes/cancellation/jrpass-cancellation.php');
           }
 
           if ($_SESSION['bookingTicket'] == 1) {
             include('includes/booking-detail/ticket-booking-detail.php');
+            include('includes/cancellation/ticket-cancellation.php');
           }
 
           if ($_SESSION['bookingHotel'] == 1) {
