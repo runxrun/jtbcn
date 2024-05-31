@@ -1,24 +1,26 @@
 <div class="bg-white border rounded-1 mb-3 text-sp ">
-    <div formgroupname="flightDetail" class="">
-        <div class="p-3 border-top">
-            <div class="pb-3">
-                <div class="row g-2 align-items-center">
-                    <div class="col-auto">
-                        <div class="fs-7 text-secondary"><i class="fas fa-plane-departure"></i></div>
-                    </div>
-                    <div class="col-auto">
-                        <button data-bs-toggle="collapse" data-bs-target="#collapseFlightDetail" aria-expanded="false"
-                            aria-controls="collapseFlightDetail" class="btn border-0 p-0 fs-7 fw-bold text-dark"> Flight
-                            detail </button>
-                    </div>
-                    <div class="col-auto">
-                        <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseFlightDetail"
-                            aria-expanded="false" aria-controls="collapseFlightDetail"
-                            class="btn border-0 p-0 fs-7 text-primary"> Update flight information </button>
-                    </div>
+    <div class="bg-light">
+        <div class="border-0 w-100 py-2 px-3 text-start">
+            <div class="row g-2 align-items-center">
+                <div class="col-auto">
+                    <div class="fs-7 text-secondary"><i class="fas fa-plane-departure"></i></div>
+                </div>
+                <div class="col-auto">
+                    <button data-bs-toggle="collapse" data-bs-target="#collapseFlightDetail" aria-expanded="false"
+                        aria-controls="collapseFlightDetail" class="btn border-0 p-0 fs-7 fw-bold text-dark"> Flight
+                        detail </button>
+                </div>
+                <div class="col-auto">
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseFlightDetail"
+                        aria-expanded="false" aria-controls="collapseFlightDetail"
+                        class="btn border-0 p-0 fs-7 text-primary"> Update flight information </button>
                 </div>
             </div>
-            <div id="collapseFlightDetail" class="collapse">
+        </div>
+    </div>
+    <div formgroupname="flightDetail" class="">
+        <div class="p-3 border-top">
+            <div id="collapseFlightDetail" class="collapse show">
                 <div class="row">
                     <div class="pb-3 col-6 col-xl-3">
                         <div class="fs-7 text-secondary text-truncate"> Flight from date
