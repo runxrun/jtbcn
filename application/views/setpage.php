@@ -110,9 +110,13 @@ switch (strtoupper($currentPage[0])) {
       $thisPage = '/pages/filenotfound/filenotfound_page.php';
     }
     break;
-  case "CART" : 
-    
+  case "CART":
+
     $thisPage = '/pages/cart/cart_page.php';
+    break;
+  case "PAYMENT":
+
+    $thisPage = '/pages/payment/payment_page.php';
     break;
   case "CMS":
     if (
