@@ -5,13 +5,16 @@
     <div class="p-3">
         <div class="row">
             <div class="col-3">
-                <div class="overflow-hidden rounded-1"
+                <div class="overflow-hidden rounded-1">
+                    <img src="http://jtbcn/application/images/toppage/osaka-6023328_1280.jpg" class="w-100">
+                </div>
+                <!-- <div class="overflow-hidden rounded-1"
                     style="background: url(&quot;assets/images/no-picture.svg&quot;) center center / contain no-repeat;">
                     <div href="javascript:void(0)" class="d-flex rounded"
-                        style="background: url(&quot;http://jtbcn/application/images/recommend/hotels/6e49dada27c8000bb92d5b314f848036.webp;">
-                        <img src="/assets/images/image-ratio-1-1.gif" class="w-100">
+                        style="background: url(&quot;http://jtbcn/application/images/toppage/osaka-6023328_1280.jpg">
+                        <img src="http://jtbcn/application/images/toppage/osaka-6023328_1280.jpg" class="w-100">
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="col-9">
                 <div class="pb-2">

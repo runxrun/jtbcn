@@ -29,7 +29,7 @@
 
         <div class="pb-4">
             <div class="row g-4">
-                <div class="col-12 col-lg-9">
+                <div class="col-12 col-lg-8">
                     <?php
           include ('includes/guest-information/sign-up.php');
           include ('includes/pax-detail/pax-detail-hotel.php');
@@ -37,12 +37,14 @@
           ?>
 
                 </div>
-                <div class="col-12 col-lg-3">
+                <div class="col-12 col-lg-4">
                     <?php
-          // include ('includes/booking-detail/activity-booking-detail.php');
-          // include ('includes/booking-detail/package-booking-detail.php');
-          // include ('includes/booking-detail/jrpass-booking-detail.php');
-          // include ('includes/booking-detail/ticket-booking-detail.php');
+
+          print_r($_SESSION);
+          include ('includes/booking-detail/activity-booking-detail.php');
+          include ('includes/booking-detail/package-booking-detail.php');
+          include ('includes/booking-detail/jrpass-booking-detail.php');
+          include ('includes/booking-detail/ticket-booking-detail.php');
           include ('includes/booking-detail/hotel-booking-detail.php');
 
           include ('includes/cancellation/hotel-cancellation.php');

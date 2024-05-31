@@ -3,7 +3,7 @@
     <div class="border-0 w-100 py-2 px-3 text-start">
       <div class="d-flex align-items-center">
         <div class="fs-7 pe-3 text-secondary"><i class="fas fa-hotel"></i></div>
-        <div class="fs-7 fw-bold text-dark"> Chatrium Residence Sathon </div>
+        <div class="fs-7 fw-bold text-dark"> Best Western Osaka Tsukamoto </div>
       </div>
     </div>
   </div>
