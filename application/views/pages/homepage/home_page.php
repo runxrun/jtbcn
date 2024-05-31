@@ -10,4 +10,5 @@ include_once (__DIR__ . '/../../components/recommendations/recommend-all.php');
 include_once (__DIR__ . '/../../components/destinations/feature_destination.php');
 include_once (__DIR__ . '/../../components/blogs/blog-list.php');
 include_once (__DIR__ . '/../../components/banners/banner-bo.php');
+session_destroy();
 ?>

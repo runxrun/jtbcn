@@ -5,8 +5,8 @@
   <div class="p-3">
     <div class="row">
       <div class="col-3">
-        <div class="overflow-hidden rounded-1">
-          <img src="/application/images/recommend/hotels/6e49dada27c8000bb92d5b314f848036.webp" class="w-100">
+        <div href="javascript:void(0)" class="d-flex rounded" style="background: url('/application/images/recommend/hotels/6e49dada27c8000bb92d5b314f848036.webp') center center / cover no-repeat;">
+          <img src="/application/images/image-ratio-1-1.gif" class="w-100">
         </div>
       </div>
       <div class="col-9">

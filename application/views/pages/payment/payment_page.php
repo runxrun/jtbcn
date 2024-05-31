@@ -30,14 +30,22 @@
         <div class="col-12 col-lg-8">
           <?php
           include('includes/guest-information/sign-up.php');
-          include('includes/pax-detail/pax-detail-hotel.php');
+          
+          if ($_SESSION['bookingActivity'] == 1) {
+            include('includes/pax-detail/pax-detail-activity.php');
+          }
+
+          if ($_SESSION['bookingHotel'] == 1) {
+            include('includes/pax-detail/pax-detail-hotel.php');
+          }
+
           include('includes/flight-detail/flight-detail.php');
           ?>
 
         </div>
         <div class="col-12 col-lg-4">
           <?php
-          
+
           if ($_SESSION['bookingActivity'] == 1) {
             include('includes/booking-detail/activity-booking-detail.php');
             include('includes/cancellation/activity-cancellation.php');
