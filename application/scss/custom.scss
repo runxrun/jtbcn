@@ -346,6 +346,34 @@ body {
   top: 20px
 }
 
+.rn-arrow-anime {
+  position: relative;
+  padding: 0;
+  width: 30px;
+  height: 30px
+}
+
+.rn-arrow-anime i {
+  position: absolute;
+  top: .5rem;
+  animation: arrowMove 1s linear infinite
+}
+
+@keyframes arrowMove {
+  0% {
+      left: 0
+  }
+
+  50% {
+      left: 25%
+  }
+
+  to {
+      left: 0
+  }
+}
+
+
 .rn-border-start {
   border-left: 1px dashed #dee2e6;
 }
@@ -356,3 +384,4 @@ body {
     border-top: 1px dashed #dee2e6;
   }
 }
+
