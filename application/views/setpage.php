@@ -195,6 +195,9 @@ switch (strtoupper($currentPage[0])) {
   case "BROCHURE":
     $thisPage = '/pages/brochure/brochure_page.php';
     break;
+  case "INQUIRY":
+    $thisPage = '/pages/inquiry/inquiry_page.php';
+    break;
   case "SITEMAP":
     $thisPage = '/pages/sitemap/sitemap_page.php';
     break;
