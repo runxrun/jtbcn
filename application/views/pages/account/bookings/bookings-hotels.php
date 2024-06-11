@@ -23,7 +23,7 @@
 
                         <div class="pb-3">
                             <div class="fs-8 text-success d-flex">
-                                <span class="pr-2"><i class="fas fa-check-circle"></i></span>
+                                <span class="pe-2"><i class="fas fa-check-circle"></i></span>
                                 <span class="fw-bold"> Cancel Confirmed </span>
                             </div>
 

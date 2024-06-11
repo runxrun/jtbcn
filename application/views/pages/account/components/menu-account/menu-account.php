@@ -21,7 +21,7 @@
             <!----><button routerlink="/account/changepassword" routerlinkactive="active"
                 class="btn border-0 rounded-0 w-100 py-2 px-3 py-lg-3 px-lg-3 text-start" tabindex="0">
                 <div class="d-flex" onclick="window.open('/account/change-password' , '_parent')">
-                    <div class="pe-2 fs-7 text-secondary"><i class="fas fa-power-off"></i></div>
+                    <div class="pe-2 fs-7 text-secondary"><i class="fas fa-lock"></i></div>
                     <div class="ps-1 fs-7 text-secondary">Change Password</div>
                 </div>
             </button>
