@@ -51,15 +51,15 @@
 
                         <div class="nav row g-2" role="tablist">
                             <div class="col-auto">
-                                <button class="btn btn-outline-primary active" data-bs-toggle="tab"
+                                <button class="btn btn-outline-primary fs-8 rounded-1 active" data-bs-toggle="tab"
                                     data-bs-target="#currentBookings" type="button">Current Bookings</button>
                             </div>
                             <div class="col-auto">
-                                <button class="btn btn-outline-primary" id="profile-tab" data-bs-toggle="tab"
+                                <button class="btn btn-outline-primary fs-8 rounded-1" id="profile-tab" data-bs-toggle="tab"
                                     data-bs-target="#pastBookings" type="button">Passt Bookings</button>
                             </div>
                             <div class="col-auto">
-                                <button class="btn btn-outline-primary" id="contact-tab" data-bs-toggle="tab"
+                                <button class="btn btn-outline-primary fs-8 rounded-1" id="contact-tab" data-bs-toggle="tab"
                                     data-bs-target="#CancelledBookings" type="button">Cancelled Bookings</button>
                             </div>
                         </div>
