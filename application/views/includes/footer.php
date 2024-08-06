@@ -1,4 +1,11 @@
 <?php
+
+$spLink = [
+  ["title" => "Travel Insurance", "linkUrl" => "https://www.igoinsured.com/Direct/ManulifeGlobal.aspx?ag=JTBIVBC&lang=E", "target" => "_blank", "idLink" => "TravelInsurance"],
+  ["title" => "SIM Card", "linkUrl" => "https://p.sakuramobile.jp/idevaffiliate.php?id=149_13&tid1=WEB", "target" => "_blank", "idLink" => "SIMCard"],
+  ["title" => "Visitor Visa in Japan", "linkUrl" => "/visitor-visa-in-japan"],
+];
+
 $dataLink = [
   ["title" => "_AboutUs", "linkUrl" => "/about-us",],
   ["title" => "_ContactUs", "linkUrl" => "/contact-us",],
@@ -6,15 +13,12 @@ $dataLink = [
   ["title" => "_PrivacyPolicy", "linkUrl" => "/privacy-policy",],
   ["title" => "_CookiesPolicy", "linkUrl" => "/cookies-policy",],
   ["title" => "_Careers", "linkUrl" => "/careers",],
-  ["title" => "_QandA", "linkUrl" => "https://support.jtb.ca/portal/en/home",],
+  ["title" => "_QandA", "linkUrl" => "https://support.jtb.ca/portal/en/home", "target" => "_blank"],
   ["title" => "_RegisterNewsLetter", "linkUrl" => "/newsletter",],
   ["title" => "_Blog", "linkUrl" => "/blog",],
   ["title" => "_Brochure", "linkUrl" => "/brochure",],
   ["title" => "_SiteMap", "linkUrl" => "/sitemap",],
 ];
-
-
-
 
 // ['_AboutUs' => ['en' => 'About us', 'jp' => '私たちについて']],
 // ['_ContactUs' => ['en' => 'Contact us', 'jp' => 'お問い合わせ']],
@@ -30,12 +34,34 @@ $dataLink = [
 
 ?>
 <div class="container py-4">
+  <div class="pb-4">
+    <div class="row gy-1 gx-3">
+      <?php
+      foreach ($spLink as $key => $item) {
+        $target = isset($item['target']) ? 'target="_blank"' : '';
+        $idLink = isset($item['idLink']) ? 'id="' . $item['idLink'] . '"' : '';
+      ?>
+        <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+          <a href="<?php echo $item['linkUrl'] . $getURLLang; ?>" class="d-flex fs-7 text-white text-decoration-none" <?php echo $idLink; ?> <?php echo $target; ?>>
+            <div class="pe-2 opacity-50"><i class="fas fa-angle-right"></i></div>
+            <div class="ps-1"><?php echo getTS($item['title'], $lang, $mlangs); ?></div>
+          </a>
+        </div>
+      <?php
+      }
+      ?>
+    </div>
+    <div class="pt-4">
+      <hr class="m-0 p-0 text-light">
+    </div>
+  </div>
   <div class="row gy-1 gx-3">
     <?php
     foreach ($dataLink as $key => $item) {
+      $target = isset($item['target']) ? 'target="_blank"' : '';
     ?>
       <div class="col-6 col-sm-6 col-md-4 col-lg-3">
-        <a href="<?php echo $item['linkUrl'].$getURLLang; ?>" class="d-flex fs-7 text-white text-decoration-none">
+        <a href="<?php echo $item['linkUrl'] . $getURLLang; ?>" class="d-flex fs-7 text-white text-decoration-none" <?php echo $target; ?>>
           <div class="pe-2 opacity-50"><i class="fas fa-angle-right"></i></div>
           <div class="ps-1"><?php echo  getTS($item['title'], $lang, $mlangs);  ?></div>
         </a>
@@ -79,6 +105,17 @@ $dataLink = [
     </div>
   </div>
 </div>
+
+<script>
+  document.getElementById("TravelInsurance").addEventListener("click", function() {
+    alert("You are about to leave our official site");
+  });
+
+  document.getElementById("SIMCard").addEventListener("click", function() {
+    alert("You are about to leave our official site");
+  });
+</script>
+
 <?php
 /*
 
