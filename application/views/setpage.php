@@ -172,6 +172,9 @@ switch (strtoupper($currentPage[0])) {
   case "NEWSLETTER":
     $thisPage = '/pages/newsletter/newsletter_page.php';
     break;
+  case "INQUIRY-FORM":
+    $thisPage = '/pages/inquiryform/inquiryform_page.php';
+    break;
   case "BLOG":
     if ($currentPage[2] === 'TUEyMzA0MDAxMg') {
       $thisPage = '/pages/blog/blog-group-1/blog-group-1-page.php';

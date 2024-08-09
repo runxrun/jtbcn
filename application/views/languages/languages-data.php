@@ -15,6 +15,7 @@ $mlangs = [
   '_Careers' => ['en' => 'Careers', 'jp' => '求人'],
   '_QandA' => ['en' => 'Q and A', 'jp' => '質疑応答'],
   '_RegisterNewsLetter' => ['en' => 'Register Newsletter', 'jp' => 'ニュースレター登録'],
+  '_InquiryForm' => ['en' => 'Inquiry Form', 'jp' => 'お問い合わせフォーム'],
   '_Blog' => ['en' => 'Blog', 'jp' => 'ブログ '],
   '_Brochure' => ['en' => 'Brochure', 'jp' => 'パンフレット'],
   '_SiteMap' => ['en' => 'Site map', 'jp' => 'サイトマップ'],
