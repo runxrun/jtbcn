@@ -18,6 +18,13 @@ switch (strtoupper($currentPage[0])) {
     $nameResult = getTS('_ActivitiesResult', $lang, $mlangs);
     $nameDescription = getTS('_ActivitiesDescription', $lang, $mlangs);
     break;
+  case "PACKAGES":
+    $linkService = '/packages';
+    $linkResult = '/packages/result';
+    $nameService = getTS('_Packages', $lang, $mlangs);
+    $nameResult = getTS('_PackagesResult', $lang, $mlangs);
+    $nameDescription = getTS('_PackagesDescription', $lang, $mlangs);
+    break;
   case "HOTELS":
     $linkService = '/hotels';
     $linkResult = '/hotels/result';
