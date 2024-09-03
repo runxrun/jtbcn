@@ -131,28 +131,20 @@
             <div class="p-3">
               <div class="row gy-2 gx-3">
                 <div class="col-6 col-md-3">
-
-                  <div class="pe-2 fs-7 text-secondary">Effective date </div>
-                  <div class="pe-0 fs-7 text-dark fw-bold text-nowrap">04/01/2024</div>
-
+                  <div class="fs-7 text-secondary">Effective date </div>
+                  <div class="fs-7 text-dark fw-bold text-nowrap">04/01/2024</div>
                 </div>
                 <div class="col-6 col-md-3">
-
-                  <div class="pe-2 fs-7 text-secondary">Expire date </div>
-                  <div class="pe-0 fs-7 text-dark fw-bold text-nowrap">03/31/2025</div>
-
+                  <div class="fs-7 text-secondary">Expire date </div>
+                  <div class="fs-7 text-dark fw-bold text-nowrap">03/31/2025</div>
                 </div>
                 <div class="col-6 col-md-3">
-
-                  <div class="pe-2 fs-7 text-secondary">Service Date </div>
-                  <div class="pe-0 fs-7 text-dark fw-bold text-nowrap">Fri, 11/15/2024</div>
-
+                  <div class="fs-7 text-secondary">Service Date </div>
+                  <div class="fs-7 text-dark fw-bold text-nowrap">Fri, 11/15/2024</div>
                 </div>
                 <div class="col-6 col-md-3">
-
-                  <div class="pe-2 fs-7 text-secondary">Length of stay </div>
-                  <div class="pe-0 fs-7 text-dark fw-bold text-nowrap">2 Nights</div>
-
+                  <div class="fs-7 text-secondary">Length of stay </div>
+                  <div class="fs-7 text-dark fw-bold text-nowrap">2 Nights</div>
                 </div>
               </div>
             </div>
@@ -160,29 +152,16 @@
           <div class="col-12 col-md-4">
             <div class="p-3">
               <div class="row gy-2 gx-3">
-                <div class="col-12 col-lg-6">
-
-
-
-                  <div class="pt-0 pt-lg-0 fs-8 text-secondary text-start text-md-center">
-                    Start From
-                  </div>
-                  <div class="pt-0">
-                    <div class="text-title text-dark fw-bold text-start text-md-center">
-                      <small class="pe-1 fs-6">CAD</small>
-                      <span class="ps-0 fs-4 fw-bold"> 1,400 </span>
-                    </div>
-                  </div>
-
-
+                <div class="col-6">
+                  <div class="fs-7 text-secondary text-center">Start from </div>
+                  <div class="fs-5 text-dark fw-bold text-nowrap text-center">CAD 1,400 </div>
                 </div>
-                <div class="col-12 col-lg-6">
-                  <div class="pt-0">
-                    <button target="_blank" class="btn py-2 btn-sm w-100 btn-primary" tabindex="0" title="Available">
-                      Select
-                    </button>
-                  </div>
+                <div class="col-6">
+                  <button target="_blank" class="btn py-2 btn-sm w-100 btn-primary" tabindex="0" title="Available" onclick="window.open('<?php echo '/packages/rates/TUEyMzAxMDEsOeDEU' . $getURLLang; ?>', '_self')">
+                    Select
+                  </button>
                 </div>
+
               </div>
             </div>
           </div>

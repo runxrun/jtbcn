@@ -243,7 +243,7 @@
                       </div>
                     -->
                     <div class="pt-3">
-                      <button target="_blank" class="btn py-2 btn-sm w-100 btn-primary" tabindex="0" title="Available">
+                      <button target="_blank" class="btn py-2 btn-sm w-100 btn-primary" tabindex="0" title="Available" onclick="window.open('<?php echo '/packages/description/3-day-kyoto-osaka-nara-tour-from-tokyo/TUEyMzAxMDEsOeDEU' . $getURLLang; ?>', '_self')">
                         View Rates
                       </button>
                     </div>

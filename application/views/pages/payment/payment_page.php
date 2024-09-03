@@ -30,13 +30,17 @@
         <div class="col-12 col-lg-8">
           <?php
           include('includes/guest-information/sign-up.php');
-          
+
           if ($_SESSION['bookingActivity'] == 1) {
             include('includes/pax-detail/pax-detail-activity.php');
           }
 
           if ($_SESSION['bookingHotel'] == 1) {
             include('includes/pax-detail/pax-detail-hotel.php');
+          }
+
+          if ($_SESSION['bookingPackage'] == 1) {
+            include('includes/pax-detail/pax-detail-package.php');
           }
 
           include('includes/flight-detail/flight-detail.php');
@@ -50,6 +54,7 @@
             include('includes/booking-detail/activity-booking-detail.php');
             include('includes/cancellation/activity-cancellation.php');
           }
+          
           if ($_SESSION['bookingPackage'] == 1) {
             include('includes/booking-detail/package-booking-detail.php');
             include('includes/cancellation/package-cancellation.php');

@@ -44,6 +44,8 @@ switch (strtoupper($currentPage[0])) {
       $thisPage = '/pages/package/package_result/package_result_page.php';
     } elseif (strtoupper($currentPage[1]) === "DESCRIPTION") {
       $thisPage = '/pages/package/package_description/package_description_page.php';
+    } elseif (strtoupper($currentPage[1]) === "RATES") {
+      $thisPage = '/pages/package/package_rates/package_rates_page.php';
     } else {
       $thisPage = '/pages/filenotfound/filenotfound_page.php';
     }
